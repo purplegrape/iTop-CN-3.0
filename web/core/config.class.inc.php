@@ -867,7 +867,7 @@ class Config
 			'type' => 'string',
 			'description' => 'Character set used by default for downloading and uploading data as a CSV file. Warning: it is case sensitive (uppercase is preferable).',
 			// examples... not used
-			'default' => 'ISO-8859-1',
+			'default' => 'UTF-8',
 			'value' => '',
 			'source_of_value' => '',
 			'show_in_conf_sample' => true,
