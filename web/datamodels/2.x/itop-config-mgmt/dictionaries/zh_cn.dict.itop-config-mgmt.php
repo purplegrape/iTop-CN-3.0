@@ -243,8 +243,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:ConnectableCI' => '可连接的配置项',
-	'Class:ConnectableCI+' => '物理配置项',
+	'Class:ConnectableCI' => '可连接的CI',
+	'Class:ConnectableCI+' => '物理的配置项',
 	'Class:ConnectableCI/Attribute:networkdevice_list' => '网络设备',
 	'Class:ConnectableCI/Attribute:networkdevice_list+' => '所有连接到这台设备的网络设备',
 	'Class:ConnectableCI/Attribute:physicalinterface_list' => '网卡',
