@@ -1,0 +1,13 @@
+{
+  "config" : {
+    "classmap-authoritative" : true
+  },
+  "autoload" : {
+    "psr-4" : {
+      "Combodo\\iTop\\Cas\\" : "src"
+    }
+  },
+  "require" : {
+    "apereo/phpcas" : "~1.6.0"
+  }
+}
