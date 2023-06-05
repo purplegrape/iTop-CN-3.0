@@ -39,7 +39,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Menu:MyChanges' => '分配给我的变更',
 	'Menu:MyChanges+' => '分配给我的变更(作为办理人)',
 	'UI-ChangeManagementOverview-ChangeByCategory-last-7-days' => '最近一周的变更(按类型)',
-	'UI-ChangeManagementOverview-Last-7-days' => '最近一周的变更(按数量）',
+	'UI-ChangeManagementOverview-Last-7-days' => '最近一周的变更(按数量)',
 	'UI-ChangeManagementOverview-ChangeByDomain-last-7-days' => '最近一周的变更(按范围)',
 	'UI-ChangeManagementOverview-ChangeByStatus-last-7-days' => '最近一周的变更(按状态)',
 	'Tickets:Related:OpenChanges' => '打开的变更',

@@ -183,7 +183,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:cmdbAbstractObject/Method:SetCurrentUser+'               => '填写当前登录用户',
 	'Class:cmdbAbstractObject/Method:SetCurrentUser/Param:1'        => '目标字段',
 	'Class:cmdbAbstractObject/Method:SetCurrentUser/Param:1+'       => 'The field to set, in the current object. If the field is a string then the friendly name will be used, otherwise the identifier will be used. That friendly name is the name of the person if any is attached to the user, otherwise it is the login.',
-	'Class:cmdbAbstractObject/Method:SetCurrentPerson'              => '设置为当前个体',
+	'Class:cmdbAbstractObject/Method:SetCurrentPerson'              => '设置为当前用户',
 	'Class:cmdbAbstractObject/Method:SetCurrentPerson+'             => 'Set a field with the currently logged in person (the "person" attached to the logged in "user").',
 	'Class:cmdbAbstractObject/Method:SetCurrentPerson/Param:1'      => '目标字段',
 	'Class:cmdbAbstractObject/Method:SetCurrentPerson/Param:1+'     => '填写当前对象,如果填写字符串则是昵称.',

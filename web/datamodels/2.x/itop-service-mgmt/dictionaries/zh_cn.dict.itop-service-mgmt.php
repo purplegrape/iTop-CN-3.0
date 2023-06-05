@@ -134,7 +134,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Contract/Attribute:status/Value:production' => '生产',
 	'Class:Contract/Attribute:status/Value:production+' => '生产',
 	'Class:Contract/Attribute:finalclass' => '类型',
-	'Class:Contract/Attribute:finalclass+' => '',
+	'Class:Contract/Attribute:finalclass+' => '根属性',
 ));
 //
 // Class: CustomerContract
@@ -467,7 +467,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:DeliveryModel/Attribute:description' => '描述',
 	'Class:DeliveryModel/Attribute:description+' => '',
 	'Class:DeliveryModel/Attribute:contacts_list' => '联系人',
-	'Class:DeliveryModel/Attribute:contacts_list+' => '该交付模式相关的所有联系人 (包括团队和个体)',
+	'Class:DeliveryModel/Attribute:contacts_list+' => '该交付模式相关的所有联系人 (包括团队和个人)',
 	'Class:DeliveryModel/Attribute:customers_list' => '客户',
 	'Class:DeliveryModel/Attribute:customers_list+' => '所有使用该交付模式的客户',
 ));

@@ -3,7 +3,7 @@
  * Localized data
  *
  * @copyright Copyright (C) 2010-2018 Combodo SARL
- * @license	http://opensource.org/licenses/AGPL-3.0
+ * @license    http://opensource.org/licenses/AGPL-3.0
  *
  * This file is part of iTop.
  *
@@ -20,6 +20,7 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with iTop. If not, see <http://www.gnu.org/licenses/>
  */
+
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Menu:IncidentManagement' => '事件管理',
 	'Menu:IncidentManagement+' => '事件管理',
@@ -86,7 +87,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Incident/Attribute:impact/Value:1+' => '',
 	'Class:Incident/Attribute:impact/Value:2' => '服务',
 	'Class:Incident/Attribute:impact/Value:2+' => '',
-	'Class:Incident/Attribute:impact/Value:3' => '个体',
+	'Class:Incident/Attribute:impact/Value:3' => '个人',
 	'Class:Incident/Attribute:impact/Value:3+' => '',
 	'Class:Incident/Attribute:priority' => '优先级',
 	'Class:Incident/Attribute:priority+' => '',
@@ -188,9 +189,9 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Incident/Attribute:parent_change_id+' => '',
 	'Class:Incident/Attribute:parent_change_ref' => '变更编号',
 	'Class:Incident/Attribute:parent_change_ref+' => '',
-	'Class:Incident/Attribute:parent_problem_id' => 'Parent problem id~~',
+	'Class:Incident/Attribute:parent_problem_id' => '父级问题',
 	'Class:Incident/Attribute:parent_problem_id+' => '~~',
-	'Class:Incident/Attribute:parent_problem_ref' => 'Parent problem ref~~',
+	'Class:Incident/Attribute:parent_problem_ref' => '问题编号',
 	'Class:Incident/Attribute:parent_problem_ref+' => '~~',
 	'Class:Incident/Attribute:related_request_list' => '相关需求',
 	'Class:Incident/Attribute:related_request_list+' => '该事件相关的所有需求',

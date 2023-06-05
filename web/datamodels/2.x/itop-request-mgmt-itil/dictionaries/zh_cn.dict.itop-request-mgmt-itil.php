@@ -86,7 +86,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:UserRequest/Attribute:impact/Value:1+' => '',
 	'Class:UserRequest/Attribute:impact/Value:2' => '服务',
 	'Class:UserRequest/Attribute:impact/Value:2+' => '',
-	'Class:UserRequest/Attribute:impact/Value:3' => '个体',
+	'Class:UserRequest/Attribute:impact/Value:3' => '个人',
 	'Class:UserRequest/Attribute:impact/Value:3+' => '',
 	'Class:UserRequest/Attribute:priority' => '优先级',
 	'Class:UserRequest/Attribute:priority+' => '',

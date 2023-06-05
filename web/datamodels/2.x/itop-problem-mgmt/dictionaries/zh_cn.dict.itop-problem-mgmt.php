@@ -104,7 +104,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Problem/Attribute:impact/Value:1+' => '',
 	'Class:Problem/Attribute:impact/Value:2' => '服务',
 	'Class:Problem/Attribute:impact/Value:2+' => '',
-	'Class:Problem/Attribute:impact/Value:3' => '个体',
+	'Class:Problem/Attribute:impact/Value:3' => '个人',
 	'Class:Problem/Attribute:impact/Value:3+' => '',
 	'Class:Problem/Attribute:urgency' => '紧急度',
 	'Class:Problem/Attribute:urgency+' => '',

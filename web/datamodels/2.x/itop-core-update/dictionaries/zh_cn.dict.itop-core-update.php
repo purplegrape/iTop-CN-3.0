@@ -78,6 +78,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'iTopUpdate:UI:CannotUpdateUseSetup' => '<b>Some modified files were detected</b>, a partial update cannot be executed.</br>Follow the <a target="_blank" href="%2$s"> procedure</a> in order to manually upgrade your iTop. You must use the <a href="%1$s">setup</a> to update the application.~~',
 	'iTopUpdate:UI:CheckInProgress' => 'Please wait during integrity check~~',
 
+
+
 	// Setup Messages
     'iTopUpdate:UI:SetupMessage:Ready' => '准备开始',
 	'iTopUpdate:UI:SetupMessage:EnterMaintenance' => '正在进入维护模式',
