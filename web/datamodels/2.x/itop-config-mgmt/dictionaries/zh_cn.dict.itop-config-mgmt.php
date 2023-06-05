@@ -100,7 +100,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:FunctionalCI' => '功能CI',
+	'Class:FunctionalCI' => '功能项',
 	'Class:FunctionalCI+' => '',
 	'Class:FunctionalCI/Attribute:name' => '名称',
 	'Class:FunctionalCI/Attribute:name+' => '',
@@ -1472,7 +1472,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Group/Attribute:parent_id+' => '',
 	'Class:Group/Attribute:parent_name' => '名称',
 	'Class:Group/Attribute:parent_name+' => '',
-	'Class:Group/Attribute:ci_list' => '关联的配置项',
+	'Class:Group/Attribute:ci_list' => '关联的CI',
 	'Class:Group/Attribute:ci_list+' => '该组关联的所有配置项',
 	'Class:Group/Attribute:parent_id_friendlyname' => '上级配置组',
 	'Class:Group/Attribute:parent_id_friendlyname+' => '',
