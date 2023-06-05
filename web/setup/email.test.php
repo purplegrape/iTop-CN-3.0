@@ -277,7 +277,7 @@ function DisplayStep2(SetupPage $oP, $sFrom, $sTo)
 // #@# Init default timezone -> do not get a notice... to be improved !!!
 // duplicated from 'attributedef.class.inc.php', needed here because mail() does
 // generate a notice
-date_default_timezone_set('Europe/Paris');
+date_default_timezone_set('Asia/Shanghai');
 
 
 try

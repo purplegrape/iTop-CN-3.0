@@ -87,7 +87,7 @@
  * 		},
  * 		"php_version": "7.1",
  * 		"php_settings":{
- * 			"timezone": "Europe/Paris",
+ * 			"timezone": "Asia/Shanghai",
  * 			"memory_limit": "128M"
  * 		},
  * 		"php_extensions":{
