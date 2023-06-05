@@ -20,6 +20,7 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with iTop. If not, see <http://www.gnu.org/licenses/>
  */
+
 // Dictionnay conventions
 // Class:<class_name>
 // Class:<class_name>+
@@ -29,10 +30,12 @@
 // Class:<class_name>/Attribute:<attribute_code>/Value:<value>+
 // Class:<class_name>/Stimulus:<stimulus_code>
 // Class:<class_name>/Stimulus:<stimulus_code>+
+
 //////////////////////////////////////////////////////////////////////
 // Classes in 'bizmodel'
 //////////////////////////////////////////////////////////////////////
 //
+
 // Dictionnay conventions
 // Class:<class_name>
 // Class:<class_name>+
@@ -42,9 +45,11 @@
 // Class:<class_name>/Attribute:<attribute_code>/Value:<value>+
 // Class:<class_name>/Stimulus:<stimulus_code>
 // Class:<class_name>/Stimulus:<stimulus_code>+
+
 //
 // Class: KnownError
 //
+
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:KnownError' => '已知错误',
 	'Class:KnownError+' => '记录一个已知错误',
@@ -84,7 +89,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:KnownError/Attribute:model+' => '',
 	'Class:KnownError/Attribute:version' => '版本',
 	'Class:KnownError/Attribute:version+' => '',
-	'Class:KnownError/Attribute:ci_list' => '配置项',
+	'Class:KnownError/Attribute:ci_list' => 'CI',
 	'Class:KnownError/Attribute:ci_list+' => '该已知错误相关的所有配置项',
 	'Class:KnownError/Attribute:document_list' => '文档',
 	'Class:KnownError/Attribute:document_list+' => '该已知错误相关的所有文档',
@@ -95,11 +100,11 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:lnkErrorToFunctionalCI' => '关联 已知问题/功能配置项',
-	'Class:lnkErrorToFunctionalCI+' => '已知问题和功能配置项之间的关联',
-	'Class:lnkErrorToFunctionalCI/Attribute:functionalci_id' => '配置项',
+	'Class:lnkErrorToFunctionalCI' => '关联 已知问题/功能CI',
+	'Class:lnkErrorToFunctionalCI+' => '已知问题和功能CI之间的关联',
+	'Class:lnkErrorToFunctionalCI/Attribute:functionalci_id' => 'CI',
 	'Class:lnkErrorToFunctionalCI/Attribute:functionalci_id+' => '',
-	'Class:lnkErrorToFunctionalCI/Attribute:functionalci_name' => '配置项名称',
+	'Class:lnkErrorToFunctionalCI/Attribute:functionalci_name' => 'CI名称',
 	'Class:lnkErrorToFunctionalCI/Attribute:functionalci_name+' => '',
 	'Class:lnkErrorToFunctionalCI/Attribute:error_id' => '已知问题',
 	'Class:lnkErrorToFunctionalCI/Attribute:error_id+' => '',

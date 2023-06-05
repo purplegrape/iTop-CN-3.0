@@ -946,8 +946,8 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI-ConfigurationManagementMenu-InfraByStatus' => '按状态划分基础架构对象',
 
 	'UI:ConfigMgmtMenuOverview:Title' => '配置管理仪表盘',
-	'UI-ConfigMgmtMenuOverview-FunctionalCIbyStatus' => '按状态配置项目',
-	'UI-ConfigMgmtMenuOverview-FunctionalCIByType' => '按类别配置项目',
+	'UI-ConfigMgmtMenuOverview-FunctionalCIbyStatus' => '按状态',
+	'UI-ConfigMgmtMenuOverview-FunctionalCIByType' => '按类别',
 
 	'UI:RequestMgmtMenuOverview:Title' => '需求管理仪表盘',
 	'UI-RequestManagementOverview-RequestByService' => '按服务划分用户需求',

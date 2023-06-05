@@ -100,7 +100,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:FunctionalCI' => '功能配置项',
+	'Class:FunctionalCI' => '功能CI',
 	'Class:FunctionalCI+' => '',
 	'Class:FunctionalCI/Attribute:name' => '名称',
 	'Class:FunctionalCI/Attribute:name+' => '',
@@ -192,7 +192,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:TelephonyCI' => 'Telephony CI',
+	'Class:TelephonyCI' => '通讯 CI',
 	'Class:TelephonyCI+' => '',
 	'Class:TelephonyCI/Attribute:phonenumber' => '电话号码',
 	'Class:TelephonyCI/Attribute:phonenumber+' => '',
@@ -487,7 +487,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:ApplicationSolution' => '应用方案',
 	'Class:ApplicationSolution+' => '',
-	'Class:ApplicationSolution/Attribute:functionalcis_list' => '配置项',
+	'Class:ApplicationSolution/Attribute:functionalcis_list' => 'CI',
 	'Class:ApplicationSolution/Attribute:functionalcis_list+' => '该应用方案包含的所有配置项',
 	'Class:ApplicationSolution/Attribute:businessprocess_list' => '业务流程',
 	'Class:ApplicationSolution/Attribute:businessprocess_list+' => '所有依赖该应用方案的业务流程',
@@ -1489,7 +1489,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:lnkGroupToCI/Attribute:group_id+' => '',
 	'Class:lnkGroupToCI/Attribute:group_name' => '名称',
 	'Class:lnkGroupToCI/Attribute:group_name+' => '',
-	'Class:lnkGroupToCI/Attribute:ci_id' => '配置项',
+	'Class:lnkGroupToCI/Attribute:ci_id' => 'CI',
 	'Class:lnkGroupToCI/Attribute:ci_id+' => '',
 	'Class:lnkGroupToCI/Attribute:ci_name' => '名称',
 	'Class:lnkGroupToCI/Attribute:ci_name+' => '',
@@ -1564,10 +1564,10 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Menu:MobilePhone+' => '所有手机',
 	'Menu:PC' => '个人电脑',
 	'Menu:PC+' => '所有个人电脑',
-	'Menu:NewCI' => '新建配置项',
-	'Menu:NewCI+' => '新建配置项',
-	'Menu:SearchCIs' => '搜索配置项',
-	'Menu:SearchCIs+' => '搜索配置项',
+	'Menu:NewCI' => '新建CI',
+	'Menu:NewCI+' => '新建CI',
+	'Menu:SearchCIs' => '搜索CI',
+	'Menu:SearchCIs+' => '搜索CI',
 	'Menu:ConfigManagement:Devices' => '设备',
 	'Menu:ConfigManagement:AllDevices' => '基础设施',
 	'Menu:ConfigManagement:virtualization' => '虚拟化',
