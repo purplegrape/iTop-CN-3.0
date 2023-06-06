@@ -29,7 +29,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:Preferences:RichText:ToolbarState:Expanded'                    => '展开',
 	'UI:Preferences:RichText:ToolbarState:Collapsed'                   => '折叠',
 	'UI:Preferences:ActivityPanel:Title'                               => '活动面板',
-	'UI:Preferences:ActivityPanel:EntryFormOpened'                     => 'Entry form opened by default~~',
+	'UI:Preferences:ActivityPanel:EntryFormOpened'                     => '默认展开输入框',
 	'UI:Preferences:ActivityPanel:EntryFormOpened+'                    => 'Whether the entry form will be opened when displaying an object. If unchecked, you will still be able to open it by clicking the compose button~~',
 	'UI:Preferences:PersonalizeKeyboardShortcuts:Title'                => '键盘快捷键',
 	'UI:Preferences:PersonalizeKeyboardShortcuts:Input:Hint'           => '请输入键盘快捷键',

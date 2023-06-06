@@ -104,7 +104,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:UserRequest/Attribute:priority/Value:3+' => '中',
 	'Class:UserRequest/Attribute:priority/Value:4' => '低',
 	'Class:UserRequest/Attribute:priority/Value:4+' => '低',
-	'Class:UserRequest/Attribute:urgency' => '紧急度',
+	'Class:UserRequest/Attribute:urgency' => '紧急程度',
 	'Class:UserRequest/Attribute:urgency+' => '',
 	'Class:UserRequest/Attribute:urgency/Value:1' => '紧急',
 	'Class:UserRequest/Attribute:urgency/Value:1+' => '紧急',

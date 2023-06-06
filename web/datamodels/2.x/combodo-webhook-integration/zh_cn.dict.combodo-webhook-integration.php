@@ -40,7 +40,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 
 	// EventWebhook
 	'Class:EventWebhook' => 'Webhook 触发',
-	'Class:EventWebhook/Attribute:action_finalclass' => '根属性',
+	'Class:EventWebhook/Attribute:action_finalclass' => '终极类',
 	'Class:EventWebhook/Attribute:webhook_url' => 'Webhook 的 URL',
 	'Class:EventWebhook/Attribute:headers' => 'Header',
 	'Class:EventWebhook/Attribute:payload' => 'Payload',
@@ -99,9 +99,9 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	// RemoteiTopConnection
 	'Class:RemoteiTopConnection' => '远程'.ITOP_APPLICATION_SHORT.'连接',
-	'Class:RemoteiTopConnection/Attribute:auth_user' => '验证用户',
+	'Class:RemoteiTopConnection/Attribute:auth_user' => '用户',
 	'Class:RemoteiTopConnection/Attribute:auth_user+' => '此身份验证所使用的用户(远程'.ITOP_APPLICATION_SHORT.')登录名',
-	'Class:RemoteiTopConnection/Attribute:auth_pwd' => '验证密码',
+	'Class:RemoteiTopConnection/Attribute:auth_pwd' => '密码',
 	'Class:RemoteiTopConnection/Attribute:auth_pwd+' => '此身份验证所使用的用户(远程'.ITOP_APPLICATION_SHORT.')密码',
 	'Class:RemoteiTopConnection/Attribute:version' => 'API 版本',
 	'Class:RemoteiTopConnection/Attribute:version+' => '此 API 调用的版本(例如1.3)',

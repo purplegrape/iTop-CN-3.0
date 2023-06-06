@@ -99,7 +99,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Incident/Attribute:priority/Value:3+' => '中',
 	'Class:Incident/Attribute:priority/Value:4' => '低',
 	'Class:Incident/Attribute:priority/Value:4+' => '低',
-	'Class:Incident/Attribute:urgency' => '紧急度',
+	'Class:Incident/Attribute:urgency' => '紧急程度',
 	'Class:Incident/Attribute:urgency+' => '',
 	'Class:Incident/Attribute:urgency/Value:1' => '非常高',
 	'Class:Incident/Attribute:urgency/Value:1+' => '非常高',

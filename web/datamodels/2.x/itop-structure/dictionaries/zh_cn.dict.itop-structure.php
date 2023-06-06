@@ -146,7 +146,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Contact/Attribute:cis_list' => 'CI',
 	'Class:Contact/Attribute:cis_list+' => '该联系人关联的所有配置项',
 	'Class:Contact/Attribute:finalclass' => '联系人子类别',
-	'Class:Contact/Attribute:finalclass+' => '根属性名称',
+	'Class:Contact/Attribute:finalclass+' => '终极类名称',
 ));
 
 //
@@ -173,9 +173,9 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Person/Attribute:manager_name' => '名称',
 	'Class:Person/Attribute:manager_name+' => '',
 	'Class:Person/Attribute:team_list' => '团队',
-	'Class:Person/Attribute:team_list+' => '这个人归属的所有团队',
+	'Class:Person/Attribute:team_list+' => '该联系人归属的所有团队',
 	'Class:Person/Attribute:tickets_list' => '工单',
-	'Class:Person/Attribute:tickets_list+' => '这个人发起的所有工单',
+	'Class:Person/Attribute:tickets_list+' => '该联系人发起的所有工单',
 	'Class:Person/Attribute:manager_id_friendlyname' => '直属上级姓名',
 	'Class:Person/Attribute:manager_id_friendlyname+' => '',
 	'Class:Person/Attribute:picture' => '头像',
@@ -231,7 +231,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Document/Attribute:cis_list' => 'CI',
 	'Class:Document/Attribute:cis_list+' => '该文档关联的所有配置项',
 	'Class:Document/Attribute:finalclass' => '文档子类别',
-	'Class:Document/Attribute:finalclass+' => '根属性名称',
+	'Class:Document/Attribute:finalclass+' => '终极类名称',
 ));
 
 //
@@ -277,7 +277,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Typology/Attribute:name' => '名称',
 	'Class:Typology/Attribute:name+' => '',
 	'Class:Typology/Attribute:finalclass' => '类型',
-	'Class:Typology/Attribute:finalclass+' => '根属性名称',
+	'Class:Typology/Attribute:finalclass+' => '终极类名称',
 ));
 
 //
