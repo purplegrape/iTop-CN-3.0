@@ -1504,7 +1504,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Server:Date' => '日期',
 	'Server:moreinfo' => '更多信息',
 	'Server:otherinfo' => '其它信息',
-	'Server:power' => '电力供应',
+	'Server:power' => '电源',
 	'Class:Subnet/Tab:IPUsage' => 'IP 使用率',
 	'Class:Subnet/Tab:IPUsage-explain' => '网卡IP范围: <em>%1$s</em> 到 <em>%2$s</em>',
 	'Class:Subnet/Tab:FreeIPs' => '空闲 IP',
