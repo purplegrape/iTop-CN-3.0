@@ -42,9 +42,9 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:lnkFunctionalCIToTicket/Attribute:ticket_ref+' => '',
 	'Class:lnkFunctionalCIToTicket/Attribute:ticket_title' => '工单标题',
 	'Class:lnkFunctionalCIToTicket/Attribute:ticket_title+' => '~~',
-	'Class:lnkFunctionalCIToTicket/Attribute:functionalci_id' => 'CI',
+	'Class:lnkFunctionalCIToTicket/Attribute:functionalci_id' => '配置项',
 	'Class:lnkFunctionalCIToTicket/Attribute:functionalci_id+' => '',
-	'Class:lnkFunctionalCIToTicket/Attribute:functionalci_name' => 'CI 名称',
+	'Class:lnkFunctionalCIToTicket/Attribute:functionalci_name' => '配置项名称',
 	'Class:lnkFunctionalCIToTicket/Attribute:functionalci_name+' => '',
 	'Class:lnkFunctionalCIToTicket/Attribute:impact' => '影响 (文本)',
 	'Class:lnkFunctionalCIToTicket/Attribute:impact+' => '',
@@ -65,9 +65,9 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:lnkFunctionalCIToProviderContract/Attribute:providercontract_id+' => '',
 	'Class:lnkFunctionalCIToProviderContract/Attribute:providercontract_name' => '供应商合同名称',
 	'Class:lnkFunctionalCIToProviderContract/Attribute:providercontract_name+' => '',
-	'Class:lnkFunctionalCIToProviderContract/Attribute:functionalci_id' => 'CI',
+	'Class:lnkFunctionalCIToProviderContract/Attribute:functionalci_id' => '配置项',
 	'Class:lnkFunctionalCIToProviderContract/Attribute:functionalci_id+' => '',
-	'Class:lnkFunctionalCIToProviderContract/Attribute:functionalci_name' => 'CI名称',
+	'Class:lnkFunctionalCIToProviderContract/Attribute:functionalci_name' => '配置项名称',
 	'Class:lnkFunctionalCIToProviderContract/Attribute:functionalci_name+' => '',
 ));
 
@@ -82,9 +82,9 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:lnkFunctionalCIToService/Attribute:service_id+' => '',
 	'Class:lnkFunctionalCIToService/Attribute:service_name' => '服务名称',
 	'Class:lnkFunctionalCIToService/Attribute:service_name+' => '',
-	'Class:lnkFunctionalCIToService/Attribute:functionalci_id' => 'CI',
+	'Class:lnkFunctionalCIToService/Attribute:functionalci_id' => '配置项',
 	'Class:lnkFunctionalCIToService/Attribute:functionalci_id+' => '',
-	'Class:lnkFunctionalCIToService/Attribute:functionalci_name' => 'CI名称',
+	'Class:lnkFunctionalCIToService/Attribute:functionalci_name' => '配置项名称',
 	'Class:lnkFunctionalCIToService/Attribute:functionalci_name+' => '',
 ));
 

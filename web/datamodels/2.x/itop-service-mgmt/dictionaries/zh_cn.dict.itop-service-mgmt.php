@@ -154,7 +154,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:ProviderContract' => '供应商合同',
 	'Class:ProviderContract+' => '',
-	'Class:ProviderContract/Attribute:functionalcis_list' => 'CI',
+	'Class:ProviderContract/Attribute:functionalcis_list' => '配置项',
 	'Class:ProviderContract/Attribute:functionalcis_list+' => '该供应商合同包含的所有配置项',
 	'Class:ProviderContract/Attribute:sla' => 'SLA',
 	'Class:ProviderContract/Attribute:sla+' => '服务等级协议',
@@ -252,7 +252,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Service/Attribute:customercontracts_list+' => '所有包含该服务的客户合同',
 	'Class:Service/Attribute:providercontracts_list' => '供应商合同',
 	'Class:Service/Attribute:providercontracts_list+' => '所有包含该服务的供应商合同',
-	'Class:Service/Attribute:functionalcis_list' => '依赖的CI',
+	'Class:Service/Attribute:functionalcis_list' => '依赖的配置项',
 	'Class:Service/Attribute:functionalcis_list+' => '提供该服务所需的所有配置项',
 	'Class:Service/Attribute:servicesubcategories_list' => '子服务',
 	'Class:Service/Attribute:servicesubcategories_list+' => '该服务的所有子服务',
