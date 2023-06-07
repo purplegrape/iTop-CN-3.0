@@ -1580,7 +1580,7 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:Search:Criteria:Operator:TagSet:Matches' => '匹配',
 
 	// - Other translations
-	'UI:Search:Value:Filter:Placeholder' => '过滤器...',
+	'UI:Search:Value:Filter:Placeholder' => '过滤...',
 	'UI:Search:Value:Search:Placeholder' => '搜索...',
 	'UI:Search:Value:Autocomplete:StartTyping' => '开始输入值.',
 	'UI:Search:Value:Autocomplete:Wait' => '请稍后...',
