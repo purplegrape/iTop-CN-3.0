@@ -347,33 +347,33 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Menu:WelcomeMenuPage+' => '欢迎使用 '.ITOP_APPLICATION_SHORT, // Duplicated into itop-welcome-itil (will be removed from here...)
 	'UI:WelcomeMenu:Title' => '欢迎使用 '.ITOP_APPLICATION_SHORT,
 
-	'UI:WelcomeMenu:LeftBlock' => '<p>'.ITOP_APPLICATION_SHORT.' 是完全开源的IT 操作门户.</p>
+	'UI:WelcomeMenu:LeftBlock' => '<p>'.ITOP_APPLICATION_SHORT.' 是完全开源的 IT 运维门户.</p>
 <ul>它包括:
-<li>完整的CMDB(Configuration management database),用于登记和管理您的IT 资产.</li>
-<li>事件管理模块用于跟踪和传递所有发生在IT 系统中的事件.</li>
-<li>变更管理模块用于规划和跟踪IT 环境中发生的变化.</li>
+<li>完整的 CMDB(Configuration management database),用于登记和管理您的 IT 资产.</li>
+<li>事件管理模块用于跟踪和交流所有发生在 IT 系统中的事件.</li>
+<li>变更管理模块用于规划和跟踪 IT 环境中发生的变化.</li>
 <li>已知错误数据库可加速事件的处理.</li>
 <li>停机模块记录所有计划内的停机并通知对应的联系人.</li>
-<li>通过仪表盘快速获得您的IT概况.</li>
+<li>通过仪表盘快速获得 IT 概况.</li>
 </ul>
 <p>所有模块互相独立,可以单独部署.</p>',
 
-	'UI:WelcomeMenu:RightBlock' => '<p>'.ITOP_APPLICATION_SHORT.' 是面向服务供应商的, 它使得IT 工程师能够更方便地管理多客户和多组织.
+	'UI:WelcomeMenu:RightBlock' => '<p>'.ITOP_APPLICATION_SHORT.' 是面向服务供应商的, 它使得 IT 工程师能够更方便地管理多客户和多组织.
 <ul>'.ITOP_APPLICATION_SHORT.' 提供功能丰富的业务处理流程:
-<li>提高IT 管理效率</li> 
-<li>提升IT 可操作能力</li> 
+<li>提高 IT 管理效率</li> 
+<li>提升 IT 运维能力</li> 
 <li>提高用户满意度,提升业务能力.</li>
 </ul>
 </p>
-<p>'.ITOP_APPLICATION_SHORT.' 是完全开放的,可被集成到现有的IT 管理架构之中.</p>
+<p>'.ITOP_APPLICATION_SHORT.' 是完全开放的,可被集成到现有的 IT 管理架构之中.</p>
 <p>
-<ul>利用这个新一代的IT 操作门户, 可以帮助您:
-<li>更好地管理越来越复杂的IT 环境.</li>
-<li>逐步实现ITIL 流程.</li>
-<li>管理IT 中最重要的资产: 文档.</li>
+<ul>利用全新一代的 IT 运维门户, 可以帮助您:
+<li>更好地管理越来越复杂的 IT 环境.</li>
+<li>逐步实现 ITIL 流程.</li>
+<li>管理 IT 中最重要的资产: 文档.</li>
 </ul>
 </p>',
-	'UI:WelcomeMenu:Text'=> '<div>Congratulations, you landed on '.ITOP_APPLICATION.' '.ITOP_VERSION_NAME.'!</div>
+	'UI:WelcomeMenu:Text'=> '<div>恭喜, 您已登录 '.ITOP_APPLICATION.' '.ITOP_VERSION_NAME.'!</div>
 
 <div>This version features a brand new modern and accessible backoffice design.</div>
 
@@ -392,7 +392,7 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:LoggedAsMessage+Admin' => '以 %1$s 身份登录(%2$s, Administrator)',
 	'UI:Button:Logoff' => '注销',
 	'UI:Button:GlobalSearch' => '搜索',
-	'UI:Button:Search' => '搜索',
+	'UI:Button:Search' => ' 搜索',
 	'UI:Button:Clear' => ' 清空',
 	'UI:Button:SearchInHierarchy' => ' 递归搜索',
 	'UI:Button:Query' => ' 查询 ',
@@ -410,9 +410,9 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:Button:Finish' => ' 结束 ',
 	'UI:Button:DoImport' => ' 执行导入 ! ',
 	'UI:Button:Done' => ' 完成 ',
-	'UI:Button:SimulateImport' => ' 开始导入 ',
+	'UI:Button:SimulateImport' => ' 模拟导入 ',
 	'UI:Button:Test' => '测试!',
-	'UI:Button:Evaluate' => ' 测试 ',
+	'UI:Button:Evaluate' => ' 评估 ',
 	'UI:Button:Evaluate:Title' => ' 评估 (Ctrl+Enter)',
 	'UI:Button:AddObject' => ' 添加... ',
 	'UI:Button:BrowseObjects' => ' 浏览... ',
@@ -988,34 +988,34 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'Menu:NotificationsMenu+' => '配置通知',// Duplicated into itop-welcome-itil (will be removed from here...)
 	'UI:NotificationsMenu:Title' => '配置 通知',
 	'UI:NotificationsMenu:Help' => '帮助',
-	'UI:NotificationsMenu:HelpContent' => '<p>在'.ITOP_APPLICATION_SHORT.' 中, 通知可以被自定义. 它们是基于两个对象集: <i>触发器和操作</i>.</p>
-<p><i><b>触发器</b></i> 定义了什么时候发送通知. '.ITOP_APPLICATION_SHORT.' core 自带一些触发器, 另一些触发器可由扩展提供:
+	'UI:NotificationsMenu:HelpContent' => '<p>在'.ITOP_APPLICATION_SHORT.' 中, 通知可以被自定义. 它们是基于两个对象集: <i>触发器和动作</i>.</p>
+<p><i><b>触发器</b></i> 定义了发送通知的条件. '.ITOP_APPLICATION_SHORT.' 核心自带了多种不同的触发器, 外部扩展也可以提供其它不同类型的触发器:
 <ol>
-	<li>Some triggers are executed when an object of the specified class is <b>created</b>, <b>updated</b> or <b>deleted</b>.</li>
-	<li>Some triggers are executed when an object of a given class <b>enter</b> or <b>leave</b> a specified </b>state</b>.</li>
-	<li>Some triggers are executed when a <b>threshold on TTO or TTR</b> has been <b>reached</b>.</li>
+	<li>当特定对象 <b>新建</b>, <b>更新</b> 或 <b>删除</b> 时,某些动作会被触发.</li>
+	<li>当特定对象 <b>进入</b> 或 <b>离开</b> 特定 <b>状态</b> 时,某些动作会被触发.</li>
+	<li>当特定对象 <b>达到 TTO 或 TTR 阈值</b> 时,某些动作会被触发.</li>
 </ol>
 </p>
 <p>
-<i><b>操作</b></i> define the actions to be performed when the triggers execute. For now there are only two kind of actions:
+<i><b>动作</b></i> 定义了触发时要执行的动作. 当前仅支持两种操作:
 <ol>
-	<li>Sending an email message: Such actions also define the template to be used for sending the email as well as the other parameters of the message like the recipients, importance, etc.<br />
-	这里有一个专用的页面: <a href="../setup/email.test.php" target="_blank">email.test.php</a> 可用于测试和调试PHP 的邮件配置.</li>
-	<li>Outgoing webhooks: Allow integration with a third-party application by sending structured data to a defined URL.</li>
+	<li>发送邮件: Such actions also define the template to be used for sending the email as well as the other parameters of the message like the recipients, importance, etc.<br />
+	页面: <a href="../setup/email.test.php" target="_blank">email.test.php</a> 专用于测试和调试PHP的邮件配置.</li>
+	<li>外部webhooks: 通过向指定的URL发送结构化的数据,与第三方应用集成.</li>
 </ol>
 </p>
-<p>若要执行, 操作必须和触发器相关联.
-当与一个触发器关联时, 每个操作都被赋予一个顺序号, 规定了按什么样的顺序执行这些操作.</p>~~',
+<p>若要执行, 动作必须和触发器相关联.
+当与触发器关联时, 每个行为都有序号, 指定了按照什么样的顺序执行这些动作.</p>',
 	'UI:NotificationsMenu:Triggers' => '触发器',
 	'UI:NotificationsMenu:AvailableTriggers' => '可用的触发器',
 	'UI:NotificationsMenu:OnCreate' => '当对象被创建',
 	'UI:NotificationsMenu:OnStateEnter' => '当对象进入指定状态',
 	'UI:NotificationsMenu:OnStateLeave' => '当对象离开指定状态',
-	'UI:NotificationsMenu:Actions' => '操作',
-	'UI:NotificationsMenu:Actions:ActionEmail' => '邮件操作',
-	'UI:NotificationsMenu:Actions:ActionWebhook' => 'Webhook 操作 (与第三方集成)',
-	'UI:NotificationsMenu:Actions:Action' => '其它操作',
-	'UI:NotificationsMenu:AvailableActions' => '生效的操作',
+	'UI:NotificationsMenu:Actions' => '动作',
+	'UI:NotificationsMenu:Actions:ActionEmail' => '邮件发送',
+	'UI:NotificationsMenu:Actions:ActionWebhook' => 'Webhook (与第三方集成)',
+	'UI:NotificationsMenu:Actions:Action' => '其它动作',
+	'UI:NotificationsMenu:AvailableActions' => '现有的动作',
 
 	'Menu:TagAdminMenu' => '标签配置',
 	'Menu:TagAdminMenu+' => '标签值管理',

@@ -483,7 +483,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:Action' => '自定义操作',
+	'Class:Action' => '自定义动作',
 	'Class:Action+' => '用户定义的操作',
 	'Class:Action/Attribute:name' => '名称',
 	'Class:Action/Attribute:name+' => '',
@@ -498,10 +498,10 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Action/Attribute:status/Value:disabled' => '停用',
 	'Class:Action/Attribute:status/Value:disabled+' => '停用',
 	'Class:Action/Attribute:trigger_list' => '触发器',
-	'Class:Action/Attribute:trigger_list+' => '该操作关联的触发器',
-	'Class:Action/Attribute:finalclass' => 'Action sub-class',
+	'Class:Action/Attribute:trigger_list+' => '该动作关联的触发器',
+	'Class:Action/Attribute:finalclass' => '动作子类',
 	'Class:Action/Attribute:finalclass+' => '终极类名称',
-	'Action:WarningNoTriggerLinked' => 'Warning, no trigger is linked to the action. It will not be active until it has at least 1.~~',
+	'Action:WarningNoTriggerLinked' => '警告, 该动作未关联任何触发器. 想要生效,必须至少关联1个触发器.',
 ));
 
 //
