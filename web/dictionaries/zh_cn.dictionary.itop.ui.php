@@ -878,7 +878,7 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:CloneTitle_Class_Object' => '克隆 %1$s: <span class=\\"hilite\\">%2$s</span>',
 	'UI:CreationPageTitle_Class' => ITOP_APPLICATION_SHORT.' - 新建 %1$s ',
 	'UI:CreationTitle_Class' => '新建 %1$s',
-	'UI:SelectTheTypeOf_Class_ToCreate' => '选择 %1$s 的类别:',
+	'UI:SelectTheTypeOf_Class_ToCreate' => '选择 %1$s 的类型:',
 	'UI:Class_Object_NotUpdated' => '未发现变化, %1$s (%2$s) <strong>没有</strong> 被更新.',
 	'UI:Class_Object_Updated' => '%1$s (%2$s) 更新了.',
 	'UI:BulkDeletePageTitle' => ITOP_APPLICATION_SHORT.' - 批量删除',
