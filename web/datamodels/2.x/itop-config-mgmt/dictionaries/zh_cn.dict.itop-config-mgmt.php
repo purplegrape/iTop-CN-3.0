@@ -913,7 +913,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Patch/Attribute:documents_list+' => '该补丁关联的所有文档',
 	'Class:Patch/Attribute:description' => '描述',
 	'Class:Patch/Attribute:description+' => '',
-	'Class:Patch/Attribute:finalclass' => '补丁子类别',
+	'Class:Patch/Attribute:finalclass' => '补丁类型',
 	'Class:Patch/Attribute:finalclass+' => '终极类名称',
 ));
 
@@ -978,7 +978,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Licence/Attribute:perpetual/Value:no+' => '否',
 	'Class:Licence/Attribute:perpetual/Value:yes' => '是',
 	'Class:Licence/Attribute:perpetual/Value:yes+' => '是',
-	'Class:Licence/Attribute:finalclass' => '许可证子类别',
+	'Class:Licence/Attribute:finalclass' => '许可证类型',
 	'Class:Licence/Attribute:finalclass+' => '终极类名称',
 ));
 
@@ -1285,7 +1285,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:NetworkInterface+' => '',
 	'Class:NetworkInterface/Attribute:name' => '名称',
 	'Class:NetworkInterface/Attribute:name+' => '',
-	'Class:NetworkInterface/Attribute:finalclass' => '网卡子类别',
+	'Class:NetworkInterface/Attribute:finalclass' => '网卡类型',
 	'Class:NetworkInterface/Attribute:finalclass+' => '终极类名称',
 ));
 

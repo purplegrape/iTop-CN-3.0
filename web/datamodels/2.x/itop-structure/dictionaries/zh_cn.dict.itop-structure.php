@@ -145,7 +145,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Contact/Attribute:function+' => '',
 	'Class:Contact/Attribute:cis_list' => '配置项',
 	'Class:Contact/Attribute:cis_list+' => '该联系人关联的所有配置项',
-	'Class:Contact/Attribute:finalclass' => '联系人子类别',
+	'Class:Contact/Attribute:finalclass' => '联系人类型',
 	'Class:Contact/Attribute:finalclass+' => '终极类名称',
 ));
 
@@ -230,7 +230,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Document/Attribute:status/Value:published+' => '',
 	'Class:Document/Attribute:cis_list' => '配置项',
 	'Class:Document/Attribute:cis_list+' => '该文档关联的所有配置项',
-	'Class:Document/Attribute:finalclass' => '文档子类别',
+	'Class:Document/Attribute:finalclass' => '文档类型',
 	'Class:Document/Attribute:finalclass+' => '终极类名称',
 ));
 
@@ -326,7 +326,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Menu:DataAdministration' => '数据管理',
 	'Menu:DataAdministration+' => '数据管理',
-	'Menu:Catalogs' => '类别',
+	'Menu:Catalogs' => '类型',
 	'Menu:Catalogs+' => '数据类型',
 	'Menu:Audit' => '审计',
 	'Menu:Audit+' => '审计',

@@ -20,16 +20,16 @@
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:AuditCategory' => '审计类别',
+	'Class:AuditCategory' => '审计类型',
 	'Class:AuditCategory+' => '全部审计中的一个区段',
 	'Class:AuditCategory/Attribute:name' => '名称',
-	'Class:AuditCategory/Attribute:name+' => '类别简称',
+	'Class:AuditCategory/Attribute:name+' => '类型简称',
 	'Class:AuditCategory/Attribute:description' => '描述',
-	'Class:AuditCategory/Attribute:description+' => '该审计类别的详细描述',
+	'Class:AuditCategory/Attribute:description+' => '该审计类型的详细描述',
 	'Class:AuditCategory/Attribute:definition_set' => '定义',
 	'Class:AuditCategory/Attribute:definition_set+' => '定义用于审计的对象的OQL表达式',
 	'Class:AuditCategory/Attribute:rules_list' => '审计规则',
-	'Class:AuditCategory/Attribute:rules_list+' => '该类别的审计规则',
+	'Class:AuditCategory/Attribute:rules_list+' => '该类型的审计规则',
 ));
 
 //
@@ -54,10 +54,10 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:AuditRule/Attribute:valid_flag/Value:true+' => 'true',
 	'Class:AuditRule/Attribute:valid_flag/Value:false' => 'false',
 	'Class:AuditRule/Attribute:valid_flag/Value:false+' => 'false',
-	'Class:AuditRule/Attribute:category_id' => '类别',
-	'Class:AuditRule/Attribute:category_id+' => '该规则对应的类别',
-	'Class:AuditRule/Attribute:category_name' => '类别',
-	'Class:AuditRule/Attribute:category_name+' => '该规则对应类别的名称',
+	'Class:AuditRule/Attribute:category_id' => '类型',
+	'Class:AuditRule/Attribute:category_id+' => '该规则对应的类型',
+	'Class:AuditRule/Attribute:category_name' => '类型',
+	'Class:AuditRule/Attribute:category_name+' => '该规则对应类型的名称',
 ));
 
 //
@@ -95,7 +95,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:User' => '用户',
 	'Class:User+' => '用户登录名',
-	'Class:User/Attribute:finalclass' => '账户类别',
+	'Class:User/Attribute:finalclass' => '账户类型',
 	'Class:User/Attribute:finalclass+' => '',
 	'Class:User/Attribute:contactid' => '联系人 (个人)',
 	'Class:User/Attribute:contactid+' => '来自业务数据的个人明细信息',
@@ -1001,7 +1001,7 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 <ol>
 	<li>发送邮件: Such actions also define the template to be used for sending the email as well as the other parameters of the message like the recipients, importance, etc.<br />
 	页面: <a href="../setup/email.test.php" target="_blank">email.test.php</a> 专用于测试和调试PHP的邮件配置.</li>
-	<li>外部webhooks: 通过向指定的URL发送结构化的数据,与第三方应用集成.</li>
+	<li>外部webhook: 通过向指定的URL发送结构化的数据,与第三方应用集成.</li>
 </ol>
 </p>
 <p>若要执行, 动作必须和触发器相关联.
@@ -1023,9 +1023,9 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:TagAdminMenu:NoTags' => '未配置标签',
 	'UI:TagSetFieldData:Error' => '错误: %1$s',
 
-	'Menu:AuditCategories' => '审计类别',// Duplicated into itop-welcome-itil (will be removed from here...)
-	'Menu:AuditCategories+' => '审计类别',// Duplicated into itop-welcome-itil (will be removed from here...)
-	'Menu:Notifications:Title' => '审计类别',// Duplicated into itop-welcome-itil (will be removed from here...)
+	'Menu:AuditCategories' => '审计类型',// Duplicated into itop-welcome-itil (will be removed from here...)
+	'Menu:AuditCategories+' => '审计类型',// Duplicated into itop-welcome-itil (will be removed from here...)
+	'Menu:Notifications:Title' => '审计类型',// Duplicated into itop-welcome-itil (will be removed from here...)
 
 	'Menu:RunQueriesMenu' => '运行查询',// Duplicated into itop-welcome-itil (will be removed from here...)
 	'Menu:RunQueriesMenu+' => '运行任何查询',// Duplicated into itop-welcome-itil (will be removed from here...)
@@ -1662,9 +1662,9 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Menu:ExportMenu+' => '以HTML, CSV 或XML 格式导出任何查询的结果',
 	'Menu:NotificationsMenu' => '通知',
 	'Menu:NotificationsMenu+' => '配置通知',
-	'Menu:AuditCategories' => '审计类别',
-	'Menu:AuditCategories+' => '审计类别',
-	'Menu:Notifications:Title' => '审计类别',
+	'Menu:AuditCategories' => '审计类型',
+	'Menu:AuditCategories+' => '审计类型',
+	'Menu:Notifications:Title' => '审计类型',
 	'Menu:RunQueriesMenu'         => '运行查询',
 	'Menu:RunQueriesMenu+'        => '运行任何查询',
 	'Menu:QueryMenu'              => '查询手册',

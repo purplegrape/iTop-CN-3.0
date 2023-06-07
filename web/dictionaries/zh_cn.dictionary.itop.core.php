@@ -48,7 +48,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 
 	'Core:AttributeTagSet' => '清单',
 	'Core:AttributeTagSet+' => '',
-	'Core:AttributeSet:placeholder' => '请点击这里添加',
+	'Core:AttributeSet:placeholder' => '请点击添加',
 	'Core:AttributeClassAttCodeSet:ItemLabel:AttributeFromClass' => '%1$s (%2$s)~~',
 	'Core:AttributeClassAttCodeSet:ItemLabel:AttributeFromOneChildClass' => '%1$s (%2$s from %3$s)~~',
 	'Core:AttributeClassAttCodeSet:ItemLabel:AttributeFromSeveralChildClasses' => '%1$s (%2$s from child classes)~~',
@@ -360,7 +360,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Event/Attribute:date+' => '记录的日期和时间',
 	'Class:Event/Attribute:userinfo' => '用户信息',
 	'Class:Event/Attribute:userinfo+' => 'identification of the user that was doing the action that triggered this event',
-	'Class:Event/Attribute:finalclass' => '事件子类别',
+	'Class:Event/Attribute:finalclass' => '事件类型',
 	'Class:Event/Attribute:finalclass+' => '终极类名称',
 ));
 
@@ -565,7 +565,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Trigger/Attribute:description+' => '简短描述',
 	'Class:Trigger/Attribute:action_list' => '触发的行为',
 	'Class:Trigger/Attribute:action_list+' => 'Actions performed when the trigger is activated',
-	'Class:Trigger/Attribute:finalclass' => '触发器子类别',
+	'Class:Trigger/Attribute:finalclass' => '触发器类型',
 	'Class:Trigger/Attribute:finalclass+' => '终极类名称',
 	'Class:Trigger/Attribute:context' => '上下文',
 	'Class:Trigger/Attribute:context+' => '触发场景',
@@ -658,7 +658,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:TriggerOnObjectMention' => 'Trigger (on object mention)~~',
+	'Class:TriggerOnObjectMention' => '触发器 (对象提及时)',
 	'Class:TriggerOnObjectMention+' => 'Trigger on mention (@xxx) of an object of [a child class of] the given class in a log attribute~~',
 	'Class:TriggerOnObjectMention/Attribute:mentioned_filter' => 'Mentioned filter~~',
 	'Class:TriggerOnObjectMention/Attribute:mentioned_filter+' => 'Limit the list of mentioned objects which will activate the trigger. If empty, any mentioned object (of any class) will activate it.~~',
@@ -671,7 +671,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:TriggerOnThresholdReached' => '触发器 (基于阈值)',
 	'Class:TriggerOnThresholdReached+' => '当达到某个阈值时触发',
-	'Class:TriggerOnThresholdReached/Attribute:stop_watch_code' => '秒表',
+	'Class:TriggerOnThresholdReached/Attribute:stop_watch_code' => 'Stop watch~~',
 	'Class:TriggerOnThresholdReached/Attribute:stop_watch_code+' => '',
 	'Class:TriggerOnThresholdReached/Attribute:threshold_index' => '阈值',
 	'Class:TriggerOnThresholdReached/Attribute:threshold_index+' => '',
@@ -684,9 +684,9 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:lnkTriggerAction' => '操作/触发器',
 	'Class:lnkTriggerAction+' => 'Link between a trigger and an action',
-	'Class:lnkTriggerAction/Attribute:action_id' => '操作',
+	'Class:lnkTriggerAction/Attribute:action_id' => '动作',
 	'Class:lnkTriggerAction/Attribute:action_id+' => 'The action to be executed',
-	'Class:lnkTriggerAction/Attribute:action_name' => '操作',
+	'Class:lnkTriggerAction/Attribute:action_name' => '动作',
 	'Class:lnkTriggerAction/Attribute:action_name+' => '',
 	'Class:lnkTriggerAction/Attribute:trigger_id' => '触发器',
 	'Class:lnkTriggerAction/Attribute:trigger_id+' => '',
