@@ -985,7 +985,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Core:Validator:Default' => '格式错误',
 	'Core:Validator:Mandatory' => '这里必填',
 	'Core:Validator:MustBeInteger' => '必须是整数',
-	'Core:Validator:MustSelectOne' => '请选择一个',
+	'Core:Validator:MustSelectOne' => '请选择',
 ));
 
 //
