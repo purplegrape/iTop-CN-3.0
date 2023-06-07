@@ -498,9 +498,9 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:ApplicationSolution/Attribute:status/Value:inactive' => '停用',
 	'Class:ApplicationSolution/Attribute:status/Value:inactive+' => '停用',
 	'Class:ApplicationSolution/Attribute:redundancy' => '影响分析: 冗余配置',
-	'Class:ApplicationSolution/Attribute:redundancy/disabled' => 'The solution is up if all CIs are up',
-	'Class:ApplicationSolution/Attribute:redundancy/count' => 'The solution is up if at least %1$s CI(s) is(are) up',
-	'Class:ApplicationSolution/Attribute:redundancy/percent' => 'The solution is up if at least %1$s %% of the CIs are up',
+	'Class:ApplicationSolution/Attribute:redundancy/disabled' => '应用方案的生效, 需要所有配置项都保持正常',
+	'Class:ApplicationSolution/Attribute:redundancy/count' => '应用方案的生效, 至少需要 %1$s 个配置项保持正常',
+	'Class:ApplicationSolution/Attribute:redundancy/percent' => '应用方案的生效, 至少需要 %1$s %% 的配置项保持正常',
 ));
 
 //
