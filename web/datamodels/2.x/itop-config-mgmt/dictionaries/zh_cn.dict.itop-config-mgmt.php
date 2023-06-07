@@ -177,14 +177,14 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:Rack' => '机柜',
+	'Class:Rack' => '机架',
 	'Class:Rack+' => '',
-	'Class:Rack/Attribute:nb_u' => '机柜高度',
+	'Class:Rack/Attribute:nb_u' => '机架高度',
 	'Class:Rack/Attribute:nb_u+' => '',
 	'Class:Rack/Attribute:device_list' => '设备',
-	'Class:Rack/Attribute:device_list+' => '该机柜托管的所有物理设备',
-	'Class:Rack/Attribute:enclosure_list' => '机位',
-	'Class:Rack/Attribute:enclosure_list+' => '该机柜上的所有机位',
+	'Class:Rack/Attribute:device_list+' => '该机架托管的所有物理设备',
+	'Class:Rack/Attribute:enclosure_list' => '机柜',
+	'Class:Rack/Attribute:enclosure_list+' => '该机架上的所有机柜',
 ));
 
 //
@@ -258,13 +258,13 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:DatacenterDevice' => '数据中心设备',
 	'Class:DatacenterDevice+' => '',
-	'Class:DatacenterDevice/Attribute:rack_id' => '机柜',
+	'Class:DatacenterDevice/Attribute:rack_id' => '机架',
 	'Class:DatacenterDevice/Attribute:rack_id+' => '',
-	'Class:DatacenterDevice/Attribute:rack_name' => '机柜名称',
+	'Class:DatacenterDevice/Attribute:rack_name' => '机架名称',
 	'Class:DatacenterDevice/Attribute:rack_name+' => '',
-	'Class:DatacenterDevice/Attribute:enclosure_id' => '机位',
+	'Class:DatacenterDevice/Attribute:enclosure_id' => '机柜',
 	'Class:DatacenterDevice/Attribute:enclosure_id+' => '',
-	'Class:DatacenterDevice/Attribute:enclosure_name' => '机位名称',
+	'Class:DatacenterDevice/Attribute:enclosure_name' => '机柜名称',
 	'Class:DatacenterDevice/Attribute:enclosure_name+' => '',
 	'Class:DatacenterDevice/Attribute:nb_u' => '高度',
 	'Class:DatacenterDevice/Attribute:nb_u+' => '',
@@ -444,9 +444,9 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:PDU' => 'PDU',
 	'Class:PDU+' => '',
-	'Class:PDU/Attribute:rack_id' => '机柜',
+	'Class:PDU/Attribute:rack_id' => '机架',
 	'Class:PDU/Attribute:rack_id+' => '',
-	'Class:PDU/Attribute:rack_name' => '机柜名称',
+	'Class:PDU/Attribute:rack_name' => '机架名称',
 	'Class:PDU/Attribute:rack_name+' => '',
 	'Class:PDU/Attribute:powerstart_id' => '上游电源',
 	'Class:PDU/Attribute:powerstart_id+' => '',
@@ -468,16 +468,16 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:Enclosure' => '机位',
+	'Class:Enclosure' => '机柜',
 	'Class:Enclosure+' => '',
-	'Class:Enclosure/Attribute:rack_id' => '机柜',
+	'Class:Enclosure/Attribute:rack_id' => '机架',
 	'Class:Enclosure/Attribute:rack_id+' => '',
-	'Class:Enclosure/Attribute:rack_name' => '机柜名称',
+	'Class:Enclosure/Attribute:rack_name' => '机架名称',
 	'Class:Enclosure/Attribute:rack_name+' => '',
 	'Class:Enclosure/Attribute:nb_u' => '高度',
 	'Class:Enclosure/Attribute:nb_u+' => '',
 	'Class:Enclosure/Attribute:device_list' => '设备',
-	'Class:Enclosure/Attribute:device_list+' => '该机位的所有设备',
+	'Class:Enclosure/Attribute:device_list+' => '该机柜的所有设备',
 ));
 
 //
@@ -1083,8 +1083,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Model/Attribute:type/Value:PowerSource+' => '电源',
 	'Class:Model/Attribute:type/Value:DiskArray' => '磁盘阵列',
 	'Class:Model/Attribute:type/Value:DiskArray+' => '磁盘阵列',
-	'Class:Model/Attribute:type/Value:Enclosure' => '机位',
-	'Class:Model/Attribute:type/Value:Enclosure+' => '机位',
+	'Class:Model/Attribute:type/Value:Enclosure' => '机柜',
+	'Class:Model/Attribute:type/Value:Enclosure+' => '机柜',
 	'Class:Model/Attribute:type/Value:IPPhone' => 'IP 电话',
 	'Class:Model/Attribute:type/Value:IPPhone+' => 'IP 电话',
 	'Class:Model/Attribute:type/Value:MobilePhone' => '手机',
@@ -1101,8 +1101,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Model/Attribute:type/Value:Peripheral+' => '配件',
 	'Class:Model/Attribute:type/Value:Printer' => '打印机',
 	'Class:Model/Attribute:type/Value:Printer+' => '打印机',
-	'Class:Model/Attribute:type/Value:Rack' => '机柜',
-	'Class:Model/Attribute:type/Value:Rack+' => '机柜',
+	'Class:Model/Attribute:type/Value:Rack' => '机架',
+	'Class:Model/Attribute:type/Value:Rack+' => '机架',
 	'Class:Model/Attribute:type/Value:SANSwitch' => 'SAN 交换机',
 	'Class:Model/Attribute:type/Value:SANSwitch+' => 'SAN 交换机',
 	'Class:Model/Attribute:type/Value:Server' => '服务器',

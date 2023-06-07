@@ -807,7 +807,7 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:Label:SelectedObjects' => '被选的对象: ',
 	'UI:Label:AvailableObjects' => '可用的对象: ',
 	'UI:Link_Class_Attributes' => '%1$s 属性',
-	'UI:SelectAllToggle+' => '全选 / 反选',
+	'UI:SelectAllToggle+' => '全选/反选',
 	'UI:AddObjectsOf_Class_LinkedWith_Class_Instance' => '添加 %1$s 个对象, 关联 %2$s: %3$s',
 	'UI:AddObjectsOf_Class_LinkedWith_Class' => ' %1$s ',
 	'UI:ManageObjectsOf_Class_LinkedWith_Class_Instance' => '管理 %1$s 个对象, 关联 %2$s: %3$s',
@@ -1485,7 +1485,7 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:AvailableInlineImagesLegend' => '可用的图片',
 	'UI:NoInlineImage' => '服务器上没有图片. 使用上面的 "浏览" 按钮,从您的电脑上选择并上传到服务器.',
 
-	'UI:ToggleFullScreen' => '切换 最大化 / 最小化',
+	'UI:ToggleFullScreen' => '切换 最大化/最小化',
 	'UI:Button:ResetImage' => '恢复之前的头像',
 	'UI:Button:RemoveImage' => '删除头像',
 	'UI:Button:UploadImage' => '从本地硬盘上传头像',
@@ -1494,19 +1494,19 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:Button:RemoveDocument' => '删除文档',
 
 	// Search form
-	'UI:Search:Toggle' => '折叠 / 展开',
+	'UI:Search:Toggle' => '折叠/展开',
 	'UI:Search:AutoSubmit:DisabledHint' => '该类别已禁用自动提交',
 	'UI:Search:Obsolescence:DisabledHint' => '根据您的设置, 废弃的数据会被隐藏',
 	'UI:Search:NoAutoSubmit:ExplainText' => '在搜索框中添加规则,或者单击对象按钮查看对象.',
 	'UI:Search:Criterion:MoreMenu:AddCriteria' => '添加条件',
 	// - Add new criteria button
-	'UI:Search:AddCriteria:List:RecentlyUsed:Title' => '最近使用',
-	'UI:Search:AddCriteria:List:MostPopular:Title' => '最常用',
+	'UI:Search:AddCriteria:List:RecentlyUsed:Title' => '最近使用的',
+	'UI:Search:AddCriteria:List:MostPopular:Title' => '最常用的',
 	'UI:Search:AddCriteria:List:Others:Title' => '其它',
 	'UI:Search:AddCriteria:List:RecentlyUsed:Placeholder' => '还没有.',
 
 	// - Criteria header actions
-	'UI:Search:Criteria:Toggle' => '折叠 / 展开',
+	'UI:Search:Criteria:Toggle' => '折叠/展开',
 	'UI:Search:Criteria:Remove' => '删除',
 	'UI:Search:Criteria:Locked' => '已锁定',
 
@@ -1572,9 +1572,9 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	//   - Numeric widget
 	'UI:Search:Criteria:Operator:Numeric:Equals' => '等于',// => '=',
 	'UI:Search:Criteria:Operator:Numeric:GreaterThan' => '大于',// => '>',
-	'UI:Search:Criteria:Operator:Numeric:GreaterThanOrEquals' => '大于 / 等于',// > '>=',
+	'UI:Search:Criteria:Operator:Numeric:GreaterThanOrEquals' => '大于/等于',// > '>=',
 	'UI:Search:Criteria:Operator:Numeric:LessThan' => '小于',// => '<',
-	'UI:Search:Criteria:Operator:Numeric:LessThanOrEquals' => '小于 / 等于',// > '<=',
+	'UI:Search:Criteria:Operator:Numeric:LessThanOrEquals' => '小于/等于',// > '<=',
 	'UI:Search:Criteria:Operator:Numeric:Different' => '不同',// => '≠',
 	//   - Tag Set Widget
 	'UI:Search:Criteria:Operator:TagSet:Matches' => '匹配',
@@ -1585,8 +1585,8 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:Search:Value:Autocomplete:StartTyping' => '开始输入值.',
 	'UI:Search:Value:Autocomplete:Wait' => '请稍后...',
 	'UI:Search:Value:Autocomplete:NoResult' => '没有找到结果.',
-	'UI:Search:Value:Toggler:CheckAllNone' => '全选 / 不选',
-	'UI:Search:Value:Toggler:CheckAllNoneFiltered' => '全选 / 不选',
+	'UI:Search:Value:Toggler:CheckAllNone' => '全选/不选',
+	'UI:Search:Value:Toggler:CheckAllNoneFiltered' => '全选/不选',
 
 	// - Widget other translations
 	'UI:Search:Criteria:Numeric:From' => '从',
