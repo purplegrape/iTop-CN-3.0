@@ -283,7 +283,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:DatacenterDevice/Attribute:san_list' => 'SANs',
 	'Class:DatacenterDevice/Attribute:san_list+' => '所有连接到这台设备的SAN 交换机',
 	'Class:DatacenterDevice/Attribute:redundancy' => '冗余',
-	'Class:DatacenterDevice/Attribute:redundancy/count' => '该设备运行正常至少需要一路电源 (A 或 B)',
+	'Class:DatacenterDevice/Attribute:redundancy/count' => '该设备正常运行至少需要一路电源 (A 或 B)',
 	// Unused yet
 	'Class:DatacenterDevice/Attribute:redundancy/disabled' => '所有电源正常,该设备才正常',
 	'Class:DatacenterDevice/Attribute:redundancy/percent' => '至少 %1$s %% 路电源正常,设备才正常',
@@ -922,7 +922,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:OSPatch' => '操作系统补丁',
+	'Class:OSPatch' => '系统补丁',
 	'Class:OSPatch+' => '',
 	'Class:OSPatch/Attribute:functionalcis_list' => '设备',
 	'Class:OSPatch/Attribute:functionalcis_list+' => '已安装该补丁的所有系统',
@@ -1184,11 +1184,11 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:lnkFunctionalCIToOSPatch' => '关联 功能项/操作系统补丁',
+	'Class:lnkFunctionalCIToOSPatch' => '关联 功能项/系统补丁',
 	'Class:lnkFunctionalCIToOSPatch+' => '',
-	'Class:lnkFunctionalCIToOSPatch/Attribute:ospatch_id' => '操作系统补丁',
+	'Class:lnkFunctionalCIToOSPatch/Attribute:ospatch_id' => '系统补丁',
 	'Class:lnkFunctionalCIToOSPatch/Attribute:ospatch_id+' => '',
-	'Class:lnkFunctionalCIToOSPatch/Attribute:ospatch_name' => '操作系统补丁名称',
+	'Class:lnkFunctionalCIToOSPatch/Attribute:ospatch_name' => '系统补丁名称',
 	'Class:lnkFunctionalCIToOSPatch/Attribute:ospatch_name+' => '',
 	'Class:lnkFunctionalCIToOSPatch/Attribute:functionalci_id' => '功能项',
 	'Class:lnkFunctionalCIToOSPatch/Attribute:functionalci_id+' => '',
