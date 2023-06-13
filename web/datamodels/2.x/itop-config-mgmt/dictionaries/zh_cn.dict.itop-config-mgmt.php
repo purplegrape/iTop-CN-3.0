@@ -1302,7 +1302,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 
 	'Class:IPInterface/Attribute:macaddress' => 'MAC 地址',
 	'Class:IPInterface/Attribute:macaddress+' => '',
-	'Class:IPInterface/Attribute:comment' => '注释',
+	'Class:IPInterface/Attribute:comment' => '备注',
 	'Class:IPInterface/Attribute:coment+' => '',
 	'Class:IPInterface/Attribute:ipgateway' => '网关',
 	'Class:IPInterface/Attribute:ipgateway+' => '',
