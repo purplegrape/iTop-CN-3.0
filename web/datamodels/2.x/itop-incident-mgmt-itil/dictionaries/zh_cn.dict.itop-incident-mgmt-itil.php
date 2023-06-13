@@ -73,7 +73,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Incident/Attribute:status/Value:assigned+' => '',
 	'Class:Incident/Attribute:status/Value:escalated_ttr' => '已升级解决时间',
 	'Class:Incident/Attribute:status/Value:escalated_ttr+' => '',
-	'Class:Incident/Attribute:status/Value:waiting_for_approval' => '等待批准',
+	'Class:Incident/Attribute:status/Value:waiting_for_approval' => '等待审批',
 	'Class:Incident/Attribute:status/Value:waiting_for_approval+' => '',
 	'Class:Incident/Attribute:status/Value:pending' => '待定',
 	'Class:Incident/Attribute:status/Value:pending+' => '',
