@@ -365,7 +365,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 <li>提高用户满意度,提升业务能力.</li>
 </ul>
 </p>
-<p>'.ITOP_APPLICATION_SHORT.' 是完全开放的,可被集成到现有的 IT 管理架构之中.</p>
+<p>'.ITOP_APPLICATION_SHORT.' 是完全开放的,可被集成到当前的 IT 管理框架之中.</p>
 <p>
 <ul>利用全新一代的 IT 运维门户, 可以帮助您:
 <li>更好地管理越来越复杂的 IT 环境.</li>
@@ -554,7 +554,7 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:ResetPwd-Error-NoContact' => '该账户没有关联到个人.',
 	'UI:ResetPwd-Error-NoEmailAtt' => '该账户未关联邮箱地址,请联系管理员.',
 	'UI:ResetPwd-Error-NoEmail' => '缺少邮箱地址. 请联系管理员.',
-	'UI:ResetPwd-Error-Send' => '邮件发送存在技术原因. 请联系管理员.',
+	'UI:ResetPwd-Error-Send' => '邮件发送出现技术问题. 请联系管理员.',
 	'UI:ResetPwd-EmailSent' => '请检查您的收件箱并根据指引进行操作. 如果您没有收到邮件, 请检查您登录时的输入是否存在错误.',
 	'UI:ResetPwd-EmailSubject' => '重置 '.ITOP_APPLICATION_SHORT.' 密码',
 	'UI:ResetPwd-EmailBody' => '<body><p>您已请求重置iTop 密码.</p><p>请点击这个链接 (一次性) <a href="%1$s">来输入新的密码</a></p>.',
@@ -1015,7 +1015,7 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:NotificationsMenu:Actions:ActionEmail' => '邮件发送',
 	'UI:NotificationsMenu:Actions:ActionWebhook' => 'Webhook (与第三方集成)',
 	'UI:NotificationsMenu:Actions:Action' => '其它动作',
-	'UI:NotificationsMenu:AvailableActions' => '现有的动作',
+	'UI:NotificationsMenu:AvailableActions' => '可用的动作',
 
 	'Menu:TagAdminMenu' => '标签配置',
 	'Menu:TagAdminMenu+' => '标签值管理',

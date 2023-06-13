@@ -682,7 +682,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:lnkTriggerAction' => '操作/触发器',
+	'Class:lnkTriggerAction' => '动作/触发器',
 	'Class:lnkTriggerAction+' => 'Link between a trigger and an action',
 	'Class:lnkTriggerAction/Attribute:action_id' => '动作',
 	'Class:lnkTriggerAction/Attribute:action_id+' => 'The action to be executed',
@@ -693,7 +693,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:lnkTriggerAction/Attribute:trigger_name' => '触发器',
 	'Class:lnkTriggerAction/Attribute:trigger_name+' => '',
 	'Class:lnkTriggerAction/Attribute:order' => '顺序',
-	'Class:lnkTriggerAction/Attribute:order+' => '操作的执行顺序',
+	'Class:lnkTriggerAction/Attribute:order+' => '动作的执行顺序',
 ));
 
 //
