@@ -679,7 +679,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:Hypervisor' => 'Hypervisor',
+	'Class:Hypervisor' => '虚拟机管理器',
 	'Class:Hypervisor+' => '',
 	'Class:Hypervisor/Attribute:farm_id' => '集群',
 	'Class:Hypervisor/Attribute:farm_id+' => '',
@@ -698,12 +698,12 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Farm' => '集群',
 	'Class:Farm+' => '',
-	'Class:Farm/Attribute:hypervisor_list' => 'Hypervisor',
-	'Class:Farm/Attribute:hypervisor_list+' => '集群由哪些Hypervisor 组成',
+	'Class:Farm/Attribute:hypervisor_list' => '虚拟机管理器',
+	'Class:Farm/Attribute:hypervisor_list+' => '集群由哪些虚拟机管理器组成',
 	'Class:Farm/Attribute:redundancy' => '高可用性',
-	'Class:Farm/Attribute:redundancy/disabled' => '所有Hypervisor 正常,集群才正常',
-	'Class:Farm/Attribute:redundancy/count' => '至少 %1$s 个Hypervisor 是正常的,集群才是正常的',
-	'Class:Farm/Attribute:redundancy/percent' => '至少 %1$s %% 的Hypervisor 是正常的,集群才正常',
+	'Class:Farm/Attribute:redundancy/disabled' => '所有虚拟机管理器正常,集群才正常',
+	'Class:Farm/Attribute:redundancy/count' => '至少 %1$s 个虚拟机管理器是正常的,集群才是正常的',
+	'Class:Farm/Attribute:redundancy/percent' => '至少 %1$s %% 的虚拟机管理器是正常的,集群才正常',
 ));
 
 //
