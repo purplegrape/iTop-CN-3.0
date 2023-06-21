@@ -77,7 +77,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Ticket/Attribute:functionalcis_list+' => '该工单相关的所有配置项.',
 	'Class:Ticket/Attribute:workorders_list' => '工作任务',
 	'Class:Ticket/Attribute:workorders_list+' => '该工单相关的所有工作任务',
-	'Class:Ticket/Attribute:finalclass' => '类型',
+	'Class:Ticket/Attribute:finalclass' => '工单类型',
 	'Class:Ticket/Attribute:finalclass+' => '',
 	'Class:Ticket/Attribute:operational_status' => '操作状态',
 	'Class:Ticket/Attribute:operational_status+' => '按具体状态',
