@@ -20,6 +20,7 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with iTop. If not, see <http://www.gnu.org/licenses/>
  */
+
 // Dictionnay conventions
 // Class:<class_name>
 // Class:<class_name>+
@@ -29,9 +30,12 @@
 // Class:<class_name>/Attribute:<attribute_code>/Value:<value>+
 // Class:<class_name>/Stimulus:<stimulus_code>
 // Class:<class_name>/Stimulus:<stimulus_code>+
+
+
 //
 // Class: Ticket
 //
+
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Ticket' => '工单',
 	'Class:Ticket+' => '',
@@ -45,7 +49,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Ticket/Attribute:caller_id+' => '',
 	'Class:Ticket/Attribute:caller_name' => '发起人名称',
 	'Class:Ticket/Attribute:caller_name+' => '',
-	'Class:Ticket/Attribute:team_id' => '执行团队',
+	'Class:Ticket/Attribute:team_id' => '团队',
 	'Class:Ticket/Attribute:team_id+' => '',
 	'Class:Ticket/Attribute:team_name' => '团队名称',
 	'Class:Ticket/Attribute:team_name+' => '',
@@ -131,7 +135,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:WorkOrder/Attribute:ticket_id+' => '',
 	'Class:WorkOrder/Attribute:ticket_ref' => '工单编号',
 	'Class:WorkOrder/Attribute:ticket_ref+' => '',
-	'Class:WorkOrder/Attribute:team_id' => '执行团队',
+	'Class:WorkOrder/Attribute:team_id' => '团队',
 	'Class:WorkOrder/Attribute:team_id+' => '',
 	'Class:WorkOrder/Attribute:team_name' => '团队名称',
 	'Class:WorkOrder/Attribute:team_name+' => '',
