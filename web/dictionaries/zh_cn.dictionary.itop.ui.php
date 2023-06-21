@@ -1078,7 +1078,7 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:OperationCancelled' => '操作已取消',
 	'UI:ElementsDisplayed' => '正在筛选',
 	'UI:RelationGroupNumber_N' => '分组 #%1$d',
-	'UI:Relation:ExportAsPDF' => '导出PDF...',
+	'UI:Relation:ExportAsPDF' => '导出为 PDF...',
 	'UI:RelationOption:GroupingThreshold' => '分组阈值',
 	'UI:Relation:AdditionalContextInfo' => '其它信息',
 	'UI:Relation:NoneSelected' => '无',
@@ -1476,7 +1476,7 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:ConcurrentLockKilled' => '阻止并发修改当前对象的锁已被删除.',
 	'UI:Menu:KillConcurrentLock' => '消除并发修改锁定!',
 
-	'UI:Menu:ExportPDF' => '导出PDF...',
+	'UI:Menu:ExportPDF' => '导出为 PDF...',
 	'UI:Menu:PrintableVersion' => '打印',
 
 	'UI:BrowseInlineImages' => '浏览图片...',
@@ -1486,9 +1486,9 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:NoInlineImage' => '服务器上没有图片. 使用上面的 "浏览" 按钮,从您的电脑上选择并上传到服务器.',
 
 	'UI:ToggleFullScreen' => '切换 最大化/最小化',
-	'UI:Button:ResetImage' => '恢复之前的头像',
-	'UI:Button:RemoveImage' => '删除头像',
-	'UI:Button:UploadImage' => '从本地硬盘上传头像',
+	'UI:Button:ResetImage' => '恢复之前的图片',
+	'UI:Button:RemoveImage' => '删除图片',
+	'UI:Button:UploadImage' => '从本地硬盘上传图片',
 	'UI:UploadNotSupportedInThisMode' => '本模式下不支持修改文件或图片.',
 
 	'UI:Button:RemoveDocument' => '删除文档',
