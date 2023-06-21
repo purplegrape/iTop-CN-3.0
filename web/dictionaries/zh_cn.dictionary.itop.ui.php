@@ -1180,7 +1180,7 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:ArchiveMode:Banner' => '归档模式',
 	'UI:ArchiveMode:Banner+' => '已归档的对象可见但不允许修改',
 	'UI:FavoriteOrganizations' => '快速访问',
-	'UI:FavoriteOrganizations+' => '进入组织下的列表,可实现通过下拉菜单快速访问. 请注意,这并不是一个安全设置, 其它组织的对象依然可以通过选择 "所有组织" 下拉列表看到.',
+	'UI:FavoriteOrganizations+' => '进入组织下的列表,可实现通过下拉菜单快速访问. 请注意,这并不是一项安全设置, 其它组织的对象依然可以通过选择 "所有组织" 下拉列表看到.',
 
 	'UI:FavoriteLanguage' => '语言',
 	'UI:Favorites:SelectYourLanguage' => '选择语言',
