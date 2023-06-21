@@ -41,7 +41,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Error:XHR:Fail' => '无法加载数据, 请联系管理员',
 	'Portal:ErrorUserLoggedOut' => '您已退出，请重新登录.',
 	'Portal:Datatables:Language:Processing' => '请稍后...',
-	'Portal:Datatables:Language:Search' => '过滤器:',
+	'Portal:Datatables:Language:Search' => '筛选器:',
 	'Portal:Datatables:Language:LengthMenu' => '每页显示 _MENU_ 项',
 	'Portal:Datatables:Language:ZeroRecords' => '没有结果',
 	'Portal:Datatables:Language:Info' => '第 _PAGE_ 页,共 _PAGES_ 页',
