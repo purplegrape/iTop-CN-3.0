@@ -39,7 +39,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'RemoteApplicationConnection:authinfo' => '鉴权',
 
 	// EventWebhook
-	'Class:EventWebhook' => 'Webhook emission event',
+	'Class:EventWebhook' => 'Webhook 事件',
 	'Class:EventWebhook/Attribute:action_finalclass' => '终极类',
 	'Class:EventWebhook/Attribute:webhook_url' => 'Webhook URL',
 	'Class:EventWebhook/Attribute:headers' => 'Headers',

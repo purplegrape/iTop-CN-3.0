@@ -214,7 +214,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:UserRequest/Attribute:user_satisfaction/Value:3+' => '不满意',
 	'Class:UserRequest/Attribute:user_satisfaction/Value:4' => '非常不满意',
 	'Class:UserRequest/Attribute:user_satisfaction/Value:4+' => '非常不满意',
-	'Class:UserRequest/Attribute:user_comment' => '用户留言',
+	'Class:UserRequest/Attribute:user_comment' => '用户评论',
 	'Class:UserRequest/Attribute:user_comment+' => '',
 	'Class:UserRequest/Attribute:parent_request_id_friendlyname' => 'parent_request_id_friendlyname',
 	'Class:UserRequest/Attribute:parent_request_id_friendlyname+' => '',
