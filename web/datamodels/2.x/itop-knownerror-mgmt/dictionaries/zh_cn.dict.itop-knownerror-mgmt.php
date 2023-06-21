@@ -52,7 +52,7 @@
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:KnownError' => '已知错误',
-	'Class:KnownError+' => '记录一个已知错误',
+	'Class:KnownError+' => '记录已知错误',
 	'Class:KnownError/Attribute:name' => '名称',
 	'Class:KnownError/Attribute:name+' => '',
 	'Class:KnownError/Attribute:org_id' => '客户',

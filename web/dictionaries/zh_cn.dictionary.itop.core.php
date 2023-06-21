@@ -822,7 +822,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:CMDBChangeOpSetAttributeCaseLog' => 'Case Log',
 	'Class:CMDBChangeOpSetAttributeCaseLog/Attribute:lastentry' => 'Last Entry',
 	'Class:SynchroDataSource' => '同步数据源',
-	'Class:SynchroDataSource/Attribute:status/Value:implementation' => '上线',
+	'Class:SynchroDataSource/Attribute:status/Value:implementation' => '生效',
 	'Class:SynchroDataSource/Attribute:status/Value:obsolete' => '废弃',
 	'Class:SynchroDataSource/Attribute:status/Value:production' => '生产',
 	'Class:SynchroDataSource/Attribute:scope_restriction' => '范围限制',

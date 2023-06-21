@@ -16,6 +16,7 @@
  *
  * You should have received a copy of the GNU Affero General Public License
  */
+
 // Activity panel
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:Layout:ActivityPanel:SizeToggler:Expand:Tooltip' => '展开',
@@ -40,7 +41,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:Layout:ActivityPanel:Tab:Toolbar:Info:MessagesCount:Tooltip' => '显示日志条数',
 
 	// Compose button
-	'UI:Layout:ActivityPanel:ComposeButton:Tooltip' => '添加新的内容',
+	'UI:Layout:ActivityPanel:ComposeButton:Tooltip' => '撰写新的日志',
 
 	// Case log entry
 	'UI:Layout:ActivityPanel:MultipleEntriesSaveConfirmation:Title' => '保存多个条目',

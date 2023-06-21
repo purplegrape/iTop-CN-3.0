@@ -86,7 +86,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Menu:ProblemManagement' => '问题管理',
 	'Menu:ProblemManagement+' => '问题管理',
 	'Menu:Problem:Shortcuts' => '快捷方式',
-	'Menu:FAQCategory' => 'FAQ 分类',
+	'Menu:FAQCategory' => 'FAQ 类型',
 	'Menu:FAQCategory+' => '所有 FAQ 的类型',
 	'Menu:FAQ' => 'FAQ',
 	'Menu:FAQ+' => '所有 FAQ',

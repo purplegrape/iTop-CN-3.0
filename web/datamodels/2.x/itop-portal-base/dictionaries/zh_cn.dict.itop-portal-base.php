@@ -36,7 +36,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Error:HTTP:400' => 'Bad request~~',
 	'Error:HTTP:401' => '认证',
 	'Error:HTTP:404' => '页面找不到',
-	'Error:HTTP:500' => 'Oops! 发生了一个错误.',
+	'Error:HTTP:500' => 'Oops! 发生了错误.',
 	'Error:HTTP:GetHelp' => '如果问题仍然存在,请联系管理员.',
 	'Error:XHR:Fail' => '无法加载数据, 请联系管理员',
 	'Portal:ErrorUserLoggedOut' => '您已退出，请重新登录.',

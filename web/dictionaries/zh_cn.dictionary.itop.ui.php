@@ -21,7 +21,7 @@
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:AuditCategory' => '审计类型',
-	'Class:AuditCategory+' => '全部审计中的一个区段',
+	'Class:AuditCategory+' => '全部审计中的一项',
 	'Class:AuditCategory/Attribute:name' => '名称',
 	'Class:AuditCategory/Attribute:name+' => '类型简称',
 	'Class:AuditCategory/Attribute:description' => '描述',
@@ -419,7 +419,7 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:Button:Add' => ' 添加 ',
 	'UI:Button:AddToList' => ' << 添加 ',
 	'UI:Button:RemoveFromList' => ' 删除 >> ',
-	'UI:Button:FilterList' => ' 过滤... ',
+	'UI:Button:FilterList' => ' 查找... ',
 	'UI:Button:Create' => ' 创建 ',
 	'UI:Button:Delete' => ' 删除 ! ',
 	'UI:Button:Rename' => ' 重命名... ',
@@ -730,7 +730,7 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:RunQuery:DevelopedOQLCount' => '通过高级OQL语句查询个数~~',
 	'UI:RunQuery:ResultSQLCount' => '通过SQL语句查询个数~~',
 	'UI:RunQuery:ResultSQL' => 'SQL语句~~',
-	'UI:RunQuery:Error' => '运行该查询时发生了一个错误',
+	'UI:RunQuery:Error' => '运行该查询时发生了错误',
 	'UI:Query:UrlForExcel' => 'URL to use for MS-Excel web queries',
 	'UI:Query:UrlV1' => 'The list of fields has been left unspecified. The page <em>export-V2.php</em> cannot be invoked without this information. Therefore, the URL suggested here below points to the legacy page: <em>export.php</em>. This legacy version of the export has the following limitation: the list of exported fields may vary depending on the output format and the data model of '.ITOP_APPLICATION_SHORT.'. <br/>Should you want to garantee that the list of exported columns will remain stable on the long run, then you must specify a value for the attribute "Fields" and use the page <em>export-V2.php</em>.',
 	'UI:Schema:Title' => ITOP_APPLICATION_SHORT.' 对象模型',
@@ -1076,14 +1076,14 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:RelationshipList' => '列表',
 	'UI:RelationGroups' => '组',
 	'UI:OperationCancelled' => '操作已取消',
-	'UI:ElementsDisplayed' => '过滤',
+	'UI:ElementsDisplayed' => '正在查找',
 	'UI:RelationGroupNumber_N' => '分组 #%1$d',
 	'UI:Relation:ExportAsPDF' => '导出PDF...',
 	'UI:RelationOption:GroupingThreshold' => '分组阈值',
 	'UI:Relation:AdditionalContextInfo' => '其它信息',
 	'UI:Relation:NoneSelected' => '无',
 	'UI:Relation:Zoom' => '缩放',
-	'UI:Relation:ExportAsAttachment' => '导出为附件...',
+	'UI:Relation:ExportAsAttachment' => '导出附件...',
 	'UI:Relation:DrillDown' => '详情...',
 	'UI:Relation:PDFExportOptions' => 'PDF 导出选项',
 	'UI:Relation:AttachmentExportOptions_Name' => 'Options for Attachment to %1$s',
@@ -1127,11 +1127,11 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'Portal:DescriptionOfTheRequest' => '请输入描述:',
 	'Portal:TitleRequestDetailsFor_Request' => '需求详情 %1$s:',
 	'Portal:NoOpenRequest' => '该类别中没有打开的需求.',
-	'Portal:NoClosedRequest' => '该分类中没有需求',
+	'Portal:NoClosedRequest' => '该类别中没有已关闭需求',
 	'Portal:Button:ReopenTicket' => '重新打开这个工单',
 	'Portal:Button:CloseTicket' => '关闭这个工单',
 	'Portal:Button:UpdateRequest' => '更新需求',
-	'Portal:EnterYourCommentsOnTicket' => '请点评该工单的解决方案:',
+	'Portal:EnterYourCommentsOnTicket' => '请输入该工单的解决方案:',
 	'Portal:ErrorNoContactForThisUser' => '错误: 当前用户没有与任何联系人关联. 请联系管理员.',
 	'Portal:Attachments' => '附件',
 	'Portal:AddAttachment' => ' 添加附件 ',
@@ -1236,9 +1236,9 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:Dashboard:NotUpToDateUntilContainerSaved' => 'This dashboard displays information that does not include the on-going changes.~~',
 
 
-	'UI:DashletCreation:Title' => '创建新组件',
+	'UI:DashletCreation:Title' => '创建新模块',
 	'UI:DashletCreation:Dashboard' => '仪表盘',
-	'UI:DashletCreation:DashletType' => '组件类型',
+	'UI:DashletCreation:DashletType' => '模块类型',
 	'UI:DashletCreation:EditNow' => '编辑仪表盘',
 
 	'UI:DashboardEdit:Title' => '仪表盘编辑器',
@@ -1251,8 +1251,8 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 
 	'UI:DashboardEdit:Layout' => '布局',
 	'UI:DashboardEdit:Properties' => '仪表盘属性',
-	'UI:DashboardEdit:Dashlets' => '可用的组件',
-	'UI:DashboardEdit:DashletProperties' => '组件属性',
+	'UI:DashboardEdit:Dashlets' => '可用的模块',
+	'UI:DashboardEdit:DashletProperties' => '模块属性',
 
 	'UI:Form:Property' => '属性',
 	'UI:Form:Value' => '值',
@@ -1580,7 +1580,7 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:Search:Criteria:Operator:TagSet:Matches' => '匹配',
 
 	// - Other translations
-	'UI:Search:Value:Filter:Placeholder' => '过滤...',
+	'UI:Search:Value:Filter:Placeholder' => '查找...',
 	'UI:Search:Value:Search:Placeholder' => '搜索...',
 	'UI:Search:Value:Autocomplete:StartTyping' => '开始输入值.',
 	'UI:Search:Value:Autocomplete:Wait' => '请稍后...',
@@ -1603,8 +1603,8 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:Search:Criteria:DateTime:PlaceholderUntilTime' => '任何日期',
 	'UI:Search:Criteria:HierarchicalKey:ChildrenIncluded:Hint' => '将会包含选中对象的子集.',
 
-	'UI:Search:Criteria:Raw:Filtered' => '已过滤',
-	'UI:Search:Criteria:Raw:FilteredOn' => '基于 %1$s 过滤',
+	'UI:Search:Criteria:Raw:Filtered' => '已找到',
+	'UI:Search:Criteria:Raw:FilteredOn' => '基于 %1$s 查找',
 
 	'UI:StateChanged' => '状态已改变',
 ));

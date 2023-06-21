@@ -16,6 +16,7 @@
  *
  * You should have received a copy of the GNU Affero General Public License
  */
+
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Attachments:TabTitle_Count' => '附件 (%1$d)',
 	'Attachments:EmptyTabTitle' => '附件',

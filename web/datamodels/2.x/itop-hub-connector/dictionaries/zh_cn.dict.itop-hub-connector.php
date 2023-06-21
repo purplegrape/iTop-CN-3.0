@@ -3,7 +3,7 @@
  * Localized data
  *
  * @copyright Copyright (C) 2010-2018 Combodo SARL
- * @license	http://opensource.org/licenses/AGPL-3.0
+ * @license    http://opensource.org/licenses/AGPL-3.0
  *
  * This file is part of iTop.
  *
@@ -20,11 +20,12 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with iTop. If not, see <http://www.gnu.org/licenses/>
  */
+
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	// Dictionary entries go here
 	'Menu:iTopHub' => 'iTop Hub',
 	'Menu:iTopHub:Register' => '进入 iTop Hub ',
-	'Menu:iTopHub:Register+' => '进入 iTop Hub 更新您的组件',
+	'Menu:iTopHub:Register+' => '进入 iTop Hub 更新您的 '.ITOP_APPLICATION_SHORT.' 实例',
 	'Menu:iTopHub:Register:Description' => '<p>进入 iTop Hub 社区平台!</br>寻找您想要的内容和信息, 管理本机扩展或安装新的扩展.</br><br/>通过这个页面连接到iTop Hub, 本机的信息也会被推送到 iTop Hub 上.</p>',
 	'Menu:iTopHub:MyExtensions' => '已安装的扩展',
 	'Menu:iTopHub:MyExtensions+' => '查看本机已安装的扩展',

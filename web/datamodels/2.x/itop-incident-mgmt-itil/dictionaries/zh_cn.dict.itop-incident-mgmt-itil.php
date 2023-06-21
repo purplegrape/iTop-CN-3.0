@@ -117,8 +117,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Incident/Attribute:origin/Value:monitoring+' => '监控',
 	'Class:Incident/Attribute:origin/Value:phone' => '电话',
 	'Class:Incident/Attribute:origin/Value:phone+' => '电话',
-	'Class:Incident/Attribute:origin/Value:portal' => 'portal',
-	'Class:Incident/Attribute:origin/Value:portal+' => 'portal',
+	'Class:Incident/Attribute:origin/Value:portal' => '门户',
+	'Class:Incident/Attribute:origin/Value:portal+' => '门户网站',
 	'Class:Incident/Attribute:service_id' => '服务',
 	'Class:Incident/Attribute:service_id+' => '',
 	'Class:Incident/Attribute:service_name' => '服务名称',
@@ -234,6 +234,6 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Incident/Error:CannotAssignParentIncidentIdToSelf' => '不能分配父级事件给自己',
 
 	'Class:Incident/Method:ResolveChildTickets' => '解决子工单',
-	'Class:Incident/Method:ResolveChildTickets+' => '级联解决子Ticket(事件自动解决),和调整以下内容保持一至: 服务, 团队, 办理人, 解决方案',
+	'Class:Incident/Method:ResolveChildTickets+' => '递归解决子工单(自动解决),并调整相关字段与父级工单保持一致: 服务, 团队, 办理人, 解决方案',
 	'Tickets:Related:OpenIncidents' => '打开的事件',
 ));
