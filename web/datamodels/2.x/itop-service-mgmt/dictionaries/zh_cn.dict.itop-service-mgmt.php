@@ -134,7 +134,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Contract/Attribute:status/Value:production' => '生产',
 	'Class:Contract/Attribute:status/Value:production+' => '生产',
 	'Class:Contract/Attribute:finalclass' => '类型',
-	'Class:Contract/Attribute:finalclass+' => '终极类',
+	'Class:Contract/Attribute:finalclass+' => '根本属性的名称',
 ));
 //
 // Class: CustomerContract

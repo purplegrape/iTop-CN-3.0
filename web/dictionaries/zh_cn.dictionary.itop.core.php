@@ -260,8 +260,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:CMDBChangeOp/Attribute:objclass+' => 'object class',
 	'Class:CMDBChangeOp/Attribute:objkey' => '对象id',
 	'Class:CMDBChangeOp/Attribute:objkey+' => '对象id',
-	'Class:CMDBChangeOp/Attribute:finalclass' => 'CMDBChangeOp sub-class',
-	'Class:CMDBChangeOp/Attribute:finalclass+' => '终极类名称',
+	'Class:CMDBChangeOp/Attribute:finalclass' => 'CMDB 操作类型',
+	'Class:CMDBChangeOp/Attribute:finalclass+' => '根本属性的名称',
 ));
 
 //
@@ -361,7 +361,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Event/Attribute:userinfo' => '用户信息',
 	'Class:Event/Attribute:userinfo+' => 'identification of the user that was doing the action that triggered this event',
 	'Class:Event/Attribute:finalclass' => '事件类型',
-	'Class:Event/Attribute:finalclass+' => '终极类名称',
+	'Class:Event/Attribute:finalclass+' => '根本属性的名称',
 ));
 
 //
@@ -500,7 +500,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Action/Attribute:trigger_list' => '触发器',
 	'Class:Action/Attribute:trigger_list+' => '该动作关联的触发器',
 	'Class:Action/Attribute:finalclass' => '动作类型',
-	'Class:Action/Attribute:finalclass+' => '终极类名称',
+	'Class:Action/Attribute:finalclass+' => '根本属性的名称',
 	'Action:WarningNoTriggerLinked' => '警告, 该动作未关联任何触发器. 想要生效,必须至少关联1个触发器.',
 ));
 
@@ -566,7 +566,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Trigger/Attribute:action_list' => '触发的动作',
 	'Class:Trigger/Attribute:action_list+' => '触发器激活时执行的行为',
 	'Class:Trigger/Attribute:finalclass' => '触发器类型',
-	'Class:Trigger/Attribute:finalclass+' => '终极类名称',
+	'Class:Trigger/Attribute:finalclass+' => '根本属性的名称',
 	'Class:Trigger/Attribute:context' => '上下文',
 	'Class:Trigger/Attribute:context+' => '触发场景',
 ));
@@ -1079,7 +1079,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:AsyncTask/Attribute:planned+' => '',
 	'Class:AsyncTask/Attribute:event_id' => '事件',
 	'Class:AsyncTask/Attribute:event_id+' => '',
-	'Class:AsyncTask/Attribute:finalclass' => '终极类',
+	'Class:AsyncTask/Attribute:finalclass' => '类型',
 	'Class:AsyncTask/Attribute:finalclass+' => '~~',
 	'Class:AsyncTask/Attribute:status' => '状态',
 	'Class:AsyncTask/Attribute:status+' => '~~',

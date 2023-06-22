@@ -128,8 +128,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:FunctionalCI/Attribute:applicationsolution_list+' => '该配置项依赖的所有应用方案',
 	'Class:FunctionalCI/Attribute:softwares_list' => '软件',
 	'Class:FunctionalCI/Attribute:softwares_list+' => '该配置项上已安装的所有软件',
-	'Class:FunctionalCI/Attribute:finalclass' => '终极类',
-	'Class:FunctionalCI/Attribute:finalclass+' => '终极类名称',
+	'Class:FunctionalCI/Attribute:finalclass' => '类型',
+	'Class:FunctionalCI/Attribute:finalclass+' => '根本属性的名称',
 	'Class:FunctionalCI/Tab:OpenedTickets' => '活跃的工单',
 ));
 
@@ -913,8 +913,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Patch/Attribute:documents_list+' => '该补丁关联的所有文档',
 	'Class:Patch/Attribute:description' => '描述',
 	'Class:Patch/Attribute:description+' => '',
-	'Class:Patch/Attribute:finalclass' => '补丁类型',
-	'Class:Patch/Attribute:finalclass+' => '终极类名称',
+	'Class:Patch/Attribute:finalclass' => '类型',
+	'Class:Patch/Attribute:finalclass+' => '根本属性的名称',
 ));
 
 //
@@ -978,8 +978,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Licence/Attribute:perpetual/Value:no+' => '否',
 	'Class:Licence/Attribute:perpetual/Value:yes' => '是',
 	'Class:Licence/Attribute:perpetual/Value:yes+' => '是',
-	'Class:Licence/Attribute:finalclass' => '许可证类型',
-	'Class:Licence/Attribute:finalclass+' => '终极类名称',
+	'Class:Licence/Attribute:finalclass' => '类型',
+	'Class:Licence/Attribute:finalclass+' => '根本属性的名称',
 ));
 
 //
@@ -1285,8 +1285,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:NetworkInterface+' => '',
 	'Class:NetworkInterface/Attribute:name' => '名称',
 	'Class:NetworkInterface/Attribute:name+' => '',
-	'Class:NetworkInterface/Attribute:finalclass' => '网卡类型',
-	'Class:NetworkInterface/Attribute:finalclass+' => '终极类名称',
+	'Class:NetworkInterface/Attribute:finalclass' => '类型',
+	'Class:NetworkInterface/Attribute:finalclass+' => '根本属性的名称',
 ));
 
 //

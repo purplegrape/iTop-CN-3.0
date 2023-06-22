@@ -146,7 +146,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Contact/Attribute:cis_list' => '配置项',
 	'Class:Contact/Attribute:cis_list+' => '该联系人关联的所有配置项',
 	'Class:Contact/Attribute:finalclass' => '联系人类型',
-	'Class:Contact/Attribute:finalclass+' => '终极类名称',
+	'Class:Contact/Attribute:finalclass+' => '根本属性的名称',
 ));
 
 //
@@ -231,7 +231,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Document/Attribute:cis_list' => '配置项',
 	'Class:Document/Attribute:cis_list+' => '该文档关联的所有配置项',
 	'Class:Document/Attribute:finalclass' => '文档类型',
-	'Class:Document/Attribute:finalclass+' => '终极类名称',
+	'Class:Document/Attribute:finalclass+' => '根本属性的名称',
 ));
 
 //
@@ -272,12 +272,12 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:Typology' => '类型',
+	'Class:Typology' => '拓扑',
 	'Class:Typology+' => '',
 	'Class:Typology/Attribute:name' => '名称',
 	'Class:Typology/Attribute:name+' => '',
-	'Class:Typology/Attribute:finalclass' => '类型',
-	'Class:Typology/Attribute:finalclass+' => '终极类名称',
+	'Class:Typology/Attribute:finalclass' => '拓扑类型',
+	'Class:Typology/Attribute:finalclass+' => '根本属性的名称',
 ));
 
 //
