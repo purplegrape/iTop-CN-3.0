@@ -16,6 +16,7 @@
  *
  * You should have received a copy of the GNU Affero General Public License
  */
+
 // Display DataTable
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:Datatables:Language:Processing'        => '请稍候...',
@@ -24,7 +25,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:Datatables:Language:Info'              => '_TOTAL_ 项',
 	'UI:Datatables:Language:InfoEmpty'         => '未找到相关信息',
 	'UI:Datatables:Language:EmptyTable'        => '暂无数据',
-	'UI:Datatables:Language:Error'             => 'An error occured while running the query~~',
+	'UI:Datatables:Language:Error'             => '查询时发生错误',
 	'UI:Datatables:Language:DisplayLength:All' => '全部',
 	'UI:Datatables:Language:Sort:Ascending'    => '顺序排序',
 	'UI:Datatables:Language:Sort:Descending'   => '倒序排序',

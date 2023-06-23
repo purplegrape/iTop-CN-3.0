@@ -217,8 +217,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	// ActionMicrosoftTeamsNotification
 	'Class:ActionMicrosoftTeamsNotification' => 'Microsoft Teams 通知',
 	'Class:ActionMicrosoftTeamsNotification+' => 'Send a notification as a Microsoft Teams message in a channel~~',
-	'Class:ActionMicrosoftTeamsNotification/Attribute:title' => 'Title',
-	'Class:ActionMicrosoftTeamsNotification/Attribute:message' => 'Message',
+	'Class:ActionMicrosoftTeamsNotification/Attribute:title' => '标题',
+	'Class:ActionMicrosoftTeamsNotification/Attribute:message' => '消息',
 	'Class:ActionMicrosoftTeamsNotification/Attribute:include_list_attributes' => 'Attributes from',
 	'Class:ActionMicrosoftTeamsNotification/Attribute:include_list_attributes+' => 'Display additional attributes below the message. They can be either from the usual \'list\' view or the custom \'msteams\' view of the object triggering the notification . Note that the \'msteams\' view must be defined in the datamodel first (zlist)~~',
 	'Class:ActionMicrosoftTeamsNotification/Attribute:include_list_attributes/Value:list' => 'the usual list view',
