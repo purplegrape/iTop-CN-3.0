@@ -9,27 +9,27 @@
 // Menus
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Menu:Integrations' => '集成',
-	'Dashboard:Integrations:Title' => 'Integrations with external applications~~',
+	'Dashboard:Integrations:Title' => '与外部程序集成',
 	'Dashboard:Integrations:Outgoing:Title' => '外部 webhook 集成',
-	'Dashboard:Integrations:ActionWebhookList:Title' => 'Webhook type actions~~',
+	'Dashboard:Integrations:ActionWebhookList:Title' => 'Webhook 操作',
 ));
 
 // Base classes
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	// RemoteApplicationType
-	'Class:RemoteApplicationType' => 'Remote application type~~',
+	'Class:RemoteApplicationType' => '远程应用类型',
 	'Class:RemoteApplicationType/Attribute:remoteapplicationconnections_list' => 'Connections',
 	'Class:RemoteApplicationType/Attribute:remoteapplicationconnections_list+' => 'Connections for that application~~',
 
 	// RemoteApplicationConnection
 	'Class:RemoteApplicationConnection' => 'Remote application connection',
-	'Class:RemoteApplicationConnection/Attribute:remoteapplicationtype_id' => 'Application type',
+	'Class:RemoteApplicationConnection/Attribute:remoteapplicationtype_id' => '应用类型',
 	'Class:RemoteApplicationConnection/Attribute:remoteapplicationtype_id+' => 'Type of application the connection is for (use \'Generic\' if yours is not in the list)~~',
-	'Class:RemoteApplicationConnection/Attribute:environment' => 'Environment',
+	'Class:RemoteApplicationConnection/Attribute:environment' => '环境',
 	'Class:RemoteApplicationConnection/Attribute:environment+' => 'Type of environment of the connection~~',
-	'Class:RemoteApplicationConnection/Attribute:environment/Value:1-development' => 'Development',
-	'Class:RemoteApplicationConnection/Attribute:environment/Value:2-test' => 'Test',
-	'Class:RemoteApplicationConnection/Attribute:environment/Value:3-production' => 'Production',
+	'Class:RemoteApplicationConnection/Attribute:environment/Value:1-development' => '开发',
+	'Class:RemoteApplicationConnection/Attribute:environment/Value:2-test' => '测试',
+	'Class:RemoteApplicationConnection/Attribute:environment/Value:3-production' => '生产',
 	'Class:RemoteApplicationConnection/Attribute:url' => 'URL',
 	'Class:RemoteApplicationConnection/Attribute:actions_list' => 'Webhook 通知',
 	'Class:RemoteApplicationConnection/Attribute:actions_list+' => 'Webhook notifications using this connection~~',
@@ -91,8 +91,8 @@ You can use 2 types of methods:
 	'ActionWebhook:moreinfo' => '更多信息',
 	'ActionWebhook:webhookconnection' => 'Webhook connection',
 	// Note: This one is used by derivated classes
-	'ActionWebhook:requestparameters' => 'Request parameters',
-	'ActionWebhook:advancedparameters' => 'Advanced parameters',
+	'ActionWebhook:requestparameters' => '请求参数',
+	'ActionWebhook:advancedparameters' => '高级参数',
 ));
 
 // iTop

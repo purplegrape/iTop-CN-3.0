@@ -272,11 +272,11 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:Typology' => '拓扑',
+	'Class:Typology' => '分类',
 	'Class:Typology+' => '',
 	'Class:Typology/Attribute:name' => '名称',
 	'Class:Typology/Attribute:name+' => '',
-	'Class:Typology/Attribute:finalclass' => '拓扑类型',
+	'Class:Typology/Attribute:finalclass' => '类型',
 	'Class:Typology/Attribute:finalclass+' => '根本属性的名称',
 ));
 
