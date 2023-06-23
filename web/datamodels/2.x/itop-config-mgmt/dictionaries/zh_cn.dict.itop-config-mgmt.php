@@ -36,7 +36,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Relation:depends on/Description' => '该元素依赖的元素...',
 	'Relation:depends on/DownStream' => '依赖于...',
 	'Relation:depends on/UpStream' => '影响...',
-	'Relation:impacts/LoadData'       => 'Load data~~',
+	'Relation:impacts/LoadData'       => '加载数据',
 	'Relation:impacts/NoFilteredData' => 'please select objects in Graphical view tag~~',
 ));
 
@@ -386,7 +386,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:PC' => 'PC',
+	'Class:PC' => '电脑',
 	'Class:PC+' => '',
 	'Class:PC/Attribute:osfamily_id' => '操作系统家族',
 	'Class:PC/Attribute:osfamily_id+' => '',
@@ -1093,8 +1093,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Model/Attribute:type/Value:NAS+' => 'NAS',
 	'Class:Model/Attribute:type/Value:NetworkDevice' => '网络设备',
 	'Class:Model/Attribute:type/Value:NetworkDevice+' => '网络设备',
-	'Class:Model/Attribute:type/Value:PC' => 'PC',
-	'Class:Model/Attribute:type/Value:PC+' => 'PC',
+	'Class:Model/Attribute:type/Value:PC' => '电脑',
+	'Class:Model/Attribute:type/Value:PC+' => '电脑',
 	'Class:Model/Attribute:type/Value:PDU' => 'PDU',
 	'Class:Model/Attribute:type/Value:PDU+' => 'PDU',
 	'Class:Model/Attribute:type/Value:Peripheral' => '配件',

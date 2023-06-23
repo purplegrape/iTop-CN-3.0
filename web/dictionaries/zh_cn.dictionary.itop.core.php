@@ -535,7 +535,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:ActionEmail/Attribute:reply_to_label' => 'Reply to (label)~~',
 	'Class:ActionEmail/Attribute:reply_to_label+' => 'Reply to display name will be sent into the email header~~',
 	'Class:ActionEmail/Attribute:to' => '收件人',
-	'Class:ActionEmail/Attribute:to+' => 'Destination of the email',
+	'Class:ActionEmail/Attribute:to+' => '邮件的目的地',
 	'Class:ActionEmail/Attribute:cc' => '抄送',
 	'Class:ActionEmail/Attribute:cc+' => '明文抄送',
 	'Class:ActionEmail/Attribute:bcc' => '密抄',
@@ -547,11 +547,11 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:ActionEmail/Attribute:importance' => '重要性',
 	'Class:ActionEmail/Attribute:importance+' => '重要性标记',
 	'Class:ActionEmail/Attribute:importance/Value:low' => '低',
-	'Class:ActionEmail/Attribute:importance/Value:low+' => '低',
-	'Class:ActionEmail/Attribute:importance/Value:normal' => '普通',
-	'Class:ActionEmail/Attribute:importance/Value:normal+' => '普通',
+	'Class:ActionEmail/Attribute:importance/Value:low+' => '',
+	'Class:ActionEmail/Attribute:importance/Value:normal' => '正常',
+	'Class:ActionEmail/Attribute:importance/Value:normal+' => '',
 	'Class:ActionEmail/Attribute:importance/Value:high' => '高',
-	'Class:ActionEmail/Attribute:importance/Value:high+' => '高',
+	'Class:ActionEmail/Attribute:importance/Value:high+' => '',
 ));
 
 //
