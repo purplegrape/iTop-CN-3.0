@@ -437,7 +437,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:lnkSLAToSLT/Attribute:slt_ticket_priority+' => '',
 	'Class:lnkSLAToSLT/Attribute:slt_value' => 'SLT 值',
 	'Class:lnkSLAToSLT/Attribute:slt_value+' => '',
-	'Class:lnkSLAToSLT/Attribute:slt_value_unit' => 'SLT 衡量单位',
+	'Class:lnkSLAToSLT/Attribute:slt_value_unit' => 'SLT 度量单位',
 	'Class:lnkSLAToSLT/Attribute:slt_value_unit+' => '',
 ));
 
