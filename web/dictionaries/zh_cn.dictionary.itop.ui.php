@@ -999,7 +999,7 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 <p>
 <i><b>动作</b></i> 定义了触发时要执行的动作. 当前仅支持两种操作:
 <ol>
-	<li>发送邮件: Such actions also define the template to be used for sending the email as well as the other parameters of the message like the recipients, importance, etc.<br />
+	<li>发送邮件: 该操作定义了发送邮件的模板,同时也包含了邮件的其它参数,比如收件人,重要性等.<br />
 	页面: <a href="../setup/email.test.php" target="_blank">email.test.php</a> 专用于测试和调试PHP的邮件配置.</li>
 	<li>外部webhook: 通过向指定的URL发送结构化的数据,与第三方应用集成.</li>
 </ol>
