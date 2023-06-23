@@ -70,7 +70,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Query/Attribute:name' => '名称',
 	'Class:Query/Attribute:name+' => '查询的名称',
 	'Class:Query/Attribute:description' => '描述',
-	'Class:Query/Attribute:description+' => '请描述此查询 (目的、用法等等.)',
+	'Class:Query/Attribute:description+' => '请描述该查询 (目的、用法等等.)',
 	'Class:Query/Attribute:is_template' => 'Template for OQL fields~~',
 	'Class:Query/Attribute:is_template+' => 'Usable as source for recipient OQL in Notifications~~',
 	'Class:Query/Attribute:is_template/Value:yes' => '是',
@@ -185,7 +185,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:URP_UserProfile/Attribute:profile' => '角色',
 	'Class:URP_UserProfile/Attribute:profile+' => '角色名称',
 	'Class:URP_UserProfile/Attribute:reason' => '原因',
-	'Class:URP_UserProfile/Attribute:reason+' => '解释为什么此用户需要拥有该角色',
+	'Class:URP_UserProfile/Attribute:reason+' => '解释为什么该用户需要拥有该角色',
 ));
 
 //
@@ -206,7 +206,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:URP_UserOrg/Attribute:allowed_org_name' => '组织',
 	'Class:URP_UserOrg/Attribute:allowed_org_name+' => '可以访问的组织',
 	'Class:URP_UserOrg/Attribute:reason' => '原因',
-	'Class:URP_UserOrg/Attribute:reason+' => '解释为什么此用户可以访问该组织的数据',
+	'Class:URP_UserOrg/Attribute:reason+' => '解释为什么该用户可以访问该组织的数据',
 ));
 
 //
@@ -254,15 +254,15 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:URP_ActionGrant' => '操作许可',
-	'Class:URP_ActionGrant+' => '类上的许可',
+	'Class:URP_ActionGrant' => '操作权限',
+	'Class:URP_ActionGrant+' => '类的操作权限',
 	'Class:URP_ActionGrant/Attribute:profileid' => '角色',
 	'Class:URP_ActionGrant/Attribute:profileid+' => '使用角色',
 	'Class:URP_ActionGrant/Attribute:profile' => '角色',
 	'Class:URP_ActionGrant/Attribute:profile+' => '使用角色',
 	'Class:URP_ActionGrant/Attribute:class' => '类',
 	'Class:URP_ActionGrant/Attribute:class+' => '目标类',
-	'Class:URP_ActionGrant/Attribute:permission' => '许可',
+	'Class:URP_ActionGrant/Attribute:permission' => '权限',
 	'Class:URP_ActionGrant/Attribute:permission+' => '允许或不允许?',
 	'Class:URP_ActionGrant/Attribute:permission/Value:yes' => '是',
 	'Class:URP_ActionGrant/Attribute:permission/Value:yes+' => '是',
@@ -277,22 +277,22 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:URP_StimulusGrant' => '刺激许可',
-	'Class:URP_StimulusGrant+' => '对象生命周期中刺激的许可',
+	'Class:URP_StimulusGrant' => '权限变化',
+	'Class:URP_StimulusGrant+' => '对象生命周期中的权限变化',
 	'Class:URP_StimulusGrant/Attribute:profileid' => '角色',
 	'Class:URP_StimulusGrant/Attribute:profileid+' => '使用角色',
 	'Class:URP_StimulusGrant/Attribute:profile' => '角色',
 	'Class:URP_StimulusGrant/Attribute:profile+' => '使用角色',
 	'Class:URP_StimulusGrant/Attribute:class' => '类',
 	'Class:URP_StimulusGrant/Attribute:class+' => '目标类',
-	'Class:URP_StimulusGrant/Attribute:permission' => '许可',
+	'Class:URP_StimulusGrant/Attribute:permission' => '权限',
 	'Class:URP_StimulusGrant/Attribute:permission+' => '允许或不允许?',
 	'Class:URP_StimulusGrant/Attribute:permission/Value:yes' => '是',
 	'Class:URP_StimulusGrant/Attribute:permission/Value:yes+' => '是',
 	'Class:URP_StimulusGrant/Attribute:permission/Value:no' => '否',
 	'Class:URP_StimulusGrant/Attribute:permission/Value:no+' => '否',
-	'Class:URP_StimulusGrant/Attribute:stimulus' => '刺激',
-	'Class:URP_StimulusGrant/Attribute:stimulus+' => '刺激编码',
+	'Class:URP_StimulusGrant/Attribute:stimulus' => '变化',
+	'Class:URP_StimulusGrant/Attribute:stimulus+' => '变化编码',
 ));
 
 //
@@ -300,10 +300,10 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:URP_AttributeGrant' => '属性许可',
-	'Class:URP_AttributeGrant+' => '属性层次上的许可',
-	'Class:URP_AttributeGrant/Attribute:actiongrantid' => '操作准许',
-	'Class:URP_AttributeGrant/Attribute:actiongrantid+' => '操作准许',
+	'Class:URP_AttributeGrant' => '属性权限',
+	'Class:URP_AttributeGrant+' => '属性层次上的权限',
+	'Class:URP_AttributeGrant/Attribute:actiongrantid' => '授权',
+	'Class:URP_AttributeGrant/Attribute:actiongrantid+' => '授权',
 	'Class:URP_AttributeGrant/Attribute:attcode' => '属性',
 	'Class:URP_AttributeGrant/Attribute:attcode+' => '属性编码',
 ));
@@ -917,8 +917,8 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:UserManagement:Action' => '操作',
 	'UI:UserManagement:Action+' => '该用户进行的操作',
 	'UI:UserManagement:TitleActions' => '操作',
-	'UI:UserManagement:Permission' => '许可',
-	'UI:UserManagement:Permission+' => '用户的许可',
+	'UI:UserManagement:Permission' => '权限',
+	'UI:UserManagement:Permission+' => '用户的权限',
 	'UI:UserManagement:Attributes' => '属性',
 	'UI:UserManagement:ActionAllowed:Yes' => '是',
 	'UI:UserManagement:ActionAllowed:No' => '否',
