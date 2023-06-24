@@ -77,10 +77,10 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Query/Attribute:is_template/Value:no' => '否',
 	'Class:QueryOQL/Attribute:fields' => '区域',
 	'Class:QueryOQL/Attribute:fields+' => '属性之间使用逗号分隔 (or alias.attribute) to export~~',
-	'Class:QueryOQL' => 'OQL 查询',
+	'Class:QueryOQL' => 'OQL查询',
 	'Class:QueryOQL+' => 'A query based on the Object Query Language',
 	'Class:QueryOQL/Attribute:oql' => '表达式',
-	'Class:QueryOQL/Attribute:oql+' => 'OQL 表达式',
+	'Class:QueryOQL/Attribute:oql+' => 'OQL表达式',
 ));
 
 //////////////////////////////////////////////////////////////////////
@@ -244,7 +244,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:URP_ClassProjection/Attribute:class' => '类',
 	'Class:URP_ClassProjection/Attribute:class+' => '目标类',
 	'Class:URP_ClassProjection/Attribute:value' => '值表达式',
-	'Class:URP_ClassProjection/Attribute:value+' => 'OQL 表达式 (using $this) | constant |  | +attribute code',
+	'Class:URP_ClassProjection/Attribute:value+' => 'OQL表达式 (using $this) | constant |  | +attribute code',
 	'Class:URP_ClassProjection/Attribute:attribute' => '属性',
 	'Class:URP_ClassProjection/Attribute:attribute+' => '目标属性编码 (可选)',
 ));
@@ -511,7 +511,7 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:Menu:Add' => '添加...',
 	'UI:Menu:Manage' => '管理...',
 	'UI:Menu:EMail' => '邮件发送',
-	'UI:Menu:CSVExport' => 'CSV 导出...',
+	'UI:Menu:CSVExport' => 'CSV导出...',
 	'UI:Menu:Modify' => '修改...',
 	'UI:Menu:Delete' => '删除...',
 	'UI:Menu:BulkDelete' => '删除...',
@@ -596,7 +596,7 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:CSVImport:DataLine2'                       => '数据行 2',
 	'UI:CSVImport:idField'                         => 'id (主键)',
 	'UI:Title:BulkImport'                          => ITOP_APPLICATION_SHORT.' - 批量导入',
-	'UI:Title:BulkImport+'                         => 'CSV 导入向导',
+	'UI:Title:BulkImport+'                         => 'CSV导入向导',
 	'UI:Title:BulkSynchro_nbItem_ofClass_class'    => '同步 %2$s 个对象中的 %1$d',
 	'UI:CSVImport:ClassesSelectOne'                => '-- 请选择 --',
 	'UI:CSVImport:ErrorExtendedAttCode'            => '内部错误: "%1$s" 是错误的编码, 因为 "%2$s" 不是类 "%3$s" 的外键',
@@ -623,7 +623,7 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:CSVImport:QualifierOther' => '其它:',
 	'UI:CSVImport:TreatFirstLineAsHeader' => '将第一行视做标题头(列名称)',
 	'UI:CSVImport:Skip_N_LinesAtTheBeginning' => '跳过文件开始的 %1$s 行',
-	'UI:CSVImport:CSVDataPreview' => 'CSV 数据预览',
+	'UI:CSVImport:CSVDataPreview' => 'CSV数据预览',
 	'UI:CSVImport:SelectFile' => '请选择要导入的文件:',
 	'UI:CSVImport:Tab:LoadFromFile' => '从文件导入',
 	'UI:CSVImport:Tab:CopyPaste' => '复制和粘贴的数据',
@@ -719,17 +719,17 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:RunQuery:QueryResults' => '查询结果',
 	'UI:RunQuery:HeaderPurpose' => '目标',
 	'UI:RunQuery:HeaderPurpose+' => '该查询的解释',
-	'UI:RunQuery:HeaderOQLExpression' => 'OQL 语句',
-	'UI:RunQuery:HeaderOQLExpression+' => 'OQL 语句表示的查询',
+	'UI:RunQuery:HeaderOQLExpression' => 'OQL表达式',
+	'UI:RunQuery:HeaderOQLExpression+' => 'OQL表达式表示的查询',
 	'UI:RunQuery:ExpressionToEvaluate' => '请输入表达式: ',
 	'UI:RunQuery:QueryArguments' => '查询参数',
 	'UI:RunQuery:MoreInfo' => '更多信息: ',
 	'UI:RunQuery:DevelopedQuery' => '高级查询: ',
 	'UI:RunQuery:SerializedFilter' => '序列化的筛选器: ',
-	'UI:RunQuery:DevelopedOQL' => '高级OQL语句~~',
-	'UI:RunQuery:DevelopedOQLCount' => '通过高级OQL语句查询个数~~',
+	'UI:RunQuery:DevelopedOQL' => '高级OQL表达式',
+	'UI:RunQuery:DevelopedOQLCount' => '通过高级OQL表达式查询个数~~',
 	'UI:RunQuery:ResultSQLCount' => '通过SQL语句查询个数~~',
-	'UI:RunQuery:ResultSQL' => 'SQL 语句~~',
+	'UI:RunQuery:ResultSQL' => 'SQL语句',
 	'UI:RunQuery:Error' => '运行该查询时发生了错误',
 	'UI:Query:UrlForExcel' => 'URL to use for MS-Excel web queries',
 	'UI:Query:UrlV1' => 'The list of fields has been left unspecified. The page <em>export-V2.php</em> cannot be invoked without this information. Therefore, the URL suggested here below points to the legacy page: <em>export.php</em>. This legacy version of the export has the following limitation: the list of exported fields may vary depending on the output format and the data model of '.ITOP_APPLICATION_SHORT.'. <br/>Should you want to garantee that the list of exported columns will remain stable on the long run, then you must specify a value for the attribute "Fields" and use the page <em>export-V2.php</em>.',
@@ -909,7 +909,7 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:UserManagement:Action:BulkRead' => '批量读取(导出)',
 	'UI:UserManagement:Action:BulkRead+' => '列出对象或批量导出',
 	'UI:UserManagement:Action:BulkModify' => '批量修改',
-	'UI:UserManagement:Action:BulkModify+' => '批量创建/编辑 (CSV 导入)',
+	'UI:UserManagement:Action:BulkModify+' => '批量创建/编辑 (CSV导入)',
 	'UI:UserManagement:Action:BulkDelete' => '批量删除',
 	'UI:UserManagement:Action:BulkDelete+' => '批量删除对象',
 	'UI:UserManagement:Action:Stimuli' => 'Stimuli',
@@ -975,14 +975,14 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI-ContactsMenu-ContactsByType' => '按类别划分联系人',
 	'UI-ContactsMenu-ContactsByStatus' => '按状态划分联系人',
 
-	'Menu:CSVImportMenu' => 'CSV 导入',// Duplicated into itop-welcome-itil (will be removed from here...)
+	'Menu:CSVImportMenu' => 'CSV导入',// Duplicated into itop-welcome-itil (will be removed from here...)
 	'Menu:CSVImportMenu+' => '批量创建或修改',// Duplicated into itop-welcome-itil (will be removed from here...)
 
 	'Menu:DataModelMenu' => '数据模型',// Duplicated into itop-welcome-itil (will be removed from here...)
 	'Menu:DataModelMenu+' => '数据模型概况',// Duplicated into itop-welcome-itil (will be removed from here...)
 
 	'Menu:ExportMenu' => '导出',// Duplicated into itop-welcome-itil (will be removed from here...)
-	'Menu:ExportMenu+' => '以HTML, CSV 或XML 格式导出任何查询的结果',// Duplicated into itop-welcome-itil (will be removed from here...)
+	'Menu:ExportMenu+' => '以HTML, CSV或XML格式导出任何查询的结果',// Duplicated into itop-welcome-itil (will be removed from here...)
 
 	'Menu:NotificationsMenu' => '通知',// Duplicated into itop-welcome-itil (will be removed from here...)
 	'Menu:NotificationsMenu+' => '配置通知',// Duplicated into itop-welcome-itil (will be removed from here...)
@@ -1078,14 +1078,14 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:OperationCancelled' => '操作已取消',
 	'UI:ElementsDisplayed' => '筛选',
 	'UI:RelationGroupNumber_N' => '分组 #%1$d',
-	'UI:Relation:ExportAsPDF' => '导出为 PDF...',
+	'UI:Relation:ExportAsPDF' => '导出为PDF...',
 	'UI:RelationOption:GroupingThreshold' => '分组阈值',
 	'UI:Relation:AdditionalContextInfo' => '其它信息',
 	'UI:Relation:NoneSelected' => '无',
 	'UI:Relation:Zoom' => '缩放',
 	'UI:Relation:ExportAsAttachment' => '导出附件...',
 	'UI:Relation:DrillDown' => '详情...',
-	'UI:Relation:PDFExportOptions' => 'PDF 导出选项',
+	'UI:Relation:PDFExportOptions' => 'PDF导出选项',
 	'UI:Relation:AttachmentExportOptions_Name' => 'Options for Attachment to %1$s',
 	'UI:RelationOption:Untitled' => '无标题',
 	'UI:Relation:Key' => 'Key',
@@ -1185,7 +1185,7 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:FavoriteLanguage' => '语言',
 	'UI:Favorites:SelectYourLanguage' => '选择语言',
 	'UI:FavoriteOtherSettings' => '其它设置',
-	'UI:Favorites:Default_X_ItemsPerPage' => '默认列表: 每页 %1$s 个项目~~',
+	'UI:Favorites:Default_X_ItemsPerPage' => '默认列表: 每页 %1$s 项',
 	'UI:Favorites:ShowObsoleteData' => '显示废弃的数据',
 	'UI:Favorites:ShowObsoleteData+' => '在搜索结果中显示已废弃的数据',
 	'UI:NavigateAwayConfirmationMessage' => '所有修改都将丢失.',
@@ -1455,8 +1455,8 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:LoginAgain' => '重新登录',
 	'UI:StayOnThePage' => '保持在当前页面',
 
-	'ExcelExporter:ExportMenu' => 'Excel 导出...',
-	'ExcelExporter:ExportDialogTitle' => 'Excel 导出',
+	'ExcelExporter:ExportMenu' => 'Excel导出...',
+	'ExcelExporter:ExportDialogTitle' => 'Excel导出',
 	'ExcelExporter:ExportButton' => '导出',
 	'ExcelExporter:DownloadButton' => '下载 %1$s',
 	'ExcelExporter:RetrievingData' => '正在检索数据...',
@@ -1476,7 +1476,7 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:ConcurrentLockKilled' => '阻止并发修改当前对象的锁已被删除.',
 	'UI:Menu:KillConcurrentLock' => '消除并发修改锁定!',
 
-	'UI:Menu:ExportPDF' => '导出为 PDF...',
+	'UI:Menu:ExportPDF' => '导出为PDF...',
 	'UI:Menu:PrintableVersion' => '打印',
 
 	'UI:BrowseInlineImages' => '浏览图片...',

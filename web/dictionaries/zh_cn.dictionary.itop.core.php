@@ -121,8 +121,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Core:AttributeEmailAddress' => '邮箱地址',
 	'Core:AttributeEmailAddress+' => '邮箱地址',
 
-	'Core:AttributeIPAddress' => 'IP 地址',
-	'Core:AttributeIPAddress+' => 'IP 地址',
+	'Core:AttributeIPAddress' => 'IP地址',
+	'Core:AttributeIPAddress+' => 'IP地址',
 
 	'Core:AttributeOQL' => 'OQL',
 	'Core:AttributeOQL+' => 'Object Query Langage expression',
@@ -136,7 +136,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Core:AttributeTemplateText' => '文字模板',
 	'Core:AttributeTemplateText+' => '包含占位符的文本',
 
-	'Core:AttributeTemplateHTML' => 'HTML 模板',
+	'Core:AttributeTemplateHTML' => 'HTML模板',
 	'Core:AttributeTemplateHTML+' => 'HTML containing placeholders',
 
 	'Core:AttributeDateTime' => '日期/时间',
@@ -260,7 +260,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:CMDBChangeOp/Attribute:objclass+' => 'object class',
 	'Class:CMDBChangeOp/Attribute:objkey' => '对象id',
 	'Class:CMDBChangeOp/Attribute:objkey+' => '对象id',
-	'Class:CMDBChangeOp/Attribute:finalclass' => 'CMDB 操作类型',
+	'Class:CMDBChangeOp/Attribute:finalclass' => 'CMDB操作类型',
 	'Class:CMDBChangeOp/Attribute:finalclass+' => '根本属性的名称',
 ));
 
@@ -526,7 +526,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:ActionEmail/Attribute:status/Value:disabled+' => 'The email notification will not be sent~~',
 	'Class:ActionEmail/Attribute:test_recipient' => '测试收件人',
 	'Class:ActionEmail/Attribute:test_recipient+' => 'Detination in case status is set to "Test"',
-	'Class:ActionEmail/Attribute:from' => '发件人~~',
+	'Class:ActionEmail/Attribute:from' => '发件人',
 	'Class:ActionEmail/Attribute:from+' => 'Will be sent into the email header~~',
 	'Class:ActionEmail/Attribute:from_label' => 'From (label)~~',
 	'Class:ActionEmail/Attribute:from_label+' => 'Sender display name will be sent into the email header~~',
@@ -927,7 +927,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Core:BulkExport:HTMLFormat' => '网页 (*.html)',
 	'Core:BulkExport:CSVFormat' => 'CSV (*.csv)',
 	'Core:BulkExport:XLSXFormat' => 'Excel 2007+ (*.xlsx)',
-	'Core:BulkExport:PDFFormat' => 'PDF 文档 (*.pdf)',
+	'Core:BulkExport:PDFFormat' => 'PDF文档 (*.pdf)',
 	'Core:BulkExport:DragAndDropHelp' => '可拖动或删除列头进行排序. 正在预览 %1$s 行. 一共需要导出: %2$s 行.',
 	'Core:BulkExport:EmptyPreview' => '请选择要导出的列',
 	'Core:BulkExport:ColumnsOrder' => '列顺序',
@@ -936,9 +936,9 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Core:BulkExport:CheckAll' => '全选',
 	'Core:BulkExport:UncheckAll' => '反选',
 	'Core:BulkExport:ExportCancelledByUser' => '导出被用户取消',
-	'Core:BulkExport:CSVOptions' => 'CSV 选项',
+	'Core:BulkExport:CSVOptions' => 'CSV选项',
 	'Core:BulkExport:CSVLocalization' => '本地化',
-	'Core:BulkExport:PDFOptions' => 'PDF 选项',
+	'Core:BulkExport:PDFOptions' => 'PDF选项',
 	'Core:BulkExport:PDFPageFormat' => '页面格式',
 	'Core:BulkExport:PDFPageSize' => '页面大小:',
 	'Core:BulkExport:PageSize-A4' => 'A4',
@@ -962,7 +962,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Core:BulkExportQueryPlaceholder' => '请在这里输入 OQL 查询...',
 	'Core:BulkExportCanRunNonInteractive' => '点击这里运行非交互式导出.',
 	'Core:BulkExportLegacyExport' => '点击这里进入旧版导出.',
-	'Core:BulkExport:XLSXOptions' => 'Excel 选项',
+	'Core:BulkExport:XLSXOptions' => 'Excel选项',
 	'Core:BulkExport:TextFormat' => '文本中包含一些HTML标记',
 	'Core:BulkExport:DateTimeFormat' => '日期和时间格式',
 	'Core:BulkExport:DateTimeFormatDefault_Example' => '默认格式 (%1$s), e.g. %2$s',
@@ -1021,7 +1021,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 // Class: DBProperty
 //
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:DBProperty' => 'DB 属性',
+	'Class:DBProperty' => 'DB属性',
 	'Class:DBProperty+' => '',
 	'Class:DBProperty/Attribute:name' => '名称',
 	'Class:DBProperty/Attribute:name+' => '',

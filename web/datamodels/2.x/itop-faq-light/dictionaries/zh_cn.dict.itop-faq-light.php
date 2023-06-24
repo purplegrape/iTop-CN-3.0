@@ -75,21 +75,21 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:FAQCategory' => 'FAQ 类型',
-	'Class:FAQCategory+' => 'FAQ 的类型',
+	'Class:FAQCategory' => 'FAQ类型',
+	'Class:FAQCategory+' => 'FAQ的类型',
 	'Class:FAQCategory/Attribute:name' => '名称',
 	'Class:FAQCategory/Attribute:name+' => '',
 	'Class:FAQCategory/Attribute:faq_list' => 'FAQ',
-	'Class:FAQCategory/Attribute:faq_list+' => '该类型 FAQ 相关的所有常见问题',
+	'Class:FAQCategory/Attribute:faq_list+' => '该类型FAQ相关的所有常见问题',
 ));
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Menu:ProblemManagement' => '问题管理',
 	'Menu:ProblemManagement+' => '问题管理',
 	'Menu:Problem:Shortcuts' => '快捷方式',
-	'Menu:FAQCategory' => 'FAQ 类型',
-	'Menu:FAQCategory+' => '所有 FAQ 的类型',
+	'Menu:FAQCategory' => 'FAQ类型',
+	'Menu:FAQCategory+' => '所有FAQ的类型',
 	'Menu:FAQ' => 'FAQ',
-	'Menu:FAQ+' => '所有 FAQ',
+	'Menu:FAQ+' => '所有FAQ',
 	'Brick:Portal:FAQ:Menu' => 'FAQ',
 	'Brick:Portal:FAQ:Title' => '常见问题',
 	'Brick:Portal:FAQ:Title+' => '<p>有急事?</p><p>查阅列表中的常见问题,或许可以立即找到令您满意的答案.</p>',

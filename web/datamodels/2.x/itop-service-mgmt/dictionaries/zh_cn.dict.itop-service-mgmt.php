@@ -339,9 +339,9 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:SLA/Attribute:organization_name' => '供应商名称',
 	'Class:SLA/Attribute:organization_name+' => '通用名称',
 	'Class:SLA/Attribute:slts_list' => 'SLT',
-	'Class:SLA/Attribute:slts_list+' => '该SLA 包含的所有服务等级目标',
+	'Class:SLA/Attribute:slts_list+' => '该SLA包含的所有服务等级目标',
 	'Class:SLA/Attribute:customercontracts_list' => '客户合同',
-	'Class:SLA/Attribute:customercontracts_list+' => '使用这个SLA 的所有客户合同',
+	'Class:SLA/Attribute:customercontracts_list+' => '使用这个SLA的所有客户合同',
 	'Class:SLA/Error:UniqueLnkCustomerContractToService' => 'Could not save link with Customer contract %1$s and service %2$s : SLA already exists~~',
 ));
 
@@ -395,21 +395,21 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:lnkSLAToSLT+' => '',
 	'Class:lnkSLAToSLT/Attribute:sla_id' => 'SLA',
 	'Class:lnkSLAToSLT/Attribute:sla_id+' => '',
-	'Class:lnkSLAToSLT/Attribute:sla_name' => 'SLA 名称',
+	'Class:lnkSLAToSLT/Attribute:sla_name' => 'SLA名称',
 	'Class:lnkSLAToSLT/Attribute:sla_name+' => '',
 	'Class:lnkSLAToSLT/Attribute:slt_id' => 'SLT',
 	'Class:lnkSLAToSLT/Attribute:slt_id+' => '',
-	'Class:lnkSLAToSLT/Attribute:slt_name' => 'SLT 名称',
+	'Class:lnkSLAToSLT/Attribute:slt_name' => 'SLT名称',
 	'Class:lnkSLAToSLT/Attribute:slt_name+' => '',
-	'Class:lnkSLAToSLT/Attribute:slt_metric' => 'Slt 指标',
+	'Class:lnkSLAToSLT/Attribute:slt_metric' => 'Slt指标',
 	'Class:lnkSLAToSLT/Attribute:slt_metric+' => '',
 	'Class:lnkSLAToSLT/Attribute:slt_request_type' => 'Slt request type~~',
 	'Class:lnkSLAToSLT/Attribute:slt_request_type+' => '',
-	'Class:lnkSLAToSLT/Attribute:slt_ticket_priority' => 'Slt 工单优先级',
+	'Class:lnkSLAToSLT/Attribute:slt_ticket_priority' => 'Slt工单优先级',
 	'Class:lnkSLAToSLT/Attribute:slt_ticket_priority+' => '',
-	'Class:lnkSLAToSLT/Attribute:slt_value' => 'Slt 值',
+	'Class:lnkSLAToSLT/Attribute:slt_value' => 'Slt值',
 	'Class:lnkSLAToSLT/Attribute:slt_value+' => '',
-	'Class:lnkSLAToSLT/Attribute:slt_value_unit' => 'Slt 值的度量单位',
+	'Class:lnkSLAToSLT/Attribute:slt_value_unit' => 'Slt值的度量单位',
 	'Class:lnkSLAToSLT/Attribute:slt_value_unit+' => '',
 ));
 
@@ -430,7 +430,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:lnkCustomerContractToService/Attribute:service_name+' => '',
 	'Class:lnkCustomerContractToService/Attribute:sla_id' => 'SLA',
 	'Class:lnkCustomerContractToService/Attribute:sla_id+' => '',
-	'Class:lnkCustomerContractToService/Attribute:sla_name' => 'SLA 名称',
+	'Class:lnkCustomerContractToService/Attribute:sla_name' => 'SLA名称',
 	'Class:lnkCustomerContractToService/Attribute:sla_name+' => '',
 ));
 
