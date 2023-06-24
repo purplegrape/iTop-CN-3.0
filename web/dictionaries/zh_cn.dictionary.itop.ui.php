@@ -20,16 +20,16 @@
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:AuditCategory' => '审计类型',
+	'Class:AuditCategory' => '审计类别',
 	'Class:AuditCategory+' => '全部审计中的一项',
 	'Class:AuditCategory/Attribute:name' => '名称',
-	'Class:AuditCategory/Attribute:name+' => '类型简称',
+	'Class:AuditCategory/Attribute:name+' => '类别简称',
 	'Class:AuditCategory/Attribute:description' => '描述',
-	'Class:AuditCategory/Attribute:description+' => '该审计类型的详细描述',
+	'Class:AuditCategory/Attribute:description+' => '该审计类别的详细描述',
 	'Class:AuditCategory/Attribute:definition_set' => '定义',
 	'Class:AuditCategory/Attribute:definition_set+' => '定义用于审计的对象的OQL表达式',
 	'Class:AuditCategory/Attribute:rules_list' => '审计规则',
-	'Class:AuditCategory/Attribute:rules_list+' => '该类型的审计规则',
+	'Class:AuditCategory/Attribute:rules_list+' => '该类别的审计规则',
 ));
 
 //
@@ -54,10 +54,10 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:AuditRule/Attribute:valid_flag/Value:true+' => 'true',
 	'Class:AuditRule/Attribute:valid_flag/Value:false' => 'false',
 	'Class:AuditRule/Attribute:valid_flag/Value:false+' => 'false',
-	'Class:AuditRule/Attribute:category_id' => '类型',
-	'Class:AuditRule/Attribute:category_id+' => '该规则对应的类型',
-	'Class:AuditRule/Attribute:category_name' => '类型',
-	'Class:AuditRule/Attribute:category_name+' => '该规则对应类型的名称',
+	'Class:AuditRule/Attribute:category_id' => '类别',
+	'Class:AuditRule/Attribute:category_id+' => '该规则对应的类别',
+	'Class:AuditRule/Attribute:category_name' => '类别',
+	'Class:AuditRule/Attribute:category_name+' => '该规则对应类别的名称',
 ));
 
 //
@@ -751,7 +751,7 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:Schema:AttributeCode+' => '属性的内部编码',
 	'UI:Schema:Label' => '标签',
 	'UI:Schema:Label+' => '属性标签',
-	'UI:Schema:Type' => '类别',
+	'UI:Schema:Type' => '类型',
 
 	'UI:Schema:Type+' => '属性的数据类型',
 	'UI:Schema:Origin' => '来自',
@@ -793,7 +793,7 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:Schema:LifeCycleAttributeMustChange' => '必须变更',
 	'UI:Schema:LifeCycleAttributeMustPrompt' => '用户将被提示改变值',
 	'UI:Schema:LifeCycleEmptyList' => '空列表',
-	'UI:Schema:ClassFilter' => '类别:',
+	'UI:Schema:ClassFilter' => '类型:',
 	'UI:Schema:DisplayLabel' => '显示:',
 	'UI:Schema:DisplaySelector/LabelAndCode' => '标记和代码',
 	'UI:Schema:DisplaySelector/Label' => '标记',
@@ -935,19 +935,19 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:ChangeManagementMenu' => '变更管理',
 	'UI:ChangeManagementMenu+' => '变更管理',
 	'UI:ChangeManagementMenu:Title' => '变更概况',
-	'UI-ChangeManagementMenu-ChangesByType' => '按类别划分的变更',
+	'UI-ChangeManagementMenu-ChangesByType' => '按类型划分的变更',
 	'UI-ChangeManagementMenu-ChangesByStatus' => '按状态划分的变更',
 	'UI-ChangeManagementMenu-ChangesNotYetAssigned' => '尚未分配的变更',
 
 	'UI:ConfigurationManagementMenu' => '配置管理',
 	'UI:ConfigurationManagementMenu+' => '配置管理',
 	'UI:ConfigurationManagementMenu:Title' => '基础架构概况',
-	'UI-ConfigurationManagementMenu-InfraByType' => '按类别划分基础架构对象',
+	'UI-ConfigurationManagementMenu-InfraByType' => '按类型划分基础架构对象',
 	'UI-ConfigurationManagementMenu-InfraByStatus' => '按状态划分基础架构对象',
 
 	'UI:ConfigMgmtMenuOverview:Title' => '配置管理仪表盘',
 	'UI-ConfigMgmtMenuOverview-FunctionalCIbyStatus' => '按状态',
-	'UI-ConfigMgmtMenuOverview-FunctionalCIByType' => '按类别',
+	'UI-ConfigMgmtMenuOverview-FunctionalCIByType' => '按类型',
 
 	'UI:RequestMgmtMenuOverview:Title' => '需求管理仪表盘',
 	'UI-RequestManagementOverview-RequestByService' => '按服务划分用户需求',
@@ -960,7 +960,7 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI-IncidentManagementOverview-IncidentUnassigned' => '尚未分配给办理人的事件',
 
 	'UI:ChangeMgmtMenuOverview:Title' => '变更管理仪表盘',
-	'UI-ChangeManagementOverview-ChangeByType' => '按类别划分变更',
+	'UI-ChangeManagementOverview-ChangeByType' => '按类型划分变更',
 	'UI-ChangeManagementOverview-ChangeUnassigned' => '尚未分配给办理人的变更',
 	'UI-ChangeManagementOverview-ChangeWithOutage' => '变更引起的停机',
 
@@ -972,7 +972,7 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:ContactsMenu+' => '联系人',
 	'UI:ContactsMenu:Title' => '联系人概况',
 	'UI-ContactsMenu-ContactsByLocation' => '按地点划分联系人',
-	'UI-ContactsMenu-ContactsByType' => '按类别划分联系人',
+	'UI-ContactsMenu-ContactsByType' => '按类型划分联系人',
 	'UI-ContactsMenu-ContactsByStatus' => '按状态划分联系人',
 
 	'Menu:CSVImportMenu' => 'CSV导入',// Duplicated into itop-welcome-itil (will be removed from here...)
@@ -1023,9 +1023,9 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:TagAdminMenu:NoTags' => '未配置标签',
 	'UI:TagSetFieldData:Error' => '错误: %1$s',
 
-	'Menu:AuditCategories' => '审计类型',// Duplicated into itop-welcome-itil (will be removed from here...)
-	'Menu:AuditCategories+' => '审计类型',// Duplicated into itop-welcome-itil (will be removed from here...)
-	'Menu:Notifications:Title' => '审计类型',// Duplicated into itop-welcome-itil (will be removed from here...)
+	'Menu:AuditCategories' => '审计类别',// Duplicated into itop-welcome-itil (will be removed from here...)
+	'Menu:AuditCategories+' => '审计类别',// Duplicated into itop-welcome-itil (will be removed from here...)
+	'Menu:Notifications:Title' => '审计类别',// Duplicated into itop-welcome-itil (will be removed from here...)
 
 	'Menu:RunQueriesMenu' => '运行查询',// Duplicated into itop-welcome-itil (will be removed from here...)
 	'Menu:RunQueriesMenu+' => '运行任何查询',// Duplicated into itop-welcome-itil (will be removed from here...)
@@ -1120,7 +1120,7 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'Portal:OpenRequests' => '我打开的需求',
 	'Portal:ClosedRequests' => '我已关闭的需求',
 	'Portal:ResolvedRequests' => '已解决的需求',
-	'Portal:SelectService' => '从类别中选择一项服务:',
+	'Portal:SelectService' => '请选择一项服务:',
 	'Portal:PleaseSelectOneService' => '请选择一项服务',
 	'Portal:SelectSubcategoryFrom_Service' => '从服务中选择子类 %1$s:',
 	'Portal:PleaseSelectAServiceSubCategory' => '请选择子类',
@@ -1221,8 +1221,8 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:Button:MoveUp' => '上移',
 	'UI:Button:MoveDown' => '下移',
 
-	'UI:OQL:UnknownClassAndFix' => '未知类别 "%1$s". 您可以试试 "%2$s" .',
-	'UI:OQL:UnknownClassNoFix' => '未知类别 "%1$s"',
+	'UI:OQL:UnknownClassAndFix' => '未知类型 "%1$s". 您可以试试 "%2$s" .',
+	'UI:OQL:UnknownClassNoFix' => '未知类型 "%1$s"',
 
 	'UI:Dashboard:EditCustom' => '编辑自定义版本...',
 	'UI:Dashboard:CreateCustom' => '新建自定义版本...',
@@ -1662,9 +1662,9 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Menu:ExportMenu+' => '以HTML, CSV 或XML 格式导出任何查询的结果',
 	'Menu:NotificationsMenu' => '通知',
 	'Menu:NotificationsMenu+' => '配置通知',
-	'Menu:AuditCategories' => '审计类型',
-	'Menu:AuditCategories+' => '审计类型',
-	'Menu:Notifications:Title' => '审计类型',
+	'Menu:AuditCategories' => '审计类别',
+	'Menu:AuditCategories+' => '审计类别',
+	'Menu:Notifications:Title' => '审计类别',
 	'Menu:RunQueriesMenu'         => '运行查询',
 	'Menu:RunQueriesMenu+'        => '运行任何查询',
 	'Menu:QueryMenu'              => '查询手册',

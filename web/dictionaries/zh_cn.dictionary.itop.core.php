@@ -96,12 +96,12 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Core:AttributeString+' => '字符串',
 
 	'Core:AttributeClass' => '类',
-	'Core:AttributeClass+' => '类别',
+	'Core:AttributeClass+' => '类型',
 
 	'Core:AttributeApplicationLanguage' => '用户语言',
 	'Core:AttributeApplicationLanguage+' => '语言和国家地区(EN US)',
 
-	'Core:AttributeFinalClass' => '类 (auto)',
+	'Core:AttributeFinalClass' => '类型(自动)',
 	'Core:AttributeFinalClass+' => 'Real class of the object (automatically created by the core)',
 
 	'Core:AttributePassword' => '密码',
@@ -256,8 +256,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:CMDBChangeOp/Attribute:date+' => '变更的日期和时间',
 	'Class:CMDBChangeOp/Attribute:userinfo' => '用户',
 	'Class:CMDBChangeOp/Attribute:userinfo+' => '变更的实施者',
-	'Class:CMDBChangeOp/Attribute:objclass' => '对象的类别',
-	'Class:CMDBChangeOp/Attribute:objclass+' => 'object class',
+	'Class:CMDBChangeOp/Attribute:objclass' => '对象类型',
+	'Class:CMDBChangeOp/Attribute:objclass+' => '变更实施的对象类型',
 	'Class:CMDBChangeOp/Attribute:objkey' => '对象id',
 	'Class:CMDBChangeOp/Attribute:objkey+' => '对象id',
 	'Class:CMDBChangeOp/Attribute:finalclass' => 'CMDB操作类型',

@@ -255,7 +255,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Portal:ButtonReopen' => '重新打开',
 	'Portal:ShowServices' => '显示所有服务',
 	'Portal:SelectRequestType' => '选择一种类型的需求',
-	'Portal:SelectServiceElementFrom_Service' => '为%1$s选择服务元素',
+	'Portal:SelectServiceElementFrom_Service' => '为 %1$s 选择服务元素',
 	'Portal:ListServices' => '服务列表',
 	'Portal:TitleDetailsFor_Service' => '服务详细信息',
 	'Portal:Button:CreateRequestFromService' => '新建服务需求',
