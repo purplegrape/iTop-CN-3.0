@@ -161,11 +161,11 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:URP_Dimensions' => '维度',
 	'Class:URP_Dimensions+' => '应用维度 (定义纵深)',
 	'Class:URP_Dimensions/Attribute:name' => '名称',
-	'Class:URP_Dimensions/Attribute:name+' => '标签',
+	'Class:URP_Dimensions/Attribute:name+' => '',
 	'Class:URP_Dimensions/Attribute:description' => '描述',
 	'Class:URP_Dimensions/Attribute:description+' => '简短描述',
 	'Class:URP_Dimensions/Attribute:type' => '类型',
-	'Class:URP_Dimensions/Attribute:type+' => '类型名称或数据类型 (投影单位)',
+	'Class:URP_Dimensions/Attribute:type+' => '类型名称或数据类型 (投射单元)',
 ));
 
 //
@@ -730,7 +730,7 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:RunQuery:DevelopedOQLCount' => '通过高级OQL表达式查询个数~~',
 	'UI:RunQuery:ResultSQLCount' => '通过SQL语句查询个数~~',
 	'UI:RunQuery:ResultSQL' => 'SQL语句',
-	'UI:RunQuery:Error' => '运行该查询时发生了错误',
+	'UI:RunQuery:Error' => '查询时发生错误',
 	'UI:Query:UrlForExcel' => 'URL to use for MS-Excel web queries',
 	'UI:Query:UrlV1' => 'The list of fields has been left unspecified. The page <em>export-V2.php</em> cannot be invoked without this information. Therefore, the URL suggested here below points to the legacy page: <em>export.php</em>. This legacy version of the export has the following limitation: the list of exported fields may vary depending on the output format and the data model of '.ITOP_APPLICATION_SHORT.'. <br/>Should you want to garantee that the list of exported columns will remain stable on the long run, then you must specify a value for the attribute "Fields" and use the page <em>export-V2.php</em>.',
 	'UI:Schema:Title' => ITOP_APPLICATION_SHORT.' 对象模型',
