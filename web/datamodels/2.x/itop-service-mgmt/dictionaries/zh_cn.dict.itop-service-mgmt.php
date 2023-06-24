@@ -131,8 +131,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Contract/Attribute:status/Value:implementation+' => '生效',
 	'Class:Contract/Attribute:status/Value:obsolete' => '废弃',
 	'Class:Contract/Attribute:status/Value:obsolete+' => '废弃',
-	'Class:Contract/Attribute:status/Value:production' => '生产',
-	'Class:Contract/Attribute:status/Value:production+' => '生产',
+	'Class:Contract/Attribute:status/Value:production' => '正式',
+	'Class:Contract/Attribute:status/Value:production+' => '正式',
 	'Class:Contract/Attribute:finalclass' => '类型',
 	'Class:Contract/Attribute:finalclass+' => '根本属性的名称',
 ));
@@ -244,7 +244,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Service/Attribute:status/Value:implementation+' => '生效',
 	'Class:Service/Attribute:status/Value:obsolete' => '废弃',
 	'Class:Service/Attribute:status/Value:obsolete+' => '',
-	'Class:Service/Attribute:status/Value:production' => '生产',
+	'Class:Service/Attribute:status/Value:production' => '正式',
 	'Class:Service/Attribute:status/Value:production+' => '',
 	'Class:Service/Attribute:icon' => '图标',
 	'Class:Service/Attribute:icon+' => '',
@@ -319,8 +319,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:ServiceSubcategory/Attribute:status/Value:implementation+' => '生效',
 	'Class:ServiceSubcategory/Attribute:status/Value:obsolete' => '废弃',
 	'Class:ServiceSubcategory/Attribute:status/Value:obsolete+' => '废弃',
-	'Class:ServiceSubcategory/Attribute:status/Value:production' => '生产',
-	'Class:ServiceSubcategory/Attribute:status/Value:production+' => '生产',
+	'Class:ServiceSubcategory/Attribute:status/Value:production' => '正式',
+	'Class:ServiceSubcategory/Attribute:status/Value:production+' => '正式',
 ));
 
 //

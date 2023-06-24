@@ -321,7 +321,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Change:AttName_EntryAdded' => '%1$s 已修改, 新条目已添加: %2$s',
 	'Change:State_Changed_NewValue_OldValue' => '从 %2$s 变为 %1$s',
 	'Change:LinkSet:Added' => '已添加 %1$s',
-	'Change:LinkSet:Removed' => '已删除 %1$s',
+	'Change:LinkSet:Removed' => '已移除 %1$s',
 	'Change:LinkSet:Modified' => '已修改 %1$s',
 ));
 
@@ -658,7 +658,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:TriggerOnObjectMention' => '触发器 (对象提及时)',
+	'Class:TriggerOnObjectMention' => '触发器 (对象被提及时)',
 	'Class:TriggerOnObjectMention+' => 'Trigger on mention (@xxx) of an object of [a child class of] the given class in a log attribute~~',
 	'Class:TriggerOnObjectMention/Attribute:mentioned_filter' => 'Mentioned filter~~',
 	'Class:TriggerOnObjectMention/Attribute:mentioned_filter+' => 'Limit the list of mentioned objects which will activate the trigger. If empty, any mentioned object (of any class) will activate it.~~',
@@ -671,7 +671,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:TriggerOnThresholdReached' => '触发器 (基于阈值)',
 	'Class:TriggerOnThresholdReached+' => '当达到某个阈值时触发',
-	'Class:TriggerOnThresholdReached/Attribute:stop_watch_code' => 'Stop watch~~',
+	'Class:TriggerOnThresholdReached/Attribute:stop_watch_code' => '计时',
 	'Class:TriggerOnThresholdReached/Attribute:stop_watch_code+' => '',
 	'Class:TriggerOnThresholdReached/Attribute:threshold_index' => '阈值',
 	'Class:TriggerOnThresholdReached/Attribute:threshold_index+' => '',
@@ -814,7 +814,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:AsyncSendEmail/Attribute:to' => '收件人',
 	'Class:AsyncSendEmail/Attribute:subject' => '主题',
 	'Class:AsyncSendEmail/Attribute:body' => '正文',
-	'Class:AsyncSendEmail/Attribute:header' => '抬头',
+	'Class:AsyncSendEmail/Attribute:header' => '标头',
 	'Class:CMDBChangeOpSetAttributeOneWayPassword' => '加密密码',
 	'Class:CMDBChangeOpSetAttributeOneWayPassword/Attribute:prev_pwd' => '之前的值',
 	'Class:CMDBChangeOpSetAttributeEncrypted' => '加密字段',
@@ -824,7 +824,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:SynchroDataSource' => '同步数据源',
 	'Class:SynchroDataSource/Attribute:status/Value:implementation' => '生效',
 	'Class:SynchroDataSource/Attribute:status/Value:obsolete' => '废弃',
-	'Class:SynchroDataSource/Attribute:status/Value:production' => '生产',
+	'Class:SynchroDataSource/Attribute:status/Value:production' => '正式',
 	'Class:SynchroDataSource/Attribute:scope_restriction' => '范围限制',
 	'Class:SynchroDataSource/Attribute:reconciliation_policy/Value:use_attributes' => 'Use the attributes',
 	'Class:SynchroDataSource/Attribute:reconciliation_policy/Value:use_primary_key' => 'Use the primary_key field',

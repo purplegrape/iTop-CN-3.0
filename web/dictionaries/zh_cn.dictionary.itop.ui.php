@@ -418,7 +418,7 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:Button:BrowseObjects' => ' 浏览... ',
 	'UI:Button:Add' => ' 添加 ',
 	'UI:Button:AddToList' => ' << 添加 ',
-	'UI:Button:RemoveFromList' => ' 删除 >> ',
+	'UI:Button:RemoveFromList' => ' 移除 >> ',
 	'UI:Button:FilterList' => ' 筛选... ',
 	'UI:Button:Create' => ' 创建 ',
 	'UI:Button:Delete' => ' 删除 ! ',
@@ -1436,7 +1436,7 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 <tr><td>s</td><td>秒 (2位数, 比如 00..59)</td></tr>
 </table>',
 
-	'UI:Button:Remove' => '删除',
+	'UI:Button:Remove' => '移除',
 	'UI:AddAnExisting_Class' => '添加 %1$s...',
 	'UI:SelectionOf_Class' => '选择 %1$s',
 
@@ -1487,11 +1487,11 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 
 	'UI:ToggleFullScreen' => '切换 最大化/最小化',
 	'UI:Button:ResetImage' => '恢复之前的图片',
-	'UI:Button:RemoveImage' => '删除图片',
+	'UI:Button:RemoveImage' => '移除图片',
 	'UI:Button:UploadImage' => '从本地硬盘上传图片',
 	'UI:UploadNotSupportedInThisMode' => '本模式下不支持修改文件或图片.',
 
-	'UI:Button:RemoveDocument' => '删除文档',
+	'UI:Button:RemoveDocument' => '移除文档',
 
 	// Search form
 	'UI:Search:Toggle' => '折叠/展开',
@@ -1507,7 +1507,7 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 
 	// - Criteria header actions
 	'UI:Search:Criteria:Toggle' => '折叠/展开',
-	'UI:Search:Criteria:Remove' => '删除',
+	'UI:Search:Criteria:Remove' => '移除',
 	'UI:Search:Criteria:Locked' => '已锁定',
 
 	// - Criteria titles
