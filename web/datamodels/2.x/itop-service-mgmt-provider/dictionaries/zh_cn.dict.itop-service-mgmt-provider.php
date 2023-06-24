@@ -242,7 +242,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:ServiceFamily/Attribute:icon' => '图标',
 	'Class:ServiceFamily/Attribute:icon+' => '',
 	'Class:ServiceFamily/Attribute:services_list' => '服务',
-	'Class:ServiceFamily/Attribute:services_list+' => '列表中包含的所有服务',
+	'Class:ServiceFamily/Attribute:services_list+' => '所有服务',
 ));
 
 //

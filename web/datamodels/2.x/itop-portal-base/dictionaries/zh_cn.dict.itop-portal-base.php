@@ -39,7 +39,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Error:HTTP:500' => 'Oops! 发生了错误.',
 	'Error:HTTP:GetHelp' => '如果问题仍然存在,请联系管理员.',
 	'Error:XHR:Fail' => '无法加载数据, 请联系管理员',
-	'Portal:ErrorUserLoggedOut' => '您已退出，请重新登录.',
+	'Portal:ErrorUserLoggedOut' => '您已退出,请重新登录.',
 	'Portal:Datatables:Language:Processing' => '请稍后...',
 	'Portal:Datatables:Language:Search' => '筛选器:',
 	'Portal:Datatables:Language:LengthMenu' => '每页显示 _MENU_ 项',

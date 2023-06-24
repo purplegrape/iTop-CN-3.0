@@ -264,7 +264,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Portal:Details-Service-Element' => '服务元素',
 	'Portal:NoClosedTicket' => '没有关闭的需求',
 	'Portal:NoService' => '',
-	'Portal:ListOpenProblems' => '处理中的问题',
+	'Portal:ListOpenProblems' => '正在处理的问题',
 	'Portal:ShowProblem' => '问题',
 	'Portal:ShowFaqs' => 'FAQ',
 	'Portal:NoOpenProblem' => '没有打开的问题',

@@ -45,7 +45,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'iTopHub:BackupOk' => '备份成功.',
 	'iTopHub:BackupFailed' => '备份失败!',
 	'iTopHub:Landing:Status' => '安装状态',
-	'iTopHub:Landing:Install' => '扩展安装进行中...',
+	'iTopHub:Landing:Install' => '正在安装扩展...',
 	'iTopHub:CompiledOK' => '编译成功.',
 	'iTopHub:ConfigurationSafelyReverted' => '安装时发生错误!<br/>iTop 配置将不会改变.',
 	'iTopHub:FailAuthent' => '认证失败.',
@@ -62,7 +62,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 
 	'iTopHub:LandingWelcome' => '恭喜! 下列来自 iTop Hub 的扩展已被下载并安装到本机.',
 	'iTopHub:GoBackToITopBtn' => '返回'.ITOP_APPLICATION_SHORT,
-	'iTopHub:Uncompressing' => '扩展解压中...',
+	'iTopHub:Uncompressing' => '正在解压扩展...',
 	'iTopHub:InstallationWelcome' => '安装来自 iTop Hub 的扩展',
 	'iTopHub:DBBackupLabel' => '本机备份',
 	'iTopHub:DBBackupSentence' => '在升级之前,备份数据库和 '.ITOP_APPLICATION_SHORT.' 配置文件',

@@ -22,7 +22,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:Datatables:Language:Processing'        => '请稍候...',
 	'UI:Datatables:Language:LengthMenu'        => '每页 _MENU_ ',
 	'UI:Datatables:Language:ZeroRecords'       => '未找到相关结果',
-	'UI:Datatables:Language:Info'              => '一共 _TOTAL_ 项',
+	'UI:Datatables:Language:Info'              => '共 _TOTAL_ 项',
 	'UI:Datatables:Language:InfoEmpty'         => '未找到相关信息',
 	'UI:Datatables:Language:EmptyTable'        => '暂无数据',
 	'UI:Datatables:Language:Error'             => '查询时发生错误',
