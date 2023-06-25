@@ -81,7 +81,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Incident/Attribute:status/Value:resolved+' => '',
 	'Class:Incident/Attribute:status/Value:closed' => '已关闭',
 	'Class:Incident/Attribute:status/Value:closed+' => '',
-	'Class:Incident/Attribute:impact' => '影响',
+	'Class:Incident/Attribute:impact' => '影响范围',
 	'Class:Incident/Attribute:impact+' => '',
 	'Class:Incident/Attribute:impact/Value:1' => '部门',
 	'Class:Incident/Attribute:impact/Value:1+' => '',
