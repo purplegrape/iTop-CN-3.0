@@ -736,7 +736,7 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:Schema:Title' => ITOP_APPLICATION_SHORT.' 对象模型',
 	'UI:Schema:TitleForClass' => '%1$s schema~~',
 	'UI:Schema:CategoryMenuItem' => '类别 <b>%1$s</b>',
-	'UI:Schema:Relationships' => '关联',
+	'UI:Schema:Relationships' => '关系',
 	'UI:Schema:AbstractClass' => '抽象类: 该类对象不能实体化.',
 	'UI:Schema:NonAbstractClass' => '非抽象类: 该类对象可以实体化.',
 	'UI:Schema:ClassHierarchyTitle' => '类层级',
