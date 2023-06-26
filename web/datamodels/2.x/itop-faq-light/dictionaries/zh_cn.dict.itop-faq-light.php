@@ -55,7 +55,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:FAQ+' => '常见问题',
 	'Class:FAQ/Attribute:title' => '标题',
 	'Class:FAQ/Attribute:title+' => '',
-	'Class:FAQ/Attribute:summary' => '概要',
+	'Class:FAQ/Attribute:summary' => '摘要',
 	'Class:FAQ/Attribute:summary+' => '',
 	'Class:FAQ/Attribute:description' => '描述',
 	'Class:FAQ/Attribute:description+' => '',
