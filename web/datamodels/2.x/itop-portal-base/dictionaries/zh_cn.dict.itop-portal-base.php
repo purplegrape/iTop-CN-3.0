@@ -114,7 +114,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Brick:Portal:Manage:DisplayMode:list' => '列表',
 	'Brick:Portal:Manage:DisplayMode:pie-chart' => '饼图',
 	'Brick:Portal:Manage:DisplayMode:bar-chart' => '条形图',
-	'Brick:Portal:Manage:Others' => 'Others',
+	'Brick:Portal:Manage:Others' => '其它',
 	'Brick:Portal:Manage:All' => '全部',
 	'Brick:Portal:Manage:Group' => '分组',
 	'Brick:Portal:Manage:fct:count' => '个数',
