@@ -239,7 +239,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:cmdbAbstractObject/Method:Copy/Param:2+'                  => '该字段从当前对象获取值',
 	'Class:cmdbAbstractObject/Method:ApplyStimulus'                  => 'ApplyStimulus',
 	'Class:cmdbAbstractObject/Method:ApplyStimulus+'                 => 'Apply the specified stimulus to the current object',
-	'Class:cmdbAbstractObject/Method:ApplyStimulus/Param:1'          => '变化代码',
+	'Class:cmdbAbstractObject/Method:ApplyStimulus/Param:1'          => '变化编码',
 	'Class:cmdbAbstractObject/Method:ApplyStimulus/Param:1+'         => 'A valid stimulus code for the current class',
 	'Class:ResponseTicketTTO/Interface:iMetricComputer'              => 'TTO',
 	'Class:ResponseTicketTTO/Interface:iMetricComputer+'             => 'SLT的响应时间',
