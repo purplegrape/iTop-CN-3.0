@@ -277,8 +277,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:URP_StimulusGrant' => '权限变化',
-	'Class:URP_StimulusGrant+' => '对象生命周期中的权限变化',
+	'Class:URP_StimulusGrant' => '权限调整',
+	'Class:URP_StimulusGrant+' => '对象生命周期中的权限调整',
 	'Class:URP_StimulusGrant/Attribute:profileid' => '角色',
 	'Class:URP_StimulusGrant/Attribute:profileid+' => '使用角色',
 	'Class:URP_StimulusGrant/Attribute:profile' => '角色',
@@ -291,8 +291,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:URP_StimulusGrant/Attribute:permission/Value:yes+' => '是',
 	'Class:URP_StimulusGrant/Attribute:permission/Value:no' => '否',
 	'Class:URP_StimulusGrant/Attribute:permission/Value:no+' => '否',
-	'Class:URP_StimulusGrant/Attribute:stimulus' => '变化',
-	'Class:URP_StimulusGrant/Attribute:stimulus+' => '变化编码',
+	'Class:URP_StimulusGrant/Attribute:stimulus' => '调整',
+	'Class:URP_StimulusGrant/Attribute:stimulus+' => '调整编码',
 ));
 
 //
@@ -912,8 +912,8 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:UserManagement:Action:BulkModify+' => '批量创建/编辑 (CSV导入)',
 	'UI:UserManagement:Action:BulkDelete' => '批量删除',
 	'UI:UserManagement:Action:BulkDelete+' => '批量删除对象',
-	'UI:UserManagement:Action:Stimuli' => 'Stimuli',
-	'UI:UserManagement:Action:Stimuli+' => '许可的 (复合的) 操作',
+	'UI:UserManagement:Action:Stimuli' => '调整',
+	'UI:UserManagement:Action:Stimuli+' => '允许的(复合型)操作',
 	'UI:UserManagement:Action' => '操作',
 	'UI:UserManagement:Action+' => '该用户进行的操作',
 	'UI:UserManagement:TitleActions' => '操作',
