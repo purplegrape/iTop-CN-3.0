@@ -964,8 +964,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Core:BulkExportLegacyExport' => '点击这里进入旧版导出.',
 	'Core:BulkExport:XLSXOptions' => 'Excel选项',
 	'Core:BulkExport:TextFormat' => '文本中包含一些HTML标记',
-	'Core:BulkExport:DateTimeFormat' => '日期和时间格式',
-	'Core:BulkExport:DateTimeFormatDefault_Example' => '默认格式 (%1$s), e.g. %2$s',
+	'Core:BulkExport:DateTimeFormat' => '时间格式',
+	'Core:BulkExport:DateTimeFormatDefault_Example' => '默认格式 (%1$s), 比如 %2$s',
 	'Core:BulkExport:DateTimeFormatCustom_Format' => '自定义格式: %1$s',
 	'Core:BulkExport:PDF:PageNumber' => '第 %1$s 页',
 	'Core:DateTime:Placeholder_d' => 'DD', // Day of the month: 2 digits (with leading zero)
