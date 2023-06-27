@@ -696,7 +696,7 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:CSVExport:LostChars+' => 'The downloaded file will be encoded into %1$s. iTop has detected some characters that are not compatible with this format. Those characters will either be replaced by a substitute (e.g. accentuated chars losing the accent), or they will be discarded. You can copy/paste the data from your web browser. Alternatively, you can contact your administrator to change the encoding (See parameter \'csv_file_default_charset\').',
 
 	'UI:Audit:Title' => ITOP_APPLICATION_SHORT.' - CMDB 审计',
-	'UI:Audit:InteractiveAudit' => '交互审计',
+	'UI:Audit:InteractiveAudit' => '交互式审计',
 	'UI:Audit:HeaderAuditRule' => '审计规则',
 	'UI:Audit:HeaderNbObjects' => '# 对象',
 	'UI:Audit:HeaderNbErrors' => '# 错误',
@@ -711,7 +711,7 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:Audit:Dashboard:ObjectsAudited' => '已审计',
 	'UI:Audit:Dashboard:ObjectsInError' => '出错',
 	'UI:Audit:Dashboard:ObjectsValidated' => '已验证',
-	'UI:Audit:AuditCategory:Subtitle' => '%2$s 个中有 %1$s 个错误 - %3$s%%',
+	'UI:Audit:AuditCategory:Subtitle' => '%2$s 项中有 %1$s 个出错 - %3$s%%',
 
 
 	'UI:RunQuery:Title' => ITOP_APPLICATION_SHORT.' - OQL 查询评估',
