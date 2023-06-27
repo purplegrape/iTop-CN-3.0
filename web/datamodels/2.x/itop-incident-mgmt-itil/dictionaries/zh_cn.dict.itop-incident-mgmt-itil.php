@@ -133,7 +133,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Incident/Attribute:escalation_flag/Value:no+' => '否',
 	'Class:Incident/Attribute:escalation_flag/Value:yes' => '是',
 	'Class:Incident/Attribute:escalation_flag/Value:yes+' => '是',
-	'Class:Incident/Attribute:escalation_reason' => '升级的原因',
+	'Class:Incident/Attribute:escalation_reason' => '升级原因',
 	'Class:Incident/Attribute:escalation_reason+' => '',
 	'Class:Incident/Attribute:assignment_date' => '分配日期',
 	'Class:Incident/Attribute:assignment_date+' => '',
