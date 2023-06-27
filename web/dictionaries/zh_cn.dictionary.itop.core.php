@@ -483,7 +483,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:Action' => '自定义动作',
+	'Class:Action' => '自定义操作',
 	'Class:Action+' => '用户定义的操作',
 	'Class:Action/Attribute:name' => '名称',
 	'Class:Action/Attribute:name+' => '',
@@ -498,10 +498,10 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Action/Attribute:status/Value:disabled' => '停用',
 	'Class:Action/Attribute:status/Value:disabled+' => '停用',
 	'Class:Action/Attribute:trigger_list' => '触发器',
-	'Class:Action/Attribute:trigger_list+' => '该动作关联的触发器',
-	'Class:Action/Attribute:finalclass' => '动作类型',
+	'Class:Action/Attribute:trigger_list+' => '该操作关联的触发器',
+	'Class:Action/Attribute:finalclass' => '操作类型',
 	'Class:Action/Attribute:finalclass+' => '根本属性的名称',
-	'Action:WarningNoTriggerLinked' => '警告, 该动作未关联任何触发器. 想要生效,必须至少关联1个触发器.',
+	'Action:WarningNoTriggerLinked' => '警告, 该操作未关联任何触发器. 想要生效,必须至少关联1个触发器.',
 ));
 
 //
@@ -563,7 +563,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Trigger+' => 'Custom event handler',
 	'Class:Trigger/Attribute:description' => '描述',
 	'Class:Trigger/Attribute:description+' => '简短描述',
-	'Class:Trigger/Attribute:action_list' => '触发的动作',
+	'Class:Trigger/Attribute:action_list' => '触发的操作',
 	'Class:Trigger/Attribute:action_list+' => '触发器激活时执行的行为',
 	'Class:Trigger/Attribute:finalclass' => '触发器类型',
 	'Class:Trigger/Attribute:finalclass+' => '根本属性的名称',
@@ -682,18 +682,18 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:lnkTriggerAction' => '动作/触发器',
+	'Class:lnkTriggerAction' => '操作/触发器',
 	'Class:lnkTriggerAction+' => 'Link between a trigger and an action',
-	'Class:lnkTriggerAction/Attribute:action_id' => '动作',
+	'Class:lnkTriggerAction/Attribute:action_id' => '操作',
 	'Class:lnkTriggerAction/Attribute:action_id+' => 'The action to be executed',
-	'Class:lnkTriggerAction/Attribute:action_name' => '动作',
+	'Class:lnkTriggerAction/Attribute:action_name' => '名称',
 	'Class:lnkTriggerAction/Attribute:action_name+' => '',
 	'Class:lnkTriggerAction/Attribute:trigger_id' => '触发器',
 	'Class:lnkTriggerAction/Attribute:trigger_id+' => '',
 	'Class:lnkTriggerAction/Attribute:trigger_name' => '触发器',
 	'Class:lnkTriggerAction/Attribute:trigger_name+' => '',
 	'Class:lnkTriggerAction/Attribute:order' => '顺序',
-	'Class:lnkTriggerAction/Attribute:order+' => '动作的执行顺序',
+	'Class:lnkTriggerAction/Attribute:order+' => '操作的执行顺序',
 ));
 
 //
@@ -931,7 +931,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Core:BulkExport:DragAndDropHelp' => '可拖动或删除列头进行排序. 正在预览 %1$s 行. 一共需要导出: %2$s 行.',
 	'Core:BulkExport:EmptyPreview' => '请选择要导出的列',
 	'Core:BulkExport:ColumnsOrder' => '列顺序',
-	'Core:BulkExport:AvailableColumnsFrom_Class' => '%1$s 属性中可用的列',
+	'Core:BulkExport:AvailableColumnsFrom_Class' => '%1$s 属性中现有的列',
 	'Core:BulkExport:NoFieldSelected' => '至少选择导出一列',
 	'Core:BulkExport:CheckAll' => '全选',
 	'Core:BulkExport:UncheckAll' => '反选',

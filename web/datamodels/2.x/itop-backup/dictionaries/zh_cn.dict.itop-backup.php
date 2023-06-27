@@ -43,7 +43,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'bkp-table-file+' => '只有扩展名是.zip 的文件才被认为是备份文件',
 	'bkp-table-size' => '大小',
 	'bkp-table-size+' => '',
-	'bkp-table-actions' => '动作',
+	'bkp-table-actions' => '操作',
 	'bkp-table-actions+' => '',
 	'bkp-status-backups-auto' => '定时备份',
 	'bkp-status-backups-manual' => '手动备份',
