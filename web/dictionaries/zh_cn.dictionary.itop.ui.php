@@ -1236,9 +1236,9 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:Dashboard:NotUpToDateUntilContainerSaved' => 'This dashboard displays information that does not include the on-going changes.~~',
 
 
-	'UI:DashletCreation:Title' => '创建新模块',
+	'UI:DashletCreation:Title' => '新建组件',
 	'UI:DashletCreation:Dashboard' => '仪表盘',
-	'UI:DashletCreation:DashletType' => '模块类型',
+	'UI:DashletCreation:DashletType' => '组件类型',
 	'UI:DashletCreation:EditNow' => '编辑仪表盘',
 
 	'UI:DashboardEdit:Title' => '仪表盘编辑器',
@@ -1251,8 +1251,8 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 
 	'UI:DashboardEdit:Layout' => '布局',
 	'UI:DashboardEdit:Properties' => '仪表盘属性',
-	'UI:DashboardEdit:Dashlets' => '现有的模块',
-	'UI:DashboardEdit:DashletProperties' => '模块属性',
+	'UI:DashboardEdit:Dashlets' => '可用的组件',
+	'UI:DashboardEdit:DashletProperties' => '组件属性',
 
 	'UI:Form:Property' => '属性',
 	'UI:Form:Value' => '值',
