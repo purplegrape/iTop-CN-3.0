@@ -1269,7 +1269,7 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:DashletProxy:RenderNoDataText:Edit' => '第三方组件无法预览(class "%1$s").',
 	'UI:DashletProxy:Prop-XMLConfiguration' => '配置 (显示为纯 XML)',
 
-	'UI:DashletPlainText:Label' => '正文',
+	'UI:DashletPlainText:Label' => '文本',
 	'UI:DashletPlainText:Description' => '纯文本(无格式)',
 	'UI:DashletPlainText:Prop-Text' => '内容',
 	'UI:DashletPlainText:Prop-Text:Default' => '请在这里输入内容...',
