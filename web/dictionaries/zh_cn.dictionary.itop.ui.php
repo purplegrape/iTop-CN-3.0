@@ -1340,9 +1340,9 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:DashletHeaderDynamic:Prop-GroupBy' => '分组依据',
 	'UI:DashletHeaderDynamic:Prop-Values' => '值',
 
-	'UI:DashletBadge:Label' => 'Badge',
+	'UI:DashletBadge:Label' => '证件',
 	'UI:DashletBadge:Description' => 'Object Icon with new/search',
-	'UI:DashletBadge:Prop-Class' => 'Class',
+	'UI:DashletBadge:Prop-Class' => '类型',
 
 	'DayOfWeek-Sunday' => '周日',
 	'DayOfWeek-Monday' => '周一',
