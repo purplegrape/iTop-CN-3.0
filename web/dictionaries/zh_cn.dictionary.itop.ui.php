@@ -349,7 +349,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 
 	'UI:WelcomeMenu:LeftBlock' => '<p>'.ITOP_APPLICATION_SHORT.' 是完全开源的 IT 运维门户.</p>
 <ul>它包括:
-<li>完整的 CMDB(Configuration management database),用于登记和管理您的 IT 资产.</li>
+<li>完整的 CMDB(配置管理数据库),用于登记和管理您的 IT 资产.</li>
 <li>事件管理模块用于跟踪和交流所有发生在 IT 系统中的事件.</li>
 <li>变更管理模块用于规划和跟踪 IT 环境中发生的变化.</li>
 <li>已知错误数据库可加速事件的处理.</li>
