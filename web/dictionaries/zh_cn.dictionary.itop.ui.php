@@ -708,9 +708,9 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:Audit:ErrorIn_Category' => 'Error in Category~~',
 	'UI:Audit:ErrorIn_Category_Reason' => 'OQL Error in the Category %1$s: %2$s.',
 	'UI:Audit:AuditErrors' => '审计出错',
-	'UI:Audit:Dashboard:ObjectsAudited' => '对象已审计',
-	'UI:Audit:Dashboard:ObjectsInError' => '对象出错',
-	'UI:Audit:Dashboard:ObjectsValidated' => '对象已验证',
+	'UI:Audit:Dashboard:ObjectsAudited' => '已审计',
+	'UI:Audit:Dashboard:ObjectsInError' => '出错',
+	'UI:Audit:Dashboard:ObjectsValidated' => '已验证',
 	'UI:Audit:AuditCategory:Subtitle' => '%2$s 个中有 %1$s 个错误 - %3$s%%',
 
 
