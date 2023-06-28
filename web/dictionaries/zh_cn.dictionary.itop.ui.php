@@ -1070,7 +1070,7 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:Deadline_Days_Hours_Minutes' => '%1$dd %2$dh %3$dmin',
 	'UI:Help' => '帮助',
 	'UI:PasswordConfirm' => '确认',
-	'UI:BeforeAdding_Class_ObjectsSaveThisObject' => '在添加更多 %1$s 之前, 保存该对象.',
+	'UI:BeforeAdding_Class_ObjectsSaveThisObject' => '在添加更多 %1$s 之前, 请先保存该对象.',
 	'UI:DisplayThisMessageAtStartup' => '在启动时显示此消息',
 	'UI:RelationshipGraph' => '图形视图',
 	'UI:RelationshipList' => '列表视图',
