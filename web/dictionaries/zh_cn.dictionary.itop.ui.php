@@ -71,7 +71,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Query/Attribute:name+' => '查询的名称',
 	'Class:Query/Attribute:description' => '描述',
 	'Class:Query/Attribute:description+' => '请描述该查询 (目的、用法等等.)',
-	'Class:Query/Attribute:is_template' => 'Template for OQL fields~~',
+	'Class:Query/Attribute:is_template' => 'OQL模板',
 	'Class:Query/Attribute:is_template+' => 'Usable as source for recipient OQL in Notifications~~',
 	'Class:Query/Attribute:is_template/Value:yes' => '是',
 	'Class:Query/Attribute:is_template/Value:no' => '否',
