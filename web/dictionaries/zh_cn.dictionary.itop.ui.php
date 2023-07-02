@@ -1216,7 +1216,7 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:OnlyForThisList' => '仅这个列表',
 	'UI:ForAllLists' => '默认所有列表',
 	'UI:ExtKey_AsLink' => '%1$s (超链接)',
-	'UI:ExtKey_AsFriendlyName' => '%1$s (昵称)',
+	'UI:ExtKey_AsFriendlyName' => '%1$s (友好名称)',
 	'UI:ExtField_AsRemoteField' => '%1$s (%2$s)',
 	'UI:Button:MoveUp' => '上移',
 	'UI:Button:MoveDown' => '下移',

@@ -113,7 +113,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Menu:iTopUpdate+' => '应用升级',
 
     // Missing itop entries
-    'Class:ModuleInstallation/Attribute:installed' => '安装时间',
+    'Class:ModuleInstallation/Attribute:installed' => '安装于',
     'Class:ModuleInstallation/Attribute:name' => '名称',
     'Class:ModuleInstallation/Attribute:version' => '版本',
     'Class:ModuleInstallation/Attribute:comment' => '备注',

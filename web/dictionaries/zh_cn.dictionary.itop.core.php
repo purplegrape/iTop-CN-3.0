@@ -199,7 +199,7 @@ Operators:<br/>
 	'Core:AttributePropertySet' => '属性',
 	'Core:AttributePropertySet+' => 'List of untyped properties (name and value)',
 
-	'Core:AttributeFriendlyName' => '通用名称',
+	'Core:AttributeFriendlyName' => '友好名称',
 	'Core:AttributeFriendlyName+' => 'Attribute created automatically ; the friendly name is computed after several attributes',
 
 	'Core:FriendlyName-Label' => '全称',
