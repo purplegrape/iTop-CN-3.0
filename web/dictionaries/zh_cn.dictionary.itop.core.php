@@ -311,12 +311,12 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Change:ObjectDeleted' => '对象已删除',
 	'Change:ObjectModified' => '对象已修改',
 	'Change:TwoAttributesChanged' => '已编辑 %1$s 和 %2$s',
-	'Change:ThreeAttributesChanged' => '已编辑 %1$s, %2$s 以及额外的1个',
-	'Change:FourOrMoreAttributesChanged' => '已编辑 %1$s, %2$s 以及额外的 %3$s 个',
-	'Change:AttName_SetTo_NewValue_PreviousValue_OldValue' => '%1$s 设置成 %2$s (原来的值: %3$s)',
-	'Change:AttName_SetTo' => '%1$s 设置成 %2$s',
+	'Change:ThreeAttributesChanged' => '已编辑 %1$s, %2$s 以及其它1项',
+	'Change:FourOrMoreAttributesChanged' => '已编辑 %1$s, %2$s 以及其它 %3$s 项',
+	'Change:AttName_SetTo_NewValue_PreviousValue_OldValue' => '%1$s 变为 %2$s (原值: %3$s)',
+	'Change:AttName_SetTo' => '%1$s 变为 %2$s',
 	'Change:Text_AppendedTo_AttName' => '%1$s 追加到 %2$s',
-	'Change:AttName_Changed_PreviousValue_OldValue' => '%1$s 已修改, 原来的值: %2$s',
+	'Change:AttName_Changed_PreviousValue_OldValue' => '%1$s 已修改, 原值: %2$s',
 	'Change:AttName_Changed' => '%1$s 已修改',
 	'Change:AttName_EntryAdded' => '%1$s 已修改, 新条目已添加: %2$s',
 	'Change:State_Changed_NewValue_OldValue' => '从 %2$s 变为 %1$s',
@@ -332,7 +332,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:CMDBChangeOpSetAttributeBlob' => '数据变更跟踪',
 	'Class:CMDBChangeOpSetAttributeBlob+' => '数据变更跟踪',
-	'Class:CMDBChangeOpSetAttributeBlob/Attribute:prevdata' => '之前的值',
+	'Class:CMDBChangeOpSetAttributeBlob/Attribute:prevdata' => '之前的数据',
 	'Class:CMDBChangeOpSetAttributeBlob/Attribute:prevdata+' => '该数据之前的内容',
 ));
 
