@@ -767,7 +767,7 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:Schema:FilterCode+' => '该搜索条件的编码',
 	'UI:Schema:FilterDescription' => '描述',
 	'UI:Schema:FilterDescription+' => '该搜索条件的描述',
-	'UI:Schema:AvailOperators' => '现有的运算符',
+	'UI:Schema:AvailOperators' => '可用的运算符',
 	'UI:Schema:AvailOperators+' => '该搜索条件可能的运算符',
 	'UI:Schema:ChildClasses' => '子类',
 	'UI:Schema:ReferencingClasses' => '同类',
@@ -805,7 +805,7 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:Edit:TestQuery' => '测试查询',
 	'UI:Combo:SelectValue' => '--- 请选择 ---',
 	'UI:Label:SelectedObjects' => '已选的对象: ',
-	'UI:Label:AvailableObjects' => '现有的对象: ',
+	'UI:Label:AvailableObjects' => '可用的对象: ',
 	'UI:Link_Class_Attributes' => '%1$s 属性',
 	'UI:SelectAllToggle+' => '全选/反选',
 	'UI:AddObjectsOf_Class_LinkedWith_Class_Instance' => '添加 %1$s 个对象, 关联 %2$s: %3$s',
@@ -1007,7 +1007,7 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 <p>若要执行, 操作必须和触发器相关联.
 当与触发器关联时, 每个行为都有序号, 指定了按照什么样的顺序执行这些操作.</p>',
 	'UI:NotificationsMenu:Triggers' => '触发器',
-	'UI:NotificationsMenu:AvailableTriggers' => '现有的触发器',
+	'UI:NotificationsMenu:AvailableTriggers' => '可用的触发器',
 	'UI:NotificationsMenu:OnCreate' => '当对象被创建',
 	'UI:NotificationsMenu:OnStateEnter' => '当对象进入指定状态',
 	'UI:NotificationsMenu:OnStateLeave' => '当对象离开指定状态',
@@ -1015,7 +1015,7 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:NotificationsMenu:Actions:ActionEmail' => '邮件发送',
 	'UI:NotificationsMenu:Actions:ActionWebhook' => 'Webhook (与第三方集成)',
 	'UI:NotificationsMenu:Actions:Action' => '其它操作',
-	'UI:NotificationsMenu:AvailableActions' => '现有的操作',
+	'UI:NotificationsMenu:AvailableActions' => '可用的操作',
 
 	'Menu:TagAdminMenu' => '标签配置',
 	'Menu:TagAdminMenu+' => '标签值管理',
@@ -1419,7 +1419,7 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:CSVImport:DateAndTimeFormats' => '时间格式',
 	'UI:CSVImport:DefaultDateTimeFormat_Format_Example' => '默认格式: %1$s (比如 %2$s)',
 	'UI:CSVImport:CustomDateTimeFormat' => '自定义格式: %1$s',
-	'UI:CSVImport:CustomDateTimeFormatTooltip' => '现有的值:<table>
+	'UI:CSVImport:CustomDateTimeFormatTooltip' => '可用的占位符:<table>
 <tr><td>Y</td><td>年 (4位数, 比如 2016)</td></tr>
 <tr><td>y</td><td>年 (2位数, 比如 16 代表 2016)</td></tr>
 <tr><td>m</td><td>月 (2位数, 比如 01..12)</td></tr>
@@ -1482,7 +1482,7 @@ We hope you’ll enjoy this version as much as we enjoyed imagining and creating
 	'UI:BrowseInlineImages' => '浏览图片...',
 	'UI:UploadInlineImageLegend' => '上传新图片',
 	'UI:SelectInlineImageToUpload' => '请选择要上传的图片',
-	'UI:AvailableInlineImagesLegend' => '现有的图片',
+	'UI:AvailableInlineImagesLegend' => '可用的图片',
 	'UI:NoInlineImage' => '服务器上没有图片. 使用上面的 "浏览" 按钮,从您的电脑上选择并上传到服务器.',
 
 	'UI:ToggleFullScreen' => '切换 最大化/最小化',
