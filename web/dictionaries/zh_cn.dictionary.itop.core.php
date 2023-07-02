@@ -181,7 +181,7 @@ Operators:<br/>
 	'Core:AttributeHierarchicalKey' => 'Hierarchical Key',
 	'Core:AttributeHierarchicalKey+' => 'External (or foreign) key to the parent',
 
-	'Core:AttributeExternalField' => 'External field',
+	'Core:AttributeExternalField' => '外部字段',
 	'Core:AttributeExternalField+' => 'Field mapped to an external key',
 
 	'Core:AttributeURL' => 'URL',
@@ -193,7 +193,7 @@ Operators:<br/>
 	'Core:AttributeOneWayPassword' => '单向密码',
 	'Core:AttributeOneWayPassword+' => '单向加密(或哈希) 的密码',
 
-	'Core:AttributeTable' => 'Table',
+	'Core:AttributeTable' => '表',
 	'Core:AttributeTable+' => 'Indexed array having two dimensions',
 
 	'Core:AttributePropertySet' => '属性',
@@ -209,10 +209,10 @@ Operators:<br/>
 	'Core:AttributeTag+' => '标签',
 	
 	'Core:Context=REST/JSON' => 'REST',
-	'Core:Context=Synchro' => 'Synchro~~',
+	'Core:Context=Synchro' => '同步',
 	'Core:Context=Setup' => '安装向导',
-	'Core:Context=GUI:Console' => 'Console~~',
-	'Core:Context=CRON' => 'cron~~',
+	'Core:Context=GUI:Console' => '终端',
+	'Core:Context=CRON' => '定时任务',
 	'Core:Context=GUI:Portal' => '门户',
 ));
 
@@ -249,7 +249,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:CMDBChangeOp' => '变更操作',
-	'Class:CMDBChangeOp+' => '某人在某时某刻对某个对象的变更操作',
+	'Class:CMDBChangeOp+' => '某人在某时某刻对某个对象的调整操作',
 	'Class:CMDBChangeOp/Attribute:change' => '变更',
 	'Class:CMDBChangeOp/Attribute:change+' => '',
 	'Class:CMDBChangeOp/Attribute:date' => '日期',
@@ -300,10 +300,10 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:CMDBChangeOpSetAttributeScalar' => '属性更改跟踪',
 	'Class:CMDBChangeOpSetAttributeScalar+' => '对象属性更改跟踪',
-	'Class:CMDBChangeOpSetAttributeScalar/Attribute:oldvalue' => '旧值',
-	'Class:CMDBChangeOpSetAttributeScalar/Attribute:oldvalue+' => '以前该属性的值',
+	'Class:CMDBChangeOpSetAttributeScalar/Attribute:oldvalue' => '原值',
+	'Class:CMDBChangeOpSetAttributeScalar/Attribute:oldvalue+' => '该属性的原值',
 	'Class:CMDBChangeOpSetAttributeScalar/Attribute:newvalue' => '新值',
-	'Class:CMDBChangeOpSetAttributeScalar/Attribute:newvalue+' => '属性的新值',
+	'Class:CMDBChangeOpSetAttributeScalar/Attribute:newvalue+' => '该属性的新值',
 ));
 // Used by CMDBChangeOp... & derived classes
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
@@ -318,7 +318,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Change:Text_AppendedTo_AttName' => '%1$s 追加到 %2$s',
 	'Change:AttName_Changed_PreviousValue_OldValue' => '%1$s 已修改, 原值: %2$s',
 	'Change:AttName_Changed' => '%1$s 已修改',
-	'Change:AttName_EntryAdded' => '%1$s 已修改, 新条目已添加: %2$s',
+	'Change:AttName_EntryAdded' => '%1$s 已修改, 新条目已添加到: %2$s',
 	'Change:State_Changed_NewValue_OldValue' => '从 %2$s 变为 %1$s',
 	'Change:LinkSet:Added' => '已添加 %1$s',
 	'Change:LinkSet:Removed' => '已移除 %1$s',
@@ -332,7 +332,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:CMDBChangeOpSetAttributeBlob' => '数据变更跟踪',
 	'Class:CMDBChangeOpSetAttributeBlob+' => '数据变更跟踪',
-	'Class:CMDBChangeOpSetAttributeBlob/Attribute:prevdata' => '之前的数据',
+	'Class:CMDBChangeOpSetAttributeBlob/Attribute:prevdata' => '原数据',
 	'Class:CMDBChangeOpSetAttributeBlob/Attribute:prevdata+' => '该数据之前的内容',
 ));
 
@@ -343,7 +343,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:CMDBChangeOpSetAttributeText' => '文本变更跟踪',
 	'Class:CMDBChangeOpSetAttributeText+' => '文本变更跟踪',
-	'Class:CMDBChangeOpSetAttributeText/Attribute:prevdata' => '旧值',
+	'Class:CMDBChangeOpSetAttributeText/Attribute:prevdata' => '原数据',
 	'Class:CMDBChangeOpSetAttributeText/Attribute:prevdata+' => '该文本之前的内容',
 ));
 
