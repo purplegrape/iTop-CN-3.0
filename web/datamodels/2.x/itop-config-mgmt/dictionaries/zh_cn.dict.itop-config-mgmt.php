@@ -317,15 +317,15 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Server' => '服务器',
 	'Class:Server+' => '',
-	'Class:Server/Attribute:osfamily_id' => '操作系统家族',
+	'Class:Server/Attribute:osfamily_id' => 'OS家族',
 	'Class:Server/Attribute:osfamily_id+' => '',
 	'Class:Server/Attribute:osfamily_name' => '名称',
 	'Class:Server/Attribute:osfamily_name+' => '',
-	'Class:Server/Attribute:osversion_id' => '操作系统版本',
+	'Class:Server/Attribute:osversion_id' => 'OS版本',
 	'Class:Server/Attribute:osversion_id+' => '',
 	'Class:Server/Attribute:osversion_name' => '名称',
 	'Class:Server/Attribute:osversion_name+' => '',
-	'Class:Server/Attribute:oslicence_id' => '操作系统许可证',
+	'Class:Server/Attribute:oslicence_id' => 'OS许可证',
 	'Class:Server/Attribute:oslicence_id+' => '',
 	'Class:Server/Attribute:oslicence_name' => '名称',
 	'Class:Server/Attribute:oslicence_name+' => '',
@@ -388,11 +388,11 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:PC' => '电脑',
 	'Class:PC+' => '',
-	'Class:PC/Attribute:osfamily_id' => '操作系统家族',
+	'Class:PC/Attribute:osfamily_id' => 'OS家族',
 	'Class:PC/Attribute:osfamily_id+' => '',
 	'Class:PC/Attribute:osfamily_name' => '名称',
 	'Class:PC/Attribute:osfamily_name+' => '',
-	'Class:PC/Attribute:osversion_id' => '操作系统版本',
+	'Class:PC/Attribute:osversion_id' => 'OS版本',
 	'Class:PC/Attribute:osversion_id+' => '',
 	'Class:PC/Attribute:osversion_name' => '名称',
 	'Class:PC/Attribute:osversion_name+' => '',
@@ -402,8 +402,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:PC/Attribute:ram+' => '',
 	'Class:PC/Attribute:type' => '类型',
 	'Class:PC/Attribute:type+' => '',
-	'Class:PC/Attribute:type/Value:desktop' => '桌面型',
-	'Class:PC/Attribute:type/Value:desktop+' => '桌面型',
+	'Class:PC/Attribute:type/Value:desktop' => '台式机',
+	'Class:PC/Attribute:type/Value:desktop+' => '台式机',
 	'Class:PC/Attribute:type/Value:laptop' => '笔记本',
 	'Class:PC/Attribute:type/Value:laptop+' => '笔记本',
 ));
@@ -717,15 +717,15 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:VirtualMachine/Attribute:virtualhost_id+' => '',
 	'Class:VirtualMachine/Attribute:virtualhost_name' => '名称',
 	'Class:VirtualMachine/Attribute:virtualhost_name+' => '',
-	'Class:VirtualMachine/Attribute:osfamily_id' => '操作系统家族',
+	'Class:VirtualMachine/Attribute:osfamily_id' => 'OS家族',
 	'Class:VirtualMachine/Attribute:osfamily_id+' => '',
 	'Class:VirtualMachine/Attribute:osfamily_name' => '名称',
 	'Class:VirtualMachine/Attribute:osfamily_name+' => '',
-	'Class:VirtualMachine/Attribute:osversion_id' => '操作系统版本',
+	'Class:VirtualMachine/Attribute:osversion_id' => 'OS版本',
 	'Class:VirtualMachine/Attribute:osversion_id+' => '',
 	'Class:VirtualMachine/Attribute:osversion_name' => '名称',
 	'Class:VirtualMachine/Attribute:osversion_name+' => '',
-	'Class:VirtualMachine/Attribute:oslicence_id' => '操作系统许可证',
+	'Class:VirtualMachine/Attribute:oslicence_id' => 'OS许可证',
 	'Class:VirtualMachine/Attribute:oslicence_id+' => '',
 	'Class:VirtualMachine/Attribute:oslicence_name' => '名称',
 	'Class:VirtualMachine/Attribute:oslicence_name+' => '',
@@ -926,7 +926,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:OSPatch+' => '',
 	'Class:OSPatch/Attribute:functionalcis_list' => '设备',
 	'Class:OSPatch/Attribute:functionalcis_list+' => '已安装该补丁的所有系统',
-	'Class:OSPatch/Attribute:osversion_id' => '操作系统版本',
+	'Class:OSPatch/Attribute:osversion_id' => 'OS版本',
 	'Class:OSPatch/Attribute:osversion_id+' => '',
 	'Class:OSPatch/Attribute:osversion_name' => '名称',
 	'Class:OSPatch/Attribute:osversion_name+' => '',
@@ -987,9 +987,9 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:OSLicence' => '操作系统许可证',
+	'Class:OSLicence' => 'OS许可证',
 	'Class:OSLicence+' => '',
-	'Class:OSLicence/Attribute:osversion_id' => '操作系统版本',
+	'Class:OSLicence/Attribute:osversion_id' => 'OS版本',
 	'Class:OSLicence/Attribute:osversion_id+' => '',
 	'Class:OSLicence/Attribute:osversion_name' => '名称',
 	'Class:OSLicence/Attribute:osversion_name+' => '',
@@ -1036,9 +1036,9 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:OSVersion' => '操作系统版本',
+	'Class:OSVersion' => 'OS版本',
 	'Class:OSVersion+' => '',
-	'Class:OSVersion/Attribute:osfamily_id' => '操作系统家族',
+	'Class:OSVersion/Attribute:osfamily_id' => 'OS家族',
 	'Class:OSVersion/Attribute:osfamily_id+' => '',
 	'Class:OSVersion/Attribute:osfamily_name' => '名称',
 	'Class:OSVersion/Attribute:osfamily_name+' => '',
@@ -1049,7 +1049,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:OSFamily' => '操作系统家族',
+	'Class:OSFamily' => 'OS家族',
 	'Class:OSFamily+' => '',
 ));
 
@@ -1576,7 +1576,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Menu:ConfigManagement:Misc' => '杂项',
 	'Menu:Group' => '配置组',
 	'Menu:Group+' => '配置组',
-	'Menu:OSVersion' => '系统版本',
+	'Menu:OSVersion' => 'OS版本',
 	'Menu:OSVersion+' => '',
 	'Menu:Software' => '软件清单',
 	'Menu:Software+' => '软件清单',
