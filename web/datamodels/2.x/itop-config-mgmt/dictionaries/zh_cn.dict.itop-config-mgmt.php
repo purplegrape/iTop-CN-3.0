@@ -1501,7 +1501,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Server:baseinfo' => '基本信息',
-	'Server:Date' => '日期',
+	'Server:Date' => '日期信息',
 	'Server:moreinfo' => '更多信息',
 	'Server:otherinfo' => '其它信息',
 	'Server:power' => '电源',

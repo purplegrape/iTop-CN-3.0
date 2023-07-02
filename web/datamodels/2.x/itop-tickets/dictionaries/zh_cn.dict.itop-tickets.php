@@ -157,7 +157,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 // Fieldset translation
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Ticket:baseinfo'                                                => '基本信息',
-	'Ticket:date'                                                    => '日期',
+	'Ticket:date'                                                    => '日期信息',
 	'Ticket:contact'                                                 => '联系人',
 	'Ticket:moreinfo'                                               => '更多信息',
 	'Ticket:relation'                                               => '相关信息',
