@@ -992,7 +992,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 // Class: TagSetFieldData
 //
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:TagSetFieldData' => '%2$s for class %1$s~~',
+	'Class:TagSetFieldData' => '%1$s 的 %2$s',
 	'Class:TagSetFieldData+' => '',
 
 	'Class:TagSetFieldData/Attribute:code' => '编码',
