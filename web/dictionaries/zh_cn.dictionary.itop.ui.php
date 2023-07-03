@@ -362,20 +362,20 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 <ul>'.ITOP_APPLICATION_SHORT.' 提供功能丰富的业务处理流程:
 <li>提高 IT 管理效率</li> 
 <li>提升 IT 运维能力</li> 
-<li>提高用户满意度,提升业务能力.</li>
+<li>提升用户满意度,深入了解业务.</li>
 </ul>
 </p>
 <p>'.ITOP_APPLICATION_SHORT.' 是完全开放的,可被集成到当前的 IT 管理框架之中.</p>
 <p>
 <ul>利用全新一代的 IT 运维门户, 可以帮助您:
 <li>更好地管理越来越复杂的 IT 环境.</li>
-<li>逐步实现 ITIL 流程.</li>
+<li>有序实施 ITIL 流程.</li>
 <li>管理 IT 中最重要的资产: 文档.</li>
 </ul>
 </p>',
 	'UI:WelcomeMenu:Text'=> '<div>恭喜, 您已登录 '.ITOP_APPLICATION.' '.ITOP_VERSION_NAME.'!</div>
 
-<div>新版本采用了现代化的全新设计理念和直观的后台设计.</div>
+<div>此版本采用了现代化的全新设计理念和直观的后台设计.</div>
 
 <div>在保持 '.ITOP_APPLICATION.' 核心功能不变的同时, 现代化的界面设计更让人爱不释手.
 拥抱全新版本,尽情发挥您的想象力和创造力吧.</div>
