@@ -236,7 +236,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:NormalChange+' => '',
 	'Class:NormalChange/Attribute:acceptance_date' => '审核日期',
 	'Class:NormalChange/Attribute:acceptance_date+' => '',
-	'Class:NormalChange/Attribute:acceptance_comment' => '审核说明',
+	'Class:NormalChange/Attribute:acceptance_comment' => '备注',
 	'Class:NormalChange/Attribute:acceptance_comment+' => '',
 	'Class:NormalChange/Stimulus:ev_validate' => '同意',
 	'Class:NormalChange/Stimulus:ev_validate+' => '',

@@ -49,7 +49,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Ticket/Attribute:caller_id+' => '',
 	'Class:Ticket/Attribute:caller_name' => '名称',
 	'Class:Ticket/Attribute:caller_name+' => '',
-	'Class:Ticket/Attribute:team_id' => '团队',
+	'Class:Ticket/Attribute:team_id' => '执行团队',
 	'Class:Ticket/Attribute:team_id+' => '',
 	'Class:Ticket/Attribute:team_name' => '名称',
 	'Class:Ticket/Attribute:team_name+' => '',

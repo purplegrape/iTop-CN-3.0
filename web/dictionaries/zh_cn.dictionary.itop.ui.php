@@ -177,7 +177,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:URP_UserProfile+' => '用户的角色',
 	'Class:URP_UserProfile/Name' => '关联 %1$s 和 %2$s',
 	'Class:URP_UserProfile/Attribute:userid' => '用户',
-	'Class:URP_UserProfile/Attribute:userid+' => '用户账号',
+	'Class:URP_UserProfile/Attribute:userid+' => '账号',
 	'Class:URP_UserProfile/Attribute:userlogin' => '登录名',
 	'Class:URP_UserProfile/Attribute:userlogin+' => '用户的登录名',
 	'Class:URP_UserProfile/Attribute:profileid' => '角色',
@@ -198,7 +198,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:URP_UserOrg+' => '可以访问的组织',
 	'Class:URP_UserOrg/Name' => '关联 %1$s 和 %2$s',
 	'Class:URP_UserOrg/Attribute:userid' => '用户',
-	'Class:URP_UserOrg/Attribute:userid+' => '用户账号',
+	'Class:URP_UserOrg/Attribute:userid+' => '账号',
 	'Class:URP_UserOrg/Attribute:userlogin' => '登录名',
 	'Class:URP_UserOrg/Attribute:userlogin+' => '用户的登录名',
 	'Class:URP_UserOrg/Attribute:allowed_org_id' => '组织',
@@ -1047,11 +1047,11 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Menu:ProfilesMenu:Title' => '角色',
 	// Duplicated into itop-welcome-itil (will be removed from here...)
 
-	'Menu:UserAccountsMenu' => '用户账号',
+	'Menu:UserAccountsMenu' => '账号',
 	// Duplicated into itop-welcome-itil (will be removed from here...)
-	'Menu:UserAccountsMenu+' => '用户账号',
+	'Menu:UserAccountsMenu+' => '账号',
 	// Duplicated into itop-welcome-itil (will be removed from here...)
-	'Menu:UserAccountsMenu:Title' => '用户账号',
+	'Menu:UserAccountsMenu:Title' => '账号',
 	// Duplicated into itop-welcome-itil (will be removed from here...)
 
 	'UI:iTopVersion:Short' => '%1$s version %2$s',
@@ -1676,9 +1676,9 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Menu:ProfilesMenu'           => '角色',
 	'Menu:ProfilesMenu+'          => '角色',
 	'Menu:ProfilesMenu:Title'     => '角色',
-	'Menu:UserAccountsMenu'       => '用户账号',
-	'Menu:UserAccountsMenu+'      => '用户账号',
-	'Menu:UserAccountsMenu:Title' => '用户账号',
+	'Menu:UserAccountsMenu'       => '账号',
+	'Menu:UserAccountsMenu+'      => '账号',
+	'Menu:UserAccountsMenu:Title' => '账号',
 	'Menu:MyShortcuts'            => '快捷方式',
 	'Menu:UserManagement'         => '用户管理',
 	'Menu:Queries'                => '查询',
