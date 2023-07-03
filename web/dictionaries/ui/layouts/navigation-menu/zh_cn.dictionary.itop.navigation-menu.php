@@ -25,7 +25,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:Layout:NavigationMenu:Toggler:TooltipWithSiloLabel' => '展开/折叠 (筛选 %1$s)',
 	'UI:Layout:NavigationMenu:MenuFilter:Input:Placeholder' => '筛选...',
 	'UI:Layout:NavigationMenu:MenuFilter:Input:Tooltip' => '请输入要筛选的关键字',
-	'UI:Layout:NavigationMenu:MenuFilter:Input:Hint' => '将会显示所有匹配的菜单',
+	'UI:Layout:NavigationMenu:MenuFilter:Input:Hint' => '显示所有匹配的菜单',
 	'UI:Layout:NavigationMenu:MenuFilter:Placeholder:Hint' => '似乎没有匹配的菜单',
 	'UI:Layout:NavigationMenu:UserInfo:WelcomeMessage:Text' => 'Hi %1$s!',
 	'UI:Layout:NavigationMenu:UserInfo:Picture:AltText' => '%1$s 的头像',
