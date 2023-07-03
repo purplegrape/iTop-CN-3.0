@@ -9,15 +9,15 @@
 // Menus
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Menu:Integrations' => '集成',
-	'Dashboard:Integrations:Title' => '与外部程序集成',
-	'Dashboard:Integrations:Outgoing:Title' => '外部 webhook 集成',
+	'Dashboard:Integrations:Title' => '与第三方集成',
+	'Dashboard:Integrations:Outgoing:Title' => '与外部 webhook 集成',
 	'Dashboard:Integrations:ActionWebhookList:Title' => 'Webhook 操作',
 ));
 
 // Base classes
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	// RemoteApplicationType
-	'Class:RemoteApplicationType' => '远程应用类型',
+	'Class:RemoteApplicationType' => 'Remote application type',
 	'Class:RemoteApplicationType/Attribute:remoteapplicationconnections_list' => 'Connections',
 	'Class:RemoteApplicationType/Attribute:remoteapplicationconnections_list+' => 'Connections for that application~~',
 
@@ -47,7 +47,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:EventWebhook/Attribute:response' => 'Response',
 
 	// ActionWebhook
-	'Class:ActionWebhook' => 'Webhook call (generic)',
+	'Class:ActionWebhook' => '通用型 Webhook',
 	'Class:ActionWebhook+' => 'Webhook call for any kind of application~~',
 	'Class:ActionWebhook/Attribute:language' => '语言',
 	'Class:ActionWebhook/Attribute:language+' => 'Language of this notification, mostly used when searching for notifications but might also be used to translate attributes label~~',
@@ -107,7 +107,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:RemoteiTopConnection/Attribute:version+' => 'Version of the API called (eg. 1.3)~~',
 
 	// ActioniTopWebhook
-	'Class:ActioniTopWebhook' => 'iTop webhook call',
+	'Class:ActioniTopWebhook' => 'iTop webhook',
 	'Class:ActioniTopWebhook+' => 'Webhook call to a remote iTop application~~',
 	'Class:ActioniTopWebhook/Attribute:headers+' => 'Headers of the HTTP request, must be one per line (eg. \'Content-type: application/x-www-form-urlencoded\')
 
