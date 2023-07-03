@@ -1294,7 +1294,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:IPInterface' => 'IP Interface',
+	'Class:IPInterface' => 'IP接口',
 	'Class:IPInterface+' => '',
 	'Class:IPInterface/Attribute:ipaddress' => 'IP地址',
 	'Class:IPInterface/Attribute:ipaddress+' => '',
@@ -1506,7 +1506,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Server:otherinfo' => '其它信息',
 	'Server:power' => '电源',
 	'Class:Subnet/Tab:IPUsage' => 'IP使用率',
-	'Class:Subnet/Tab:IPUsage-explain' => '网卡IP范围: <em>%1$s</em> 到 <em>%2$s</em>',
+	'Class:Subnet/Tab:IPUsage-explain' => 'IP范围: <em>%1$s</em> 到 <em>%2$s</em>',
 	'Class:Subnet/Tab:FreeIPs' => '空闲IP',
 	'Class:Subnet/Tab:FreeIPs-count' => '空闲IP: %1$s',
 	'Class:Subnet/Tab:FreeIPs-explain' => '以下是抽取的10个空闲IP',

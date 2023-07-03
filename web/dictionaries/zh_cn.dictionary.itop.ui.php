@@ -1228,12 +1228,12 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:Dashboard:CreateCustom' => '自定义...',
 	'UI:Dashboard:DeleteCustom' => '删除自定义...',
 	'UI:Dashboard:RevertConfirm' => '每个地方都会恢复到初始版本. 请确认您要这样做.',
-	'UI:ExportDashBoard' => '导出文件',
+	'UI:ExportDashBoard' => '导出到文件',
 	'UI:ImportDashBoard' => '从文件导入...',
 	'UI:ImportDashboardTitle' => '从文件导入',
 	'UI:ImportDashboardText' => '请选择要导入的仪表盘文件:',
 	'UI:Dashboard:Actions' => '仪表盘操作',
-	'UI:Dashboard:NotUpToDateUntilContainerSaved' => 'This dashboard displays information that does not include the on-going changes.~~',
+	'UI:Dashboard:NotUpToDateUntilContainerSaved' => '仪表盘显示的信息暂不包含正在处理中的变更.',
 
 
 	'UI:DashletCreation:Title' => '新建组件',
@@ -1244,7 +1244,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:DashboardEdit:Title' => '仪表盘编辑器',
 	'UI:DashboardEdit:DashboardTitle' => '标题',
 	'UI:DashboardEdit:AutoReload' => '自动刷新',
-	'UI:DashboardEdit:AutoReloadSec' => '自动刷新间隔(秒)',
+	'UI:DashboardEdit:AutoReloadSec' => '刷新频率(秒)',
 	'UI:DashboardEdit:AutoReloadSec+' => '最小值 %1$d 秒',
 	'UI:DashboardEdit:Revert' => '撤回',
 	'UI:DashboardEdit:Apply' => '应用',
@@ -1402,7 +1402,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:ShortcutOQL/Attribute:auto_reload' => '自动刷新',
 	'Class:ShortcutOQL/Attribute:auto_reload/Value:none' => '禁用',
 	'Class:ShortcutOQL/Attribute:auto_reload/Value:custom' => '自定义频率',
-	'Class:ShortcutOQL/Attribute:auto_reload_sec' => '自动刷新间隔(秒)',
+	'Class:ShortcutOQL/Attribute:auto_reload_sec' => '刷新频率(秒)',
 	'Class:ShortcutOQL/Attribute:auto_reload_sec/tip' => '最小值 %1$d 秒',
 
 	'UI:FillAllMandatoryFields' => '请填写所有的必填项.',

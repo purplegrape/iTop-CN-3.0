@@ -22,7 +22,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', [
 	'itop-oauth-client:Message:RegenerateToken' => 'Regenerate access token to to take into account the changes~~',
 	'itop-oauth-client:Message:TokenCreated' => '已创建访问令牌',
 	'itop-oauth-client:Message:TokenRecreated' => '访问令牌已重新生成',
-	'itop-oauth-client:Message:TokenError' => '由于服务端错误,访问令牌生成失败',
+	'itop-oauth-client:Message:TokenError' => '由于服务端出错,访问令牌生成失败',
 
 	'OAuthClient:Name/UseForSMTPMustBeUnique' => 'The combination Login (%1$s) and Use for SMTP (%2$s) has already be used for OAuth Client~~',
 
