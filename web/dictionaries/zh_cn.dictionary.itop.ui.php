@@ -375,12 +375,12 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 </p>',
 	'UI:WelcomeMenu:Text'=> '<div>恭喜, 您已登录 '.ITOP_APPLICATION.' '.ITOP_VERSION_NAME.'!</div>
 
-<div>This version features a brand new modern and accessible backoffice design.</div>
+<div>新版本采用了现代化的全新设计理念和直观的后台设计.</div>
 
-<div>We kept '.ITOP_APPLICATION.' core functions that you liked and modernized them to make you love them.
-We hope you’ll enjoy this version as much as we enjoyed imagining and creating it.</div>
+<div>在保持 '.ITOP_APPLICATION.' 核心功能不变的同时, 现代化的界面设计更让人爱不释手.
+拥抱全新版本,尽情发挥您的想象力和创造力吧.</div>
 
-<div>Customize your '.ITOP_APPLICATION.' preferences for a personalized experience.</div>',
+<div>通过自定义 '.ITOP_APPLICATION.' 还可以获得独特的个性化体验.</div>',
 	'UI:WelcomeMenu:AllOpenRequests' => '所有打开的需求: %1$d',
 	'UI:WelcomeMenu:MyCalls' => '我办理的需求',
 	'UI:WelcomeMenu:OpenIncidents' => '所有打开的事件: %1$d',
