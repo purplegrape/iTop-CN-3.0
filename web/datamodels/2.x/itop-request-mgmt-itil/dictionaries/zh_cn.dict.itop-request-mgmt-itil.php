@@ -240,7 +240,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:UserRequest/Stimulus:ev_close+' => '',
 	'Class:UserRequest/Stimulus:ev_reopen' => '重新打开',
 	'Class:UserRequest/Stimulus:ev_reopen+' => '',
-	'Class:UserRequest/Stimulus:ev_wait_for_approval' => '等待审批',
+	'Class:UserRequest/Stimulus:ev_wait_for_approval' => '提交审批',
 	'Class:UserRequest/Stimulus:ev_wait_for_approval+' => '',
 	'Class:UserRequest/Error:CannotAssignParentRequestIdToSelf' => '不能分配父级需求给自己',
 

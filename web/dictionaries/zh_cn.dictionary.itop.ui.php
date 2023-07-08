@@ -1017,9 +1017,9 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:NotificationsMenu:Actions:Action' => '其它操作',
 	'UI:NotificationsMenu:AvailableActions' => '可用的操作',
 
-	'Menu:TagAdminMenu' => '标签配置',
+	'Menu:TagAdminMenu' => '标签设置',
 	'Menu:TagAdminMenu+' => '标签值管理',
-	'UI:TagAdminMenu:Title' => '标签配置',
+	'UI:TagAdminMenu:Title' => '标签设置',
 	'UI:TagAdminMenu:NoTags' => '未配置标签',
 	'UI:TagSetFieldData:Error' => '错误: %1$s',
 
