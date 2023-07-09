@@ -13,10 +13,10 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Menu:UserRequest:Provider+' => '传递到供应商的打开的需求',
 	'Menu:UserRequest:Overview' => '概况',
 	'Menu:UserRequest:Overview+' => '概况',
-	'Menu:NewUserRequest' => '新建用户需求',
-	'Menu:NewUserRequest+' => '新建用户需求',
-	'Menu:SearchUserRequests' => '搜索用户需求',
-	'Menu:SearchUserRequests+' => '搜索用户需求',
+	'Menu:NewUserRequest' => '新建需求',
+	'Menu:NewUserRequest+' => '新建需求',
+	'Menu:SearchUserRequests' => '搜索需求',
+	'Menu:SearchUserRequests+' => '搜索需求',
 	'Menu:UserRequest:Shortcuts' => '快捷方式',
 	'Menu:UserRequest:Shortcuts+' => '',
 	'Menu:UserRequest:MyRequests' => '分配给我的需求',
@@ -56,7 +56,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:UserRequest' => '用户需求',
+	'Class:UserRequest' => '需求',
 	'Class:UserRequest+' => '',
 	'Class:UserRequest/Attribute:status' => '状态',
 	'Class:UserRequest/Attribute:status+' => '',
@@ -216,7 +216,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:UserRequest/Attribute:user_satisfaction/Value:3+' => '不满意',
 	'Class:UserRequest/Attribute:user_satisfaction/Value:4' => '非常不满意',
 	'Class:UserRequest/Attribute:user_satisfaction/Value:4+' => '非常不满意',
-	'Class:UserRequest/Attribute:user_comment' => '用户留言',
+	'Class:UserRequest/Attribute:user_comment' => '留言',
 	'Class:UserRequest/Attribute:user_comment+' => '',
 	'Class:UserRequest/Attribute:parent_request_id_friendlyname' => '父级需求的友好名称',
 	'Class:UserRequest/Attribute:parent_request_id_friendlyname+' => '',
@@ -278,7 +278,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Organization:Overview:UserRequests' => '来自该组织的用户需求',
-	'Organization:Overview:MyUserRequests' => '对该组织的用户需求',
+	'Organization:Overview:UserRequests' => '来自该组织的需求',
+	'Organization:Overview:MyUserRequests' => '对该组织的需求',
 	'Organization:Overview:Tickets' => '来自该组织的工单',
 ));

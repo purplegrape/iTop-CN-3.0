@@ -19,7 +19,7 @@
 
 // Portal
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Page:DefaultTitle' => '%1$s 用户门户',
+	'Page:DefaultTitle' => '%1$s 门户',
 	'Page:PleaseWait' => '请稍候...',
 	'Page:Home' => '主页',
 	'Page:GoPortalHome' => '主页面',

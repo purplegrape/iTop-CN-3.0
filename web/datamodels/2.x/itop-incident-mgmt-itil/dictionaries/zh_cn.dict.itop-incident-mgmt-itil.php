@@ -209,7 +209,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Incident/Attribute:user_satisfaction/Value:3+' => '不满意',
 	'Class:Incident/Attribute:user_satisfaction/Value:4' => '非常不满意',
 	'Class:Incident/Attribute:user_satisfaction/Value:4+' => '非常不满意',
-	'Class:Incident/Attribute:user_comment' => '用户留言',
+	'Class:Incident/Attribute:user_comment' => '留言',
 	'Class:Incident/Attribute:user_comment+' => '',
 	'Class:Incident/Attribute:parent_incident_id_friendlyname' => '父级事件的友好名称',
 	'Class:Incident/Attribute:parent_incident_id_friendlyname+' => '',

@@ -194,7 +194,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:URP_UserOrg' => '用户组织',
+	'Class:URP_UserOrg' => '组织',
 	'Class:URP_UserOrg+' => '可以访问的组织',
 	'Class:URP_UserOrg/Name' => '关联 %1$s 和 %2$s',
 	'Class:URP_UserOrg/Attribute:userid' => '用户',
@@ -950,18 +950,18 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI-ConfigMgmtMenuOverview-FunctionalCIByType' => '按类型',
 
 	'UI:RequestMgmtMenuOverview:Title' => '需求管理仪表盘',
-	'UI-RequestManagementOverview-RequestByService' => '按服务划分用户需求',
-	'UI-RequestManagementOverview-RequestByPriority' => '按优先级划分用户需求',
-	'UI-RequestManagementOverview-RequestUnassigned' => '尚未分配给办理人的用户需求',
+	'UI-RequestManagementOverview-RequestByService' => '按服务划分需求',
+	'UI-RequestManagementOverview-RequestByPriority' => '按优先级划分需求',
+	'UI-RequestManagementOverview-RequestUnassigned' => '尚未分配的需求',
 
 	'UI:IncidentMgmtMenuOverview:Title' => '事件管理仪表盘',
 	'UI-IncidentManagementOverview-IncidentByService' => '按服务级划分事件',
 	'UI-IncidentManagementOverview-IncidentByPriority' => '按优先级划分事件',
-	'UI-IncidentManagementOverview-IncidentUnassigned' => '尚未分配给办理人的事件',
+	'UI-IncidentManagementOverview-IncidentUnassigned' => '尚未分配的事件',
 
 	'UI:ChangeMgmtMenuOverview:Title' => '变更管理仪表盘',
 	'UI-ChangeManagementOverview-ChangeByType' => '按类型划分变更',
-	'UI-ChangeManagementOverview-ChangeUnassigned' => '尚未分配给办理人的变更',
+	'UI-ChangeManagementOverview-ChangeUnassigned' => '尚未分配的变更',
 	'UI-ChangeManagementOverview-ChangeWithOutage' => '变更引起的停机',
 
 	'UI:ServiceMgmtMenuOverview:Title' => '服务管理仪表盘',
@@ -1104,7 +1104,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:RelationTooltip:Redundancy' => '冗余',
 	'UI:RelationTooltip:ImpactedItems_N_of_M' => '# 受影响的项目: %1$d / %2$d',
 	'UI:RelationTooltip:CriticalThreshold_N_of_M' => '阈值: %1$d / %2$d',
-	'Portal:Title' => ITOP_APPLICATION_SHORT.' 用户门户',
+	'Portal:Title' => ITOP_APPLICATION_SHORT.' 门户',
 	'Portal:NoRequestMgmt' => '亲爱的 %1$s, 您被重定向到这个页面,因为您的账号已被设置成角色 \'Portal user\'. 并且, iTop 没有安装 \'需求管理\' 功能. 请联系管理员.',
 	'Portal:Refresh' => '刷新',
 	'Portal:Back' => '返回',

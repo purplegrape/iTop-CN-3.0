@@ -98,7 +98,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Core:AttributeClass' => '类',
 	'Core:AttributeClass+' => '类型',
 
-	'Core:AttributeApplicationLanguage' => '用户语言',
+	'Core:AttributeApplicationLanguage' => '语言',
 	'Core:AttributeApplicationLanguage+' => '语言和国家地区(EN US)',
 
 	'Core:AttributeFinalClass' => '类型(自动)',
@@ -474,7 +474,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:EventLoginUsage/Attribute:user_id+' => '登录',
 	'Class:EventLoginUsage/Attribute:contact_name' => '用户名',
 	'Class:EventLoginUsage/Attribute:contact_name+' => '用户名',
-	'Class:EventLoginUsage/Attribute:contact_email' => '用户邮箱',
+	'Class:EventLoginUsage/Attribute:contact_email' => '邮箱',
 	'Class:EventLoginUsage/Attribute:contact_email+' => '用户的邮箱地址',
 ));
 
