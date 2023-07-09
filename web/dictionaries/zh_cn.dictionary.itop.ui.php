@@ -27,7 +27,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:AuditCategory/Attribute:description' => '描述',
 	'Class:AuditCategory/Attribute:description+' => '该审计类别的详细描述',
 	'Class:AuditCategory/Attribute:definition_set' => '定义',
-	'Class:AuditCategory/Attribute:definition_set+' => '定义用于审计的对象的OQL表达式',
+	'Class:AuditCategory/Attribute:definition_set+' => '定义用于审计的对象的 OQL 表达式',
 	'Class:AuditCategory/Attribute:rules_list' => '审计规则',
 	'Class:AuditCategory/Attribute:rules_list+' => '该类别的审计规则',
 ));
@@ -47,7 +47,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:TagSetFieldData/Attribute:obj_class' => 'Object class~~',
 	'Class:TagSetFieldData/Attribute:obj_attcode' => 'Field code~~',
 	'Class:AuditRule/Attribute:query' => '将要运行的查询',
-	'Class:AuditRule/Attribute:query+' => '要运行的OQL 表达式',
+	'Class:AuditRule/Attribute:query+' => '要运行的 OQL 表达式',
 	'Class:AuditRule/Attribute:valid_flag' => '是否有效?',
 	'Class:AuditRule/Attribute:valid_flag+' => '若规则返回有效对象则True,否则False',
 	'Class:AuditRule/Attribute:valid_flag/Value:true' => 'true',
@@ -71,16 +71,16 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Query/Attribute:name+' => '查询的名称',
 	'Class:Query/Attribute:description' => '描述',
 	'Class:Query/Attribute:description+' => '请描述该查询 (目的、用法等等.)',
-	'Class:Query/Attribute:is_template' => 'OQL模板',
+	'Class:Query/Attribute:is_template' => 'OQL 模板',
 	'Class:Query/Attribute:is_template+' => 'Usable as source for recipient OQL in Notifications~~',
 	'Class:Query/Attribute:is_template/Value:yes' => '是',
 	'Class:Query/Attribute:is_template/Value:no' => '否',
 	'Class:QueryOQL/Attribute:fields' => '区域',
 	'Class:QueryOQL/Attribute:fields+' => '属性之间使用逗号分隔 (or alias.attribute) to export~~',
-	'Class:QueryOQL' => 'OQL查询',
+	'Class:QueryOQL' => 'OQL 查询',
 	'Class:QueryOQL+' => 'A query based on the Object Query Language',
 	'Class:QueryOQL/Attribute:oql' => '表达式',
-	'Class:QueryOQL/Attribute:oql+' => 'OQL表达式',
+	'Class:QueryOQL/Attribute:oql+' => 'OQL 表达式',
 ));
 
 //////////////////////////////////////////////////////////////////////
@@ -244,7 +244,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:URP_ClassProjection/Attribute:class' => '类',
 	'Class:URP_ClassProjection/Attribute:class+' => '目标类',
 	'Class:URP_ClassProjection/Attribute:value' => '值表达式',
-	'Class:URP_ClassProjection/Attribute:value+' => 'OQL表达式 (using $this) | constant |  | +attribute code',
+	'Class:URP_ClassProjection/Attribute:value+' => 'OQL 表达式 (using $this) | constant |  | +attribute code',
 	'Class:URP_ClassProjection/Attribute:attribute' => '属性',
 	'Class:URP_ClassProjection/Attribute:attribute+' => '目标属性编码 (可选)',
 ));
@@ -511,7 +511,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:Menu:Add' => '添加...',
 	'UI:Menu:Manage' => '管理...',
 	'UI:Menu:EMail' => '邮件发送',
-	'UI:Menu:CSVExport' => 'CSV导出...',
+	'UI:Menu:CSVExport' => 'CSV 导出...',
 	'UI:Menu:Modify' => '修改...',
 	'UI:Menu:Delete' => '删除...',
 	'UI:Menu:BulkDelete' => '删除...',
@@ -596,7 +596,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:CSVImport:DataLine2'                       => '数据行 2',
 	'UI:CSVImport:idField'                         => 'id (主键)',
 	'UI:Title:BulkImport'                          => ITOP_APPLICATION_SHORT.' - 批量导入',
-	'UI:Title:BulkImport+'                         => 'CSV导入向导',
+	'UI:Title:BulkImport+'                         => 'CSV 导入向导',
 	'UI:Title:BulkSynchro_nbItem_ofClass_class'    => '同步 %2$s 个对象中的 %1$d',
 	'UI:CSVImport:ClassesSelectOne'                => '-- 请选择 --',
 	'UI:CSVImport:ErrorExtendedAttCode'            => '内部错误: "%1$s" 是错误的编码, 因为 "%2$s" 不是类 "%3$s" 的外键',
@@ -608,7 +608,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:CSVImport:ObjectsWereModified' => '%1$d 个对象已被修改.',
 	'UI:CSVImport:ObjectsWereAdded' => '%1$d 个对象已被添加.',
 	'UI:CSVImport:ObjectsHadErrors' => '%1$d 个对象发生错误.',
-	'UI:Title:CSVImportStep2' => '第2步,共5步: CSV数据选项',
+	'UI:Title:CSVImportStep2' => '第2步,共5步: CSV 数据选项',
 	'UI:Title:CSVImportStep3' => '第3步,共5步: 数据映射',
 	'UI:Title:CSVImportStep4' => '第4步,共5步: 模拟导入',
 	'UI:Title:CSVImportStep5' => '第5步,共5步: 完成导入',
@@ -623,7 +623,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:CSVImport:QualifierOther' => '其它:',
 	'UI:CSVImport:TreatFirstLineAsHeader' => '将第一行视作标题(列名)',
 	'UI:CSVImport:Skip_N_LinesAtTheBeginning' => '跳过文件的前 %1$s 行',
-	'UI:CSVImport:CSVDataPreview' => 'CSV数据预览',
+	'UI:CSVImport:CSVDataPreview' => 'CSV 数据预览',
 	'UI:CSVImport:SelectFile' => '请选择要导入的文件:',
 	'UI:CSVImport:Tab:LoadFromFile' => '从文件导入',
 	'UI:CSVImport:Tab:CopyPaste' => '复制粘贴的数据',
@@ -719,17 +719,17 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:RunQuery:QueryResults' => '查询结果',
 	'UI:RunQuery:HeaderPurpose' => '目标',
 	'UI:RunQuery:HeaderPurpose+' => '该查询的解释',
-	'UI:RunQuery:HeaderOQLExpression' => 'OQL表达式',
-	'UI:RunQuery:HeaderOQLExpression+' => 'OQL表达式表示的查询',
+	'UI:RunQuery:HeaderOQLExpression' => 'OQL 表达式',
+	'UI:RunQuery:HeaderOQLExpression+' => 'OQL 表达式表示的查询',
 	'UI:RunQuery:ExpressionToEvaluate' => '请输入表达式: ',
 	'UI:RunQuery:QueryArguments' => '查询参数',
 	'UI:RunQuery:MoreInfo' => '更多信息: ',
 	'UI:RunQuery:DevelopedQuery' => '高级查询: ',
 	'UI:RunQuery:SerializedFilter' => '序列化的筛选器: ',
-	'UI:RunQuery:DevelopedOQL' => '高级OQL表达式',
-	'UI:RunQuery:DevelopedOQLCount' => '通过高级OQL表达式查询个数~~',
-	'UI:RunQuery:ResultSQLCount' => '通过SQL语句查询个数~~',
-	'UI:RunQuery:ResultSQL' => 'SQL语句',
+	'UI:RunQuery:DevelopedOQL' => '高级 OQL 表达式',
+	'UI:RunQuery:DevelopedOQLCount' => '通过高级 OQL 表达式查询个数~~',
+	'UI:RunQuery:ResultSQLCount' => '通过 SQL 语句查询个数~~',
+	'UI:RunQuery:ResultSQL' => 'SQL 语句',
 	'UI:RunQuery:Error' => '查询时发生错误',
 	'UI:Query:UrlForExcel' => 'URL to use for MS-Excel web queries',
 	'UI:Query:UrlV1' => 'The list of fields has been left unspecified. The page <em>export-V2.php</em> cannot be invoked without this information. Therefore, the URL suggested here below points to the legacy page: <em>export.php</em>. This legacy version of the export has the following limitation: the list of exported fields may vary depending on the output format and the data model of '.ITOP_APPLICATION_SHORT.'. <br/>Should you want to garantee that the list of exported columns will remain stable on the long run, then you must specify a value for the attribute "Fields" and use the page <em>export-V2.php</em>.',
@@ -909,7 +909,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:UserManagement:Action:BulkRead' => '批量读取(导出)',
 	'UI:UserManagement:Action:BulkRead+' => '列出对象或批量导出',
 	'UI:UserManagement:Action:BulkModify' => '批量修改',
-	'UI:UserManagement:Action:BulkModify+' => '批量创建/编辑 (CSV导入)',
+	'UI:UserManagement:Action:BulkModify+' => '批量创建/编辑 (CSV 导入)',
 	'UI:UserManagement:Action:BulkDelete' => '批量删除',
 	'UI:UserManagement:Action:BulkDelete+' => '批量删除对象',
 	'UI:UserManagement:Action:Stimuli' => '调整',
@@ -965,8 +965,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI-ChangeManagementOverview-ChangeWithOutage' => '变更引起的停机',
 
 	'UI:ServiceMgmtMenuOverview:Title' => '服务管理仪表盘',
-	'UI-ServiceManagementOverview-CustomerContractToRenew' => '客户合同需在30日内更新',
-	'UI-ServiceManagementOverview-ProviderContractToRenew' => '供应商合同需在30日内更新',
+	'UI-ServiceManagementOverview-CustomerContractToRenew' => '客户合同需在 30 日内更新',
+	'UI-ServiceManagementOverview-ProviderContractToRenew' => '供应商合同需在 30 日内更新',
 
 	'UI:ContactsMenu' => '联系人',
 	'UI:ContactsMenu+' => '联系人',
@@ -975,14 +975,14 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI-ContactsMenu-ContactsByType' => '按类型划分联系人',
 	'UI-ContactsMenu-ContactsByStatus' => '按状态划分联系人',
 
-	'Menu:CSVImportMenu' => 'CSV导入',// Duplicated into itop-welcome-itil (will be removed from here...)
+	'Menu:CSVImportMenu' => 'CSV 导入',// Duplicated into itop-welcome-itil (will be removed from here...)
 	'Menu:CSVImportMenu+' => '批量创建或修改',// Duplicated into itop-welcome-itil (will be removed from here...)
 
 	'Menu:DataModelMenu' => '数据模型',// Duplicated into itop-welcome-itil (will be removed from here...)
 	'Menu:DataModelMenu+' => '数据模型概况',// Duplicated into itop-welcome-itil (will be removed from here...)
 
 	'Menu:ExportMenu' => '导出',// Duplicated into itop-welcome-itil (will be removed from here...)
-	'Menu:ExportMenu+' => '以HTML, CSV或XML格式导出任何查询的结果',// Duplicated into itop-welcome-itil (will be removed from here...)
+	'Menu:ExportMenu+' => '以 HTML, CSV 或 XML 格式导出任何查询的结果',// Duplicated into itop-welcome-itil (will be removed from here...)
 
 	'Menu:NotificationsMenu' => '通知',// Duplicated into itop-welcome-itil (will be removed from here...)
 	'Menu:NotificationsMenu+' => '配置通知',// Duplicated into itop-welcome-itil (will be removed from here...)
@@ -1001,7 +1001,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 <ol>
 	<li>发送邮件: 该操作定义了发送邮件的模板,同时也包含了邮件的其它参数,比如收件人,重要性等.<br />
 	页面: <a href="../setup/email.test.php" target="_blank">email.test.php</a> 专用于测试和调试PHP的邮件配置.</li>
-	<li>外部webhook: 通过向指定的URL发送结构化的数据,与第三方应用集成.</li>
+	<li>外部 webhook: 通过向指定的URL发送结构化的数据,与第三方应用集成.</li>
 </ol>
 </p>
 <p>若要执行, 操作必须和触发器相关联.
@@ -1078,14 +1078,14 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:OperationCancelled' => '操作已取消',
 	'UI:ElementsDisplayed' => '筛选',
 	'UI:RelationGroupNumber_N' => '分组 #%1$d',
-	'UI:Relation:ExportAsPDF' => '导出为PDF...',
+	'UI:Relation:ExportAsPDF' => '导出为 PDF...',
 	'UI:RelationOption:GroupingThreshold' => '分组阈值',
 	'UI:Relation:AdditionalContextInfo' => '其它信息',
 	'UI:Relation:NoneSelected' => '无',
 	'UI:Relation:Zoom' => '缩放',
 	'UI:Relation:ExportAsAttachment' => '导出附件...',
 	'UI:Relation:DrillDown' => '详情...',
-	'UI:Relation:PDFExportOptions' => 'PDF导出选项',
+	'UI:Relation:PDFExportOptions' => 'PDF 导出选项',
 	'UI:Relation:AttachmentExportOptions_Name' => 'Options for Attachment to %1$s',
 	'UI:RelationOption:Untitled' => '无标题',
 	'UI:Relation:Key' => 'Key',
@@ -1455,12 +1455,12 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:LoginAgain' => '重新登录',
 	'UI:StayOnThePage' => '保持在当前页面',
 
-	'ExcelExporter:ExportMenu' => 'Excel导出...',
-	'ExcelExporter:ExportDialogTitle' => 'Excel导出',
+	'ExcelExporter:ExportMenu' => 'Excel 导出...',
+	'ExcelExporter:ExportDialogTitle' => 'Excel 导出',
 	'ExcelExporter:ExportButton' => '导出',
 	'ExcelExporter:DownloadButton' => '下载 %1$s',
 	'ExcelExporter:RetrievingData' => '正在检索数据...',
-	'ExcelExporter:BuildingExcelFile' => '正在创建Excel 文件...',
+	'ExcelExporter:BuildingExcelFile' => '正在创建 Excel 文件...',
 	'ExcelExporter:Done' => '完成.',
 	'ExcelExport:AutoDownload' => '导出准备好之后自动开始下载',
 	'ExcelExport:PreparingExport' => '正在准备导出...',
@@ -1476,7 +1476,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:ConcurrentLockKilled' => '阻止并发修改当前对象的锁已被删除.',
 	'UI:Menu:KillConcurrentLock' => '消除并发修改锁定!',
 
-	'UI:Menu:ExportPDF' => '导出为PDF...',
+	'UI:Menu:ExportPDF' => '导出为 PDF...',
 	'UI:Menu:PrintableVersion' => '打印',
 
 	'UI:BrowseInlineImages' => '浏览图片...',
@@ -1583,7 +1583,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:Search:Value:Filter:Placeholder' => '筛选...',
 	'UI:Search:Value:Search:Placeholder' => '搜索...',
 	'UI:Search:Value:Autocomplete:StartTyping' => '开始输入值.',
-	'UI:Search:Value:Autocomplete:Wait' => '请稍后...',
+	'UI:Search:Value:Autocomplete:Wait' => '请稍候...',
 	'UI:Search:Value:Autocomplete:NoResult' => '没有找到结果.',
 	'UI:Search:Value:Toggler:CheckAllNone' => '全选/不选',
 	'UI:Search:Value:Toggler:CheckAllNoneFiltered' => '全选/不选',
@@ -1659,7 +1659,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Menu:DataModelMenu' => '数据模型',
 	'Menu:DataModelMenu+' => '数据模型概况',
 	'Menu:ExportMenu' => '导出',
-	'Menu:ExportMenu+' => '以HTML, CSV 或XML 格式导出任何查询的结果',
+	'Menu:ExportMenu+' => '以 HTML, CSV 或 XML 格式导出任何查询的结果',
 	'Menu:NotificationsMenu' => '通知',
 	'Menu:NotificationsMenu+' => '配置通知',
 	'Menu:AuditCategories' => '审计类别',

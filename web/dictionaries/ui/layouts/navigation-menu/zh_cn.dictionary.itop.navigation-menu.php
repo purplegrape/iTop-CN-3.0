@@ -19,7 +19,7 @@
 
 // Navigation menu
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'UI:Layout:NavigationMenu:CompanyLogo:AltText' => '公司logo',
+	'UI:Layout:NavigationMenu:CompanyLogo:AltText' => '公司 logo',
 	'UI:Layout:NavigationMenu:Silo:Label' => '请选择要过滤的组织',
 	'UI:Layout:NavigationMenu:Toggler:Tooltip' => '展开/折叠',
 	'UI:Layout:NavigationMenu:Toggler:TooltipWithSiloLabel' => '展开/折叠 (筛选 %1$s)',

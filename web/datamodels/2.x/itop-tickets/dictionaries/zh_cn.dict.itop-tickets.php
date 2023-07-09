@@ -237,14 +237,14 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:cmdbAbstractObject/Method:Copy/Param:1+'                  => '填写当前对象',
 	'Class:cmdbAbstractObject/Method:Copy/Param:2'                   => '源字段',
 	'Class:cmdbAbstractObject/Method:Copy/Param:2+'                  => '该字段从当前对象获取值',
-	'Class:cmdbAbstractObject/Method:ApplyStimulus'                  => 'ApplyStimulus',
-	'Class:cmdbAbstractObject/Method:ApplyStimulus+'                 => 'Apply the specified stimulus to the current object',
-	'Class:cmdbAbstractObject/Method:ApplyStimulus/Param:1'          => '变化编码',
+	'Class:cmdbAbstractObject/Method:ApplyStimulus'                  => '应用调整',
+	'Class:cmdbAbstractObject/Method:ApplyStimulus+'                 => '对当前对象的特殊调整',
+	'Class:cmdbAbstractObject/Method:ApplyStimulus/Param:1'          => '调整编码',
 	'Class:cmdbAbstractObject/Method:ApplyStimulus/Param:1+'         => 'A valid stimulus code for the current class',
 	'Class:ResponseTicketTTO/Interface:iMetricComputer'              => 'TTO',
-	'Class:ResponseTicketTTO/Interface:iMetricComputer+'             => 'SLT的响应时间',
+	'Class:ResponseTicketTTO/Interface:iMetricComputer+'             => 'SLT 的响应时间',
 	'Class:ResponseTicketTTR/Interface:iMetricComputer'              => 'TTR',
-	'Class:ResponseTicketTTR/Interface:iMetricComputer+'             => 'SLT的解决时间',
+	'Class:ResponseTicketTTR/Interface:iMetricComputer+'             => 'SLT 的解决时间',
 ));
 
 //

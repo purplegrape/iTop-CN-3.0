@@ -16,10 +16,11 @@
  *
  * You should have received a copy of the GNU Affero General Public License
  */
+
 // Portal
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Page:DefaultTitle' => ITOP_APPLICATION_SHORT.' 用户门户',
-	'Page:PleaseWait' => '请稍后...',
+	'Page:DefaultTitle' => '%1$s 用户门户',
+	'Page:PleaseWait' => '请稍候...',
 	'Page:Home' => '主页',
 	'Page:GoPortalHome' => '主页面',
 	'Page:GoPreviousPage' => '上一页',
@@ -40,7 +41,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Error:HTTP:GetHelp' => '如果问题仍然存在,请联系管理员.',
 	'Error:XHR:Fail' => '无法加载数据, 请联系管理员',
 	'Portal:ErrorUserLoggedOut' => '您已退出,请重新登录.',
-	'Portal:Datatables:Language:Processing' => '请稍后...',
+	'Portal:Datatables:Language:Processing' => '请稍候...',
 	'Portal:Datatables:Language:Search' => '筛选器:',
 	'Portal:Datatables:Language:LengthMenu' => '每页显示 _MENU_ 项',
 	'Portal:Datatables:Language:ZeroRecords' => '没有结果',

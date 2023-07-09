@@ -386,7 +386,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:PC' => '电脑',
+	'Class:PC' => 'PC',
 	'Class:PC+' => '',
 	'Class:PC/Attribute:osfamily_id' => 'OS家族',
 	'Class:PC/Attribute:osfamily_id+' => '',
@@ -1093,8 +1093,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Model/Attribute:type/Value:NAS+' => 'NAS',
 	'Class:Model/Attribute:type/Value:NetworkDevice' => '网络设备',
 	'Class:Model/Attribute:type/Value:NetworkDevice+' => '网络设备',
-	'Class:Model/Attribute:type/Value:PC' => '电脑',
-	'Class:Model/Attribute:type/Value:PC+' => '电脑',
+	'Class:Model/Attribute:type/Value:PC' => 'PC',
+	'Class:Model/Attribute:type/Value:PC+' => 'PC',
 	'Class:Model/Attribute:type/Value:PDU' => 'PDU',
 	'Class:Model/Attribute:type/Value:PDU+' => 'PDU',
 	'Class:Model/Attribute:type/Value:Peripheral' => '配件',
@@ -1562,8 +1562,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Menu:Printer+' => '所有打印机',
 	'Menu:MobilePhone' => '手机',
 	'Menu:MobilePhone+' => '所有手机',
-	'Menu:PC' => '电脑',
-	'Menu:PC+' => '所有电脑',
+	'Menu:PC' => 'PC',
+	'Menu:PC+' => '所有 PC',
 	'Menu:NewCI' => '新建配置项',
 	'Menu:NewCI+' => '新建配置项',
 	'Menu:SearchCIs' => '搜索配置项',
