@@ -999,7 +999,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 <p>
 <i><b>操作</b></i> 定义了触发时要执行的动作. 当前仅支持两种操作:
 <ol>
-	<li>发送邮件: 该操作定义了发送邮件的模板,同时也包含了邮件的其它参数,比如收件人,重要性等.<br />
+	<li>发送邮件: 该操作定义了发送邮件的模板,同时也包含了邮件的其它参数,例如收件人,重要性等.<br />
 	页面: <a href="../setup/email.test.php" target="_blank">email.test.php</a> 专用于测试和调试PHP的邮件配置.</li>
 	<li>外部 webhook: 通过向指定的URL发送结构化的数据,与第三方应用集成.</li>
 </ol>
@@ -1417,23 +1417,23 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:CSVImportModified_items' => '修改: %1$d',
 	'UI:CSVImportUnchanged_items' => '保持不变: %1$d',
 	'UI:CSVImport:DateAndTimeFormats' => '时间格式',
-	'UI:CSVImport:DefaultDateTimeFormat_Format_Example' => '默认格式: %1$s (比如 %2$s)',
+	'UI:CSVImport:DefaultDateTimeFormat_Format_Example' => '默认格式: %1$s (例如 %2$s)',
 	'UI:CSVImport:CustomDateTimeFormat' => '自定义格式: %1$s',
 	'UI:CSVImport:CustomDateTimeFormatTooltip' => '可用的占位符:<table>
-<tr><td>Y</td><td>年 (4位数, 比如 2016)</td></tr>
-<tr><td>y</td><td>年 (2位数, 比如 16 代表 2016)</td></tr>
-<tr><td>m</td><td>月 (2位数, 比如 01..12)</td></tr>
-<tr><td>n</td><td>月 (1位数或2位数, 比如 1..12)</td></tr>
-<tr><td>d</td><td>日 (2位数, 比如 01..31)</td></tr>
-<tr><td>j</td><td>日 (1位数或2位数, 比如 1..31)</td></tr>
-<tr><td>H</td><td>时 (24小时, 2位数, 比如 00..23)</td></tr>
-<tr><td>h</td><td>时 (12小时, 2位数, 比如 01..12)</td></tr>
-<tr><td>G</td><td>时 (24小时, 1位数或2位数, 比如 0..23)</td></tr>
-<tr><td>g</td><td>时 (12小时, 1位数或2位数, 比如 1..12)</td></tr>
+<tr><td>Y</td><td>年 (4位数, 例如 2016)</td></tr>
+<tr><td>y</td><td>年 (2位数, 例如 16 代表 2016)</td></tr>
+<tr><td>m</td><td>月 (2位数, 例如 01..12)</td></tr>
+<tr><td>n</td><td>月 (1位数或2位数, 例如 1..12)</td></tr>
+<tr><td>d</td><td>日 (2位数, 例如 01..31)</td></tr>
+<tr><td>j</td><td>日 (1位数或2位数, 例如 1..31)</td></tr>
+<tr><td>H</td><td>时 (24小时, 2位数, 例如 00..23)</td></tr>
+<tr><td>h</td><td>时 (12小时, 2位数, 例如 01..12)</td></tr>
+<tr><td>G</td><td>时 (24小时, 1位数或2位数, 例如 0..23)</td></tr>
+<tr><td>g</td><td>时 (12小时, 1位数或2位数, 例如 1..12)</td></tr>
 <tr><td>a</td><td>时, am or pm (小写)</td></tr>
 <tr><td>A</td><td>时, AM or PM (大写)</td></tr>
-<tr><td>i</td><td>分 (2位数, 比如 00..59)</td></tr>
-<tr><td>s</td><td>秒 (2位数, 比如 00..59)</td></tr>
+<tr><td>i</td><td>分 (2位数, 例如 00..59)</td></tr>
+<tr><td>s</td><td>秒 (2位数, 例如 00..59)</td></tr>
 </table>',
 
 	'UI:Button:Remove' => '移除',
