@@ -136,7 +136,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Core:AttributeTemplateText' => '文字模板',
 	'Core:AttributeTemplateText+' => '包含占位符的文本',
 
-	'Core:AttributeTemplateHTML' => 'HTML模板',
+	'Core:AttributeTemplateHTML' => 'HTML 模板',
 	'Core:AttributeTemplateHTML+' => 'HTML containing placeholders',
 
 	'Core:AttributeDateTime' => '日期/时间',
