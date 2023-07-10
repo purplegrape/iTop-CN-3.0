@@ -1173,7 +1173,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:Pagination:PageSize' => '每页 %1$s 项',
 	'UI:Pagination:PagesLabel' => '页:',
 	'UI:Pagination:All' => '全部',
-	'UI:HierarchyOf_Class' => '%1$s 层级',
+	'UI:HierarchyOf_Class' => '%1$s 架构',
 	'UI:Preferences' => '首选项...',
 	'UI:ArchiveModeOn' => '激活归档模式',
 	'UI:ArchiveModeOff' => '关闭归档模式',

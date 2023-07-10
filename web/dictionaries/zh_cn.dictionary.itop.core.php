@@ -930,7 +930,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Core:BulkExport:PDFFormat' => 'PDF 文档 (*.pdf)',
 	'Core:BulkExport:DragAndDropHelp' => '可拖动或删除列头进行排序. 正在预览 %1$s 行. 一共需要导出: %2$s 行.',
 	'Core:BulkExport:EmptyPreview' => '请选择要导出的列',
-	'Core:BulkExport:ColumnsOrder' => '列顺序',
+	'Core:BulkExport:ColumnsOrder' => '排序',
 	'Core:BulkExport:AvailableColumnsFrom_Class' => '%1$s 属性中可用的列',
 	'Core:BulkExport:NoFieldSelected' => '请至少选择导出一列',
 	'Core:BulkExport:CheckAll' => '全选',
