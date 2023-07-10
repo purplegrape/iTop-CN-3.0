@@ -963,7 +963,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Core:BulkExportCanRunNonInteractive' => '点击这里运行非交互式导出.',
 	'Core:BulkExportLegacyExport' => '点击这里进入旧版导出.',
 	'Core:BulkExport:XLSXOptions' => 'Excel 选项',
-	'Core:BulkExport:TextFormat' => '文本中包含一些 HTML 标记',
+	'Core:BulkExport:TextFormat' => '带 HTML 标记的文本',
 	'Core:BulkExport:DateTimeFormat' => '时间格式',
 	'Core:BulkExport:DateTimeFormatDefault_Example' => '默认格式 (%1$s), 例如 %2$s',
 	'Core:BulkExport:DateTimeFormatCustom_Format' => '自定义格式: %1$s',
