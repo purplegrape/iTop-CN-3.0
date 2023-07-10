@@ -54,7 +54,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:UserLocal/Attribute:password_renewed_date' => '密码更新于',
 	'Class:UserLocal/Attribute:password_renewed_date+' => '上次修改密码的时间',
 
-	'Error:UserLocalPasswordValidator:UserPasswordPolicyRegex:ValidationFailed' => '密码必须至少8 个字符,包含大小写、数字和特殊字符.',
+	'Error:UserLocalPasswordValidator:UserPasswordPolicyRegex:ValidationFailed' => '密码必须至少 8 个字符,包含大小写、数字和特殊字符.',
 
 	'UserLocal:password:expiration' => '下面的字段可能需要插件才能生效',
 	'Class:UserLocal/Error:OneTimePasswordChangeIsNotAllowed' => 'Setting password expiration to "One-time password" is not allowed for your own User~~',

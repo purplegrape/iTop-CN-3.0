@@ -330,7 +330,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Menu:Catalogs+' => '数据类型',
 	'Menu:Audit' => '审计',
 	'Menu:Audit+' => '审计',
-	'Menu:CSVImport' => 'CSV导入',
+	'Menu:CSVImport' => 'CSV 导入',
 	'Menu:CSVImport+' => '批量创建或更新',
 	'Menu:Organization' => '组织',
 	'Menu:Organization+' => '所有组织',
