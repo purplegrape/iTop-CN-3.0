@@ -545,7 +545,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:ActionEmail/Attribute:body' => '正文',
 	'Class:ActionEmail/Attribute:body+' => '邮件内容',
 	'Class:ActionEmail/Attribute:importance' => '重要性',
-	'Class:ActionEmail/Attribute:importance+' => '重要性标记',
+	'Class:ActionEmail/Attribute:importance+' => '重要性标签',
 	'Class:ActionEmail/Attribute:importance/Value:low' => '低',
 	'Class:ActionEmail/Attribute:importance/Value:low+' => '',
 	'Class:ActionEmail/Attribute:importance/Value:normal' => '正常',
