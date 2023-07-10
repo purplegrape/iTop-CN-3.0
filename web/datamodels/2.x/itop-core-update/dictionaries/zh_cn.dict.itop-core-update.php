@@ -68,14 +68,14 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'iTopUpdate:UI:PostMaxSize' => 'PHP ini 值 post_max_size: %1$s',
 	'iTopUpdate:UI:UploadMaxFileSize' => 'PHP ini 值 upload_max_filesize: %1$s',
 
-    'iTopUpdate:UI:CanCoreUpdate:Loading' => '正在文件系统',
-    'iTopUpdate:UI:CanCoreUpdate:Error' => '文件系统检查失败 (%1$s)',
-    'iTopUpdate:UI:CanCoreUpdate:ErrorFileNotExist' => '文件系统检查失败 ( %1$s 文件不存在)',
-    'iTopUpdate:UI:CanCoreUpdate:Failed' => '文件系统检查失败',
-    'iTopUpdate:UI:CanCoreUpdate:Yes' => '应用无法升级',
+    'iTopUpdate:UI:CanCoreUpdate:Loading' => '正在检查文件',
+    'iTopUpdate:UI:CanCoreUpdate:Error' => '文件检查失败 (%1$s)',
+    'iTopUpdate:UI:CanCoreUpdate:ErrorFileNotExist' => '文件检查失败 ( %1$s 文件不存在)',
+    'iTopUpdate:UI:CanCoreUpdate:Failed' => '文件检查失败',
+    'iTopUpdate:UI:CanCoreUpdate:Yes' => '应用可以升级',
 	'iTopUpdate:UI:CanCoreUpdate:No' => '应用无法升级: %1$s',
 	'iTopUpdate:UI:CanCoreUpdate:Warning' => '警告: 应用升级可能失败: %1$s',
-	'iTopUpdate:UI:CannotUpdateUseSetup' => '<b>Some modified files were detected</b>, a partial update cannot be executed.</br>Follow the <a target="_blank" href="%2$s"> procedure</a> in order to manually upgrade your iTop. You must use the <a href="%1$s">setup</a> to update the application.~~',
+	'iTopUpdate:UI:CannotUpdateUseSetup' => '<b>检测到一些被修改过的文件</b>, 升级无法继续.</br>请根据 <a target="_blank" href="%2$s"> 步骤</a> 手动升级 iTop. 您必须使用 <a href="%1$s">安装向导</a> 来完成升级.~~',
 	'iTopUpdate:UI:CheckInProgress' => '正在进行完整性检查,请稍候',
 
 
