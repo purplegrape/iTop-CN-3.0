@@ -49,7 +49,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:AuditRule/Attribute:query' => '将要运行的查询',
 	'Class:AuditRule/Attribute:query+' => '要运行的 OQL 表达式',
 	'Class:AuditRule/Attribute:valid_flag' => '是否有效?',
-	'Class:AuditRule/Attribute:valid_flag+' => '若规则返回有效对象则True,否则False',
+	'Class:AuditRule/Attribute:valid_flag+' => '若规则返回有效对象则为 True,否则为 False',
 	'Class:AuditRule/Attribute:valid_flag/Value:true' => 'true',
 	'Class:AuditRule/Attribute:valid_flag/Value:true+' => 'true',
 	'Class:AuditRule/Attribute:valid_flag/Value:false' => 'false',

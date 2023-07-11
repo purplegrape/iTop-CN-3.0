@@ -31,14 +31,14 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:Layout:ActivityPanel:Tab:Toolbar:Filter:Logs:Title' => '日志',
 	'UI:Layout:ActivityPanel:Tab:Toolbar:Filter:Logs:Tooltip' => '显示/隐藏 日志',
 	'UI:Layout:ActivityPanel:Tab:Toolbar:Filter:Logs:Menu:Hint' => '请选择要显示的日志',
-	'UI:Layout:ActivityPanel:Tab:Toolbar:Filter:Transitions:Title' => '状态变化',
-	'UI:Layout:ActivityPanel:Tab:Toolbar:Filter:Transitions:Tooltip' => '显示/隐藏 状态变化',
+	'UI:Layout:ActivityPanel:Tab:Toolbar:Filter:Transitions:Title' => '状态转换',
+	'UI:Layout:ActivityPanel:Tab:Toolbar:Filter:Transitions:Tooltip' => '显示/隐藏 状态转换',
 	'UI:Layout:ActivityPanel:Tab:Toolbar:Filter:Edits:Title' => '编辑',
 	'UI:Layout:ActivityPanel:Tab:Toolbar:Filter:Edits:Tooltip' => '显示/隐藏 编辑',
 	'UI:Layout:ActivityPanel:Tab:Toolbar:Action:OpenAll:Tooltip' => '全部打开',
 	'UI:Layout:ActivityPanel:Tab:Toolbar:Action:CloseAll:Tooltip' => '全部关闭',
-	'UI:Layout:ActivityPanel:Tab:Toolbar:Info:AuthorsCount:Tooltip' => '看过的人数',
-	'UI:Layout:ActivityPanel:Tab:Toolbar:Info:MessagesCount:Tooltip' => '日志条数',
+	'UI:Layout:ActivityPanel:Tab:Toolbar:Info:AuthorsCount:Tooltip' => '浏览人数',
+	'UI:Layout:ActivityPanel:Tab:Toolbar:Info:MessagesCount:Tooltip' => '消息数量',
 
 	// Compose button
 	'UI:Layout:ActivityPanel:ComposeButton:Tooltip' => '撰写新的日志',

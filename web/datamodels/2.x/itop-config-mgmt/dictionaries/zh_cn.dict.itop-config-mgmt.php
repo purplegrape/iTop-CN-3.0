@@ -225,7 +225,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:IPPhone' => 'IP电话',
+	'Class:IPPhone' => 'IP 电话',
 	'Class:IPPhone+' => '',
 ));
 
@@ -568,7 +568,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:DBServer' => 'DB 服务器',
 	'Class:DBServer+' => '',
 	'Class:DBServer/Attribute:dbschema_list' => '数据库实例',
-	'Class:DBServer/Attribute:dbschema_list+' => '该数据库服务器上的所有数据库实例',
+	'Class:DBServer/Attribute:dbschema_list+' => '该 DB 服务器上的所有数据库实例',
 ));
 
 //
@@ -1085,8 +1085,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Model/Attribute:type/Value:DiskArray+' => '磁盘阵列',
 	'Class:Model/Attribute:type/Value:Enclosure' => '机柜',
 	'Class:Model/Attribute:type/Value:Enclosure+' => '机柜',
-	'Class:Model/Attribute:type/Value:IPPhone' => 'IP电话',
-	'Class:Model/Attribute:type/Value:IPPhone+' => 'IP电话',
+	'Class:Model/Attribute:type/Value:IPPhone' => 'IP 电话',
+	'Class:Model/Attribute:type/Value:IPPhone+' => 'IP 电话',
 	'Class:Model/Attribute:type/Value:MobilePhone' => '手机',
 	'Class:Model/Attribute:type/Value:MobilePhone+' => '手机',
 	'Class:Model/Attribute:type/Value:NAS' => 'NAS',
@@ -1538,7 +1538,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Menu:Application' => '应用',
 	'Menu:Application+' => '所有应用',
-	'Menu:DBServer' => '数据库服务器',
+	'Menu:DBServer' => 'DB 服务器',
 	'Menu:DBServer+' => '数据库服务器',
 	'Menu:BusinessProcess' => '业务流程',
 	'Menu:BusinessProcess+' => '所有业务流程',

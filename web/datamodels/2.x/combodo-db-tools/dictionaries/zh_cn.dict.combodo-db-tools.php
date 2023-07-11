@@ -25,7 +25,7 @@
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	// Dictionary entries go here
 	'Menu:DBToolsMenu' => '数据库完整性',
-	'DBTools:Class' => 'Class~~',
+	'DBTools:Class' => '类型',
 	'DBTools:Title' => '数据库完整性检查',
 	'DBTools:ErrorsFound' => '发现报错',
 	'DBTools:Indication' => 'Important: after fixing errors in the database you\'ll have to run the analysis again as new inconsistencies will be generated~~',
