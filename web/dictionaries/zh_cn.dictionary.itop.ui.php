@@ -1030,8 +1030,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Menu:RunQueriesMenu' => '运行查询',// Duplicated into itop-welcome-itil (will be removed from here...)
 	'Menu:RunQueriesMenu+' => '运行任何查询',// Duplicated into itop-welcome-itil (will be removed from here...)
 
-	'Menu:QueryMenu' => '查询手册',// Duplicated into itop-welcome-itil (will be removed from here...)
-	'Menu:QueryMenu+' => '查询手册',// Duplicated into itop-welcome-itil (will be removed from here...)
+	'Menu:QueryMenu' => '预定义查询',// Duplicated into itop-welcome-itil (will be removed from here...)
+	'Menu:QueryMenu+' => '预定义查询',// Duplicated into itop-welcome-itil (will be removed from here...)
 
 	'Menu:DataAdministration' => '数据管理',// Duplicated into itop-welcome-itil (will be removed from here...)
 	'Menu:DataAdministration+' => '数据管理',// Duplicated into itop-welcome-itil (will be removed from here...)
@@ -1667,8 +1667,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Menu:Notifications:Title' => '审计类别',
 	'Menu:RunQueriesMenu'         => '运行查询',
 	'Menu:RunQueriesMenu+'        => '运行任何查询',
-	'Menu:QueryMenu'              => '查询手册',
-	'Menu:QueryMenu+'             => '查询手册',
+	'Menu:QueryMenu'              => '预定义查询',
+	'Menu:QueryMenu+'             => '预定义查询',
 	'Menu:UniversalSearchMenu'    => '全局搜索',
 	'Menu:UniversalSearchMenu+'   => '搜索所有...',
 	'Menu:UserManagementMenu'     => '用户管理',
