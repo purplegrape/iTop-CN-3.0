@@ -20,7 +20,7 @@
 // Activity panel
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:Layout:ActivityPanel:SizeToggler:Expand:Tooltip' => '展开',
-	'UI:Layout:ActivityPanel:SizeToggler:Reduce:Tooltip' => '还原',
+	'UI:Layout:ActivityPanel:SizeToggler:Reduce:Tooltip' => '缩小',
 	'UI:Layout:ActivityPanel:DisplayToggler:Close:Tooltip' => '关闭',
 	'UI:Layout:ActivityPanel:LoadMoreEntries:Tooltip' => '加载更多',
 	'UI:Layout:ActivityPanel:LoadAllEntries:Tooltip' => '加载全部',
