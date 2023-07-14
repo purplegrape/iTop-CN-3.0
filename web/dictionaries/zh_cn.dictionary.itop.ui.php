@@ -965,8 +965,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI-ChangeManagementOverview-ChangeWithOutage' => '变更引起的停机',
 
 	'UI:ServiceMgmtMenuOverview:Title' => '服务管理仪表盘',
-	'UI-ServiceManagementOverview-CustomerContractToRenew' => '客户合同需在 30 日内更新',
-	'UI-ServiceManagementOverview-ProviderContractToRenew' => '供应商合同需在 30 日内更新',
+	'UI-ServiceManagementOverview-CustomerContractToRenew' => '30 天内到期的客户合同',
+	'UI-ServiceManagementOverview-ProviderContractToRenew' => '30 天内到期的供应商合同',
 
 	'UI:ContactsMenu' => '联系人',
 	'UI:ContactsMenu+' => '联系人',
