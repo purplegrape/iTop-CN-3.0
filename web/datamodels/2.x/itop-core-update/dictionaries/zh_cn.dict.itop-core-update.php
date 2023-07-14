@@ -37,7 +37,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'iTopUpdate:UI:CheckUpdate' => '校验升级文件',
 	'iTopUpdate:UI:ConfirmInstallFile' => '即将安装 %1$s',
 	'iTopUpdate:UI:DoUpdate' => '升级',
-	'iTopUpdate:UI:CurrentVersion' => '当前安装的版本',
+	'iTopUpdate:UI:CurrentVersion' => '已安装的版本',
 	'iTopUpdate:UI:NewVersion' => '新安装的版本',
     'iTopUpdate:UI:Back' => '返回',
     'iTopUpdate:UI:Cancel' => '取消',
@@ -75,7 +75,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
     'iTopUpdate:UI:CanCoreUpdate:Yes' => '应用可以升级',
 	'iTopUpdate:UI:CanCoreUpdate:No' => '应用无法升级: %1$s',
 	'iTopUpdate:UI:CanCoreUpdate:Warning' => '警告: 应用升级可能失败: %1$s',
-	'iTopUpdate:UI:CannotUpdateUseSetup' => '<b>检测到一些被修改过的文件</b>, 升级无法继续.</br>请根据 <a target="_blank" href="%2$s"> 步骤</a> 手动升级 iTop. 您必须使用 <a href="%1$s">安装向导</a> 来完成升级.~~',
+	'iTopUpdate:UI:CannotUpdateUseSetup' => '<b>检测到一些被修改过的文件</b>, 升级无法继续.</br>请根据 <a target="_blank" href="%2$s"> 步骤</a> 手动升级 iTop. 而且您必须使用 <a href="%1$s">安装向导</a> 来完成升级.~~',
 	'iTopUpdate:UI:CheckInProgress' => '正在进行完整性检查,请稍候',
 
 
@@ -113,7 +113,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Menu:iTopUpdate+' => '应用升级',
 
     // Missing itop entries
-    'Class:ModuleInstallation/Attribute:installed' => '安装于',
+    'Class:ModuleInstallation/Attribute:installed' => '安装时间',
     'Class:ModuleInstallation/Attribute:name' => '名称',
     'Class:ModuleInstallation/Attribute:version' => '版本',
     'Class:ModuleInstallation/Attribute:comment' => '备注',
