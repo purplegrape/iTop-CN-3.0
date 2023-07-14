@@ -75,7 +75,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
     'iTopUpdate:UI:CanCoreUpdate:Yes' => '应用可以升级',
 	'iTopUpdate:UI:CanCoreUpdate:No' => '应用无法升级: %1$s',
 	'iTopUpdate:UI:CanCoreUpdate:Warning' => '警告: 应用升级可能失败: %1$s',
-	'iTopUpdate:UI:CannotUpdateUseSetup' => '<b>检测到一些被修改过的文件</b>, 升级无法继续.</br>请根据 <a target="_blank" href="%2$s"> 步骤</a> 手动升级 iTop. 而且您必须使用 <a href="%1$s">安装向导</a> 来完成升级.~~',
+	'iTopUpdate:UI:CannotUpdateUseSetup' => '<b>检测到一些需要修改的文件</b>, 升级无法继续.</br>请根据 <a target="_blank" href="%2$s"> 步骤</a> 手动升级 iTop. 而且您必须使用 <a href="%1$s">安装向导</a> 来完成升级.~~',
 	'iTopUpdate:UI:CheckInProgress' => '正在进行完整性检查,请稍候',
 
 
