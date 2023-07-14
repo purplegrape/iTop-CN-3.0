@@ -893,7 +893,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:Error_Details' => '错误: %1$s.',
 
 	'UI:PageTitle:ProfileProjections' => ITOP_APPLICATION_SHORT.' 用户管理 - 角色规划',
-	'UI:UserManagement:Class' => '类',
+	'UI:UserManagement:Class' => '类型',
 	'UI:UserManagement:Class+' => '对象的类型',
 	'UI:UserManagement:ProjectedObject' => '对象',
 	'UI:UserManagement:ProjectedObject+' => '被规划的对象',
@@ -909,7 +909,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:UserManagement:Action:BulkRead' => '批量读取(导出)',
 	'UI:UserManagement:Action:BulkRead+' => '列出对象或批量导出',
 	'UI:UserManagement:Action:BulkModify' => '批量修改',
-	'UI:UserManagement:Action:BulkModify+' => '批量创建/编辑 (CSV 导入)',
+	'UI:UserManagement:Action:BulkModify+' => '批量创建/编辑(CSV 导入)',
 	'UI:UserManagement:Action:BulkDelete' => '批量删除',
 	'UI:UserManagement:Action:BulkDelete+' => '批量删除对象',
 	'UI:UserManagement:Action:Stimuli' => '调整',
